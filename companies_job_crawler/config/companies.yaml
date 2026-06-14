@@ -9,11 +9,11 @@ companies:
     interval_minutes: 15
     offset_minutes: 0
     crawler_type: playwright
-    url: https://careers.mastercard.com
+    url: https://careers.mastercard.com/us/en/search-results
 
   - id: visa
     name: Visa
-    enabled: true
+    enabled: false
     interval_minutes: 15
     offset_minutes: 1
     crawler_type: playwright
@@ -21,7 +21,7 @@ companies:
 
   - id: uber
     name: Uber
-    enabled: true
+    enabled: false
     interval_minutes: 15
     offset_minutes: 2
     crawler_type: html
