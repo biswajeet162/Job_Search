@@ -1,0 +1,67 @@
+{
+  "companyId": "mastercard",
+  "companyName": "Mastercard",
+  "jobPortalName": "Mastercard Careers Portal",
+  "configFile": "mastercard.json",
+  "schedule": {
+    "intervalHours": 24,
+    "notes": "Run once daily. You control when via CLI or Task Scheduler."
+  },
+  "runStartedAt": "2026-06-19T02:21:16.647612+00:00",
+  "runCompletedAt": "2026-06-19T02:31:46.409224+00:00",
+  "totalPages": 7,
+  "successCount": 1,
+  "failureCount": 6,
+  "pages": [
+    {
+      "pageNumber": 1,
+      "url": "https://careers.mastercard.com/us/en/search-results",
+      "status": "success",
+      "file": "page_001.json",
+      "error": null
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://careers.mastercard.com/us/en/search-results?from=5&s=1",
+      "status": "error",
+      "file": "page_002.json",
+      "error": "click([data-testid='cookie-accept']) failed after 3 attempts: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid='cookie-accept']\").first\n"
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://careers.mastercard.com/us/en/search-results?from=10&s=1",
+      "status": "error",
+      "file": "page_003.json",
+      "error": "click([data-testid='cookie-accept']) failed after 3 attempts: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid='cookie-accept']\").first\n"
+    },
+    {
+      "pageNumber": 4,
+      "url": "https://careers.mastercard.com/us/en/search-results?from=15&s=1",
+      "status": "error",
+      "file": "page_004.json",
+      "error": "click([data-testid='cookie-accept']) failed after 3 attempts: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid='cookie-accept']\").first\n"
+    },
+    {
+      "pageNumber": 5,
+      "url": "https://careers.mastercard.com/us/en/search-results?from=20&s=1",
+      "status": "error",
+      "file": "page_005.json",
+      "error": "click([data-testid='cookie-accept']) failed after 3 attempts: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid='cookie-accept']\").first\n"
+    },
+    {
+      "pageNumber": 6,
+      "url": "https://careers.mastercard.com/us/en/search-results?from=25&s=1",
+      "status": "error",
+      "file": "page_006.json",
+      "error": "click([data-testid='cookie-accept']) failed after 3 attempts: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid='cookie-accept']\").first\n"
+    },
+    {
+      "pageNumber": 7,
+      "url": "https://careers.mastercard.com/us/en/search-results?from=30&s=1",
+      "status": "error",
+      "file": "page_007.json",
+      "error": "click([data-testid='cookie-accept']) failed after 3 attempts: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid='cookie-accept']\").first\n"
+    }
+  ],
+  "durationSeconds": 629.76
+}

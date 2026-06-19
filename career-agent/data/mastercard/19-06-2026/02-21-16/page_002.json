@@ -1,0 +1,12 @@
+{
+  "companyId": "mastercard",
+  "companyName": "Mastercard",
+  "jobPortalName": "Mastercard Careers Portal",
+  "pageNumber": 2,
+  "url": "https://careers.mastercard.com/us/en/search-results?from=5&s=1",
+  "scrapedAt": "2026-06-19T02:21:30.257946+00:00",
+  "status": "error",
+  "error": "click([data-testid='cookie-accept']) failed after 3 attempts: Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"[data-testid='cookie-accept']\").first\n",
+  "html": "",
+  "htmlLength": 0
+}

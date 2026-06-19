@@ -1,0 +1,53 @@
+{
+  "companyName": "Mastercard",
+  "careerUrl": "https://careers.mastercard.com/us/en/search-results",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" }
+  ],
+
+  "filters": [
+    {
+      "id": "location",
+      "label": "Location",
+      "action": "facet_pick",
+      "openSelector": "button[data-ph-at-id='facet-heading-link'][aria-label='Location']",
+      "inputSelector": "input[data-ph-at-id='sub-search-textbox']",
+      "value": "India",
+      "optionSelector": "label:has-text('India')",
+      "waitMs": 1200,
+      "optional": false
+    },
+    {
+      "id": "sortBy",
+      "label": "Sort by most recent",
+      "action": "select",
+      "selector": "select[aria-label*='Sort' i]",
+      "value": "Most recent",
+      "matchBy": "value",
+      "optional": false
+    }
+  ],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 2500,
+    "scrollBeforeExtract": true,
+    "waitForResultsSelector": "a[href*='/job/'], .job-title"
+  },
+
+  "jobLinkStrategy": {
+    "type": "direct_extract",
+    "linkSelector": "a[href*='/job/']",
+    "jobIdPattern": "/job/(R-\\d+)/"
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "a[aria-label='View next page']"
+  }
+}

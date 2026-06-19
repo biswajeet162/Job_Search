@@ -1,0 +1,73 @@
+{
+  "_comment": "Copy and adapt for each company. All fields below work for any career portal.",
+
+  "companyName": "Example Company",
+  "careerUrl": "https://careers.example.com/jobs",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" }
+  ],
+
+  "filters": [
+    {
+      "id": "location",
+      "label": "Location",
+      "action": "autocomplete",
+      "openSelector": "button:has-text('Location')",
+      "inputSelector": "#location-input",
+      "value": "India",
+      "optionText": "India",
+      "optionSelector": "[role='option']:has-text('India')",
+      "waitMs": 800,
+      "optional": false
+    },
+    {
+      "id": "sortBy",
+      "label": "Sort by most recent",
+      "action": "select",
+      "selector": "select#sort-by",
+      "value": "Most recent",
+      "matchBy": "label",
+      "optional": true
+    },
+    {
+      "id": "experience",
+      "label": "Experience level",
+      "action": "fill",
+      "selector": "#experience",
+      "value": "Experienced",
+      "submit": true,
+      "optional": true
+    },
+    {
+      "id": "customDropdown",
+      "label": "Custom dropdown example",
+      "action": "click_option",
+      "openSelector": "button[aria-label='Sort']",
+      "optionSelector": "li:has-text('Most recent')",
+      "waitMs": 500,
+      "optional": true
+    }
+  ],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 2000,
+    "scrollBeforeExtract": true,
+    "waitForResultsSelector": ".job-card, a[href*='/job/']"
+  },
+
+  "jobLinkStrategy": {
+    "type": "direct_extract",
+    "linkSelector": "a[href*='/job/']"
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "a[aria-label='Next'], .next"
+  }
+}

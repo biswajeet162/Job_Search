@@ -1,0 +1,32 @@
+{
+  "companyId": "uber",
+  "companyName": "Uber",
+  "jobPortalName": "Uber Careers Portal",
+  "enabled": false,
+
+  "schedule": {
+    "intervalHours": 24,
+    "notes": "Set enabled=true and add your hard-coded page URLs below."
+  },
+
+  "fetchOptions": {
+    "dismissCookies": true,
+    "scrollBeforeCapture": true,
+    "waitAfterLoadMs": 3000
+  },
+
+  "pages": [
+    {
+      "pageNumber": 1,
+      "url": "https://www.uber.com/us/en/careers/list/"
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://www.uber.com/us/en/careers/list/?page=2"
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://www.uber.com/us/en/careers/list/?page=3"
+    }
+  ]
+}
