@@ -13,7 +13,7 @@ extraction.py                ← generic strategy dispatch
 browser_controller.py        ← Playwright primitives
 agent.py                     ← orchestration loop
         ↓
-output/<company>_jobs.json
+        output/<company>/{DD_MM_YYYY}/{serial}_{HH}-{MM}-{SS}.json
 ```
 
 **Rule:** nothing company-specific in Python. Add a new company by adding a JSON file.
@@ -35,7 +35,10 @@ direct_job_scraper/
 ├── browser_controller.py
 ├── main.py
 └── output/
-```
+    └── citi/
+        └── 19_06_2026/
+            ├── 1_20-23-56.json
+            └── 2_21-05-12.json
 
 ## Setup
 

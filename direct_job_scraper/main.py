@@ -68,7 +68,7 @@ def run_single(config_path: Path, headless: bool) -> int:
             "Success: %d jobs from %s → %s",
             result["totalJobs"],
             config_path.name,
-            result["_outputPaths"]["latest"],
+            result["_outputPaths"]["output"],
         )
         return 0
     except ScraperError as exc:

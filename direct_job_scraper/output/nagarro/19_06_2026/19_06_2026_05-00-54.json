@@ -1,0 +1,401 @@
+{
+  "company": "Nagarro",
+  "careerUrl": "https://www.nagarro.com/en/careers/job-search?country=india",
+  "totalJobs": 39,
+  "pagesScraped": 1,
+  "maxPages": 1,
+  "filtersApplied": [],
+  "scrapedAt": "2026-06-19T05:00:54.142887+00:00",
+  "jobs": [
+    {
+      "company": "Nagarro",
+      "jobId": "744000132427340",
+      "jobTitle": "SpecialistPrincipal Engineer",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132427340",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132074989",
+      "jobTitle": "SeniorSenior Staff Engineer (AI Developer InfraSec Automation)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132074989",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130420909",
+      "jobTitle": "SeniorStaff Engineer, System Analyst (Core banking-Integration)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130420909",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130628449",
+      "jobTitle": "SeniorAssociate Staff Engineer, Workday HCM Functional Consultant",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628449",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132075239",
+      "jobTitle": "SeniorSenior Staff Engineer (AI Developer SOC Automation)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132075239",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131823839",
+      "jobTitle": "SpecialistAssociate Principal Engineer, 5G, RRC,QXDM",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131823839",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000114793717",
+      "jobTitle": "SeniorSenior Staff Engineer, Python & LLM",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000114793717",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130411610",
+      "jobTitle": "SpecialistAssociate Principal Engineer",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130411610",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131857356",
+      "jobTitle": "SeniorStaff Engineer, 5G, ,C++, Linux",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131857356",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131123969",
+      "jobTitle": "SeniorStaff Engineer, Industrial Automation",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131123969",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130150175",
+      "jobTitle": "SeniorStaff Consultant, Business Analyst (Banking and Financial Service)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130150175",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130151059",
+      "jobTitle": "SeniorStaff Consultant, Business Analyst (CASA/TD)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130151059",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130402526",
+      "jobTitle": "SpecialistAssociate Principal Engineer, Delivery (Core banking)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130402526",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000116060067",
+      "jobTitle": "DirectorAssociate Director (Program Delivery, CPG Domain, Digital Transformation)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000116060067",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000079920804",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079920804",
+      "location": "India, Noida",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000127874358",
+      "jobTitle": "SeniorAssociate Staff Consultant (Sales & Marketing)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000127874358",
+      "location": "India, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000079918791",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079918791",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000079920226",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079920226",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132356449",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP Spend management",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132356449",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000118568477",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP-Supply-Chain-Logistics",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000118568477",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132358215",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP Industry Solutions",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132358215",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000126809589",
+      "jobTitle": "SeniorStaff Engineer , Salesforce Health Cloud",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000126809589",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131397309",
+      "jobTitle": "SeniorSenior Staff Engineer, Salesforce Health Cloud",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131397309",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000116582737",
+      "jobTitle": "SpecialistAssociate Principal Engineer, CRM Salesforce CPQ (Technical Architect)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000116582737",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131392824",
+      "jobTitle": "SpecialistAssociate Principal Engineer,  Salesforce Health cloud",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131392824",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131587020",
+      "jobTitle": "SeniorStaff Engineer, Playwright QA",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131587020",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131390284",
+      "jobTitle": "SeniorSenior Staff Engineer, Dotnet Fullstack (Angular)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131390284",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000128687807",
+      "jobTitle": "SpecialistPrincipal Engineer, FASTAPP (Mendix)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000128687807",
+      "location": "India, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000123634645",
+      "jobTitle": "SeniorStaff Engineer, ServiceNow (HAM,ITAM,ITSM,ServiceNow)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000123634645",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131389909",
+      "jobTitle": "SeniorStaff Engineer, Dotnet Fullstack (Angular)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131389909",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000101824446",
+      "jobTitle": "SpecialistAssociate Principal Engineer, ServiceNow (GRC and Legal)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000101824446",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132559784",
+      "jobTitle": "SeniorStaff Engineer",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132559784",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Contractor"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000128687339",
+      "jobTitle": "SpecialistPrincipal Engineer (Mendix + java)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000128687339",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131388944",
+      "jobTitle": "SeniorSenior Staff Engineer, Dotnet Fullstack (Angular)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131388944",
+      "location": "India, Chennai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132561409",
+      "jobTitle": "SeniorStaff Engineer, Java, Docker, Kafka",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132561409",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131389840",
+      "jobTitle": "SeniorStaff Engineer, Dotnet Fullstack (Angular)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131389840",
+      "location": "India, Chennai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131587329",
+      "jobTitle": "SeniorAssociate Staff Consultant, US IT recruiter",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131587329",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132554729",
+      "jobTitle": "SeniorStaff Engineer, ArgoCD",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132554729",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000129230865",
+      "jobTitle": "SpecialistAssociate Principal Engineer (AEM)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000129230865",
+      "location": "India, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T05:00:52.451129+00:00",
+      "jobType": "Employee"
+    }
+  ]
+}

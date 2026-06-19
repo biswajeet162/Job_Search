@@ -144,12 +144,11 @@ class JobScraper:
         }
 
         log_step("SAVE writing output JSON…")
-        latest_path, history_path = self.storage.save(company, payload)
-        log_step("DONE %d jobs saved → %s", len(all_jobs), latest_path.name)
+        output_path = self.storage.save(company, payload)
+        log_step("DONE %d jobs saved → %s", len(all_jobs), output_path)
 
         payload["_outputPaths"] = {
-            "latest": str(latest_path),
-            "history": str(history_path),
+            "output": str(output_path),
         }
         return payload
 
