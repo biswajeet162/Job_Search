@@ -1,0 +1,50 @@
+{
+  "companyName": "Wipro",
+  "careerUrl": "https://careers.wipro.com/search/?q=&searchResultView=LIST",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "li[data-testid='jobCard']" }
+  ],
+
+  "filters": [
+    {
+      "id": "sortBy",
+      "label": "Sort by Most Recent",
+      "action": "click_option",
+      "openSelector": "[aria-label='Sort by']",
+      "optionSelector": "text=Most Recent",
+      "waitMs": 800,
+      "optional": false
+    }
+  ],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 2500,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "li[data-testid='jobCard']"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "li[data-testid='jobCard']",
+    "linkSelector": "a[data-testid^='jobCardTitle']",
+    "fields": {
+      "location": "[data-testid='jobCardLocation']"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "/job/[^/]+/(\\d+)-"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "[data-testid='goToNextPageBtn']"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "company": "Wipro",
+  "careerUrl": "https://careers.wipro.com/search/?q=&searchResultView=LIST",
+  "totalScraped": 20,
+  "totalJobs": 20,
+  "newJobs": 20,
+  "skippedKnownJobs": 0,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "sortBy",
+      "label": "Sort by Most Recent",
+      "value": null
+    }
+  ],
+  "scrapedAt": "2026-06-19T20:16:14+05:30",
+  "jobs": [
+    {
+      "company": "Wipro",
+      "jobId": "183611",
+      "jobTitle": "Full Stack Developer",
+      "jobUrl": "https://careers.wipro.com/job/Full-Stack-Developer/183611-en_US",
+      "location": "Jacksonville, USA-FL, USA, 5342",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "183554",
+      "jobTitle": "QUALITY ASSURANCE ANALYST",
+      "jobUrl": "https://careers.wipro.com/job/QUALITY-ASSURANCE-ANALYST/183554-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "168769",
+      "jobTitle": "Associate",
+      "jobUrl": "https://careers.wipro.com/job/Associate/168769-en_US",
+      "location": "Pune, IND-27, IND, 411005",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "181644",
+      "jobTitle": "Oracle PAAS Tech Lead",
+      "jobUrl": "https://careers.wipro.com/job/Oracle-PAAS-Tech-Lead/181644-en_US",
+      "location": "New York, USA-NY, USA, 10110",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "183484",
+      "jobTitle": "Infra automation expert with python and ansible required with quick joining @ Wipro",
+      "jobUrl": "https://careers.wipro.com/job/Infra-automation-expert-with-python-and-ansible-required-with-quick-joining-%40-Wipro/183484-en_US",
+      "location": "Bengaluru, IND-29, IND, 560035",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "178938",
+      "jobTitle": "TECHNO FUNCTIONAL CONSULTANT L2(CONTRACT)",
+      "jobUrl": "https://careers.wipro.com/job/TECHNO-FUNCTIONAL-CONSULTANT-L2%28CONTRACT%29/178938-en_US",
+      "location": "Stockholm, SWE-019, SWE, 111 57",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "126806",
+      "jobTitle": "SERVICE DESK ANALYST L2",
+      "jobUrl": "https://careers.wipro.com/job/SERVICE-DESK-ANALYST-L2/126806-en_US",
+      "location": "Pune, IND-27, IND, 411005",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "183910",
+      "jobTitle": "ADMINISTRATOR L2",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L2/183910-en_US",
+      "location": "Kolkata, IND-19, IND, 700091",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "181341",
+      "jobTitle": "CYBER SECURITY ANALYST L4",
+      "jobUrl": "https://careers.wipro.com/job/CYBER-SECURITY-ANALYST-L4/181341-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "180499",
+      "jobTitle": "CAE TEST ENGINEER L3",
+      "jobUrl": "https://careers.wipro.com/job/CAE-TEST-ENGINEER-L3/180499-en_US",
+      "location": "Raymond, USA-OH, USA, 3077",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "153286",
+      "jobTitle": "TECHNICAL LEAD L1(CONTRACT)",
+      "jobUrl": "https://careers.wipro.com/job/TECHNICAL-LEAD-L1%28CONTRACT%29/153286-en_US",
+      "location": "Colombo, LKA-WP, LKA,",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "183755",
+      "jobTitle": "DEVELOPER L3(CONTRACT)",
+      "jobUrl": "https://careers.wipro.com/job/DEVELOPER-L3%28CONTRACT%29/183755-en_US",
+      "location": "Austin, USA-TX, USA, 78753",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "183764",
+      "jobTitle": "PMO EXECUTIVE L2",
+      "jobUrl": "https://careers.wipro.com/job/PMO-EXECUTIVE-L2/183764-en_US",
+      "location": "Bengaluru, IND-29, IND, 560035",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182580",
+      "jobTitle": "Informatica Developer",
+      "jobUrl": "https://careers.wipro.com/job/Informatica-Developer/182580-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "138219",
+      "jobTitle": "GCP Solution Architect",
+      "jobUrl": "https://careers.wipro.com/job/GCP-Solution-Architect/138219-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "134243",
+      "jobTitle": "WorkForce Software Lead Consultant",
+      "jobUrl": "https://careers.wipro.com/job/WorkForce-Software-Lead-Consultant/134243-en_US",
+      "location": "Plano, USA-TX, USA, 75024",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "164268",
+      "jobTitle": "Open Telemetry",
+      "jobUrl": "https://careers.wipro.com/job/Open-Telemetry/164268-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182919",
+      "jobTitle": "BTP IS Consultant",
+      "jobUrl": "https://careers.wipro.com/job/BTP-IS-Consultant/182919-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "183715",
+      "jobTitle": "AI LEAD L1",
+      "jobUrl": "https://careers.wipro.com/job/AI-LEAD-L1/183715-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "176947",
+      "jobTitle": "BIM ENGINEER L3",
+      "jobUrl": "https://careers.wipro.com/job/BIM-ENGINEER-L3/176947-en_US",
+      "location": "Mysore, IND-29, IND, 570016",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T20:16:14+05:30"
+    }
+  ]
+}

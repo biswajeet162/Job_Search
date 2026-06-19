@@ -1,0 +1,24 @@
+{
+  "company": "Mastercard",
+  "careerUrl": "https://careers.mastercard.com/us/en/search-results",
+  "totalScraped": 10,
+  "totalJobs": 0,
+  "newJobs": 0,
+  "skippedKnownJobs": 10,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "location",
+      "label": "Location",
+      "value": "India"
+    },
+    {
+      "id": "sortBy",
+      "label": "Sort by most recent",
+      "value": "Most recent"
+    }
+  ],
+  "scrapedAt": "2026-06-19T20:11:25+05:30",
+  "jobs": []
+}
