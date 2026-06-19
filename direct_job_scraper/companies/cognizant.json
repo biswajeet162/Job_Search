@@ -1,0 +1,42 @@
+{
+  "companyName": "Cognizant",
+  "careerUrl": "https://careers.cognizant.com/india-en/jobs/?keyword=&location=India&lat=&lng=&cname=India&ccode=IN&origin=global",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": ".card.card-job" }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 0,
+    "scrollBeforeExtract": true,
+    "waitForResultsSelector": ".card.card-job"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": ".card.card-job",
+    "linkSelector": "a.js-view-job",
+    "fields": {
+      "location": "ul.job-meta li.list-inline-item"
+    },
+    "jobId": {
+      "source": "attribute_first",
+      "attribute": "data-id",
+      "attributeScope": "card",
+      "urlPattern": "/jobs/(\\d+)/"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "nav[aria-label='Pagination'] a[aria-label='Next page']"
+  }
+}

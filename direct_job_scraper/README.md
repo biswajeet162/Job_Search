@@ -24,6 +24,7 @@ output/<company>_jobs.json
 direct_job_scraper/
 ├── companies/           ← one JSON per company (the only place to edit for new sites)
 │   ├── citi.json
+│   ├── cognizant.json
 │   ├── mastercard.json
 │   └── _schema.example.json
 ├── company_config.py    ← config validation
@@ -48,6 +49,7 @@ playwright install chromium
 
 ```powershell
 python main.py --company citi
+python main.py --company cognizant
 python main.py --company mastercard
 python main.py --all
 python main.py --company citi --visible   # show browser

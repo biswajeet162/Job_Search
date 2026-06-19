@@ -49,7 +49,10 @@ class BrowserController:
 
     def start(self) -> None:
         self._playwright = sync_playwright().start()
-        self._browser = self._playwright.chromium.launch(headless=self.headless)
+        self._browser = self._playwright.chromium.launch(
+            headless=self.headless,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
         self._context = self._browser.new_context(
             viewport={"width": 1440, "height": 900},
             user_agent=(
@@ -57,6 +60,10 @@ class BrowserController:
                 "AppleWebKit/537.36 (KHTML, like Gecko) "
                 "Chrome/120.0.0.0 Safari/537.36"
             ),
+            locale="en-IN",
+        )
+        self._context.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', { get: () => undefined });"
         )
         self._page = self._context.new_page()
         self._page.set_default_timeout(self.timeout_ms)
