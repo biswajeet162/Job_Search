@@ -1,0 +1,29 @@
+{
+  "company": "Wipro",
+  "careerUrl": "https://careers.wipro.com/search/?q=&searchResultView=LIST",
+  "totalScraped": 20,
+  "totalJobs": 1,
+  "newJobs": 1,
+  "skippedKnownJobs": 19,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "sortBy",
+      "label": "Sort by Most Recent",
+      "value": null
+    }
+  ],
+  "scrapedAt": "2026-06-19T22:05:56+05:30",
+  "jobs": [
+    {
+      "company": "Wipro",
+      "jobId": "169832",
+      "jobTitle": "TECHNICAL LEAD L1",
+      "jobUrl": "https://careers.wipro.com/job/TECHNICAL-LEAD-L1/169832-en_US",
+      "location": "Chandler, USA-AZ, USA, 47610",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:05:56+05:30"
+    }
+  ]
+}

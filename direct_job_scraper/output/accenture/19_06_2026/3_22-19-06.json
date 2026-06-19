@@ -1,0 +1,41 @@
+{
+  "company": "Accenture",
+  "careerUrl": "https://www.accenture.com/in-en/careers/jobsearch",
+  "totalScraped": 24,
+  "totalJobs": 3,
+  "newJobs": 3,
+  "skippedKnownJobs": 21,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [],
+  "scrapedAt": "2026-06-19T22:19:06+05:30",
+  "jobs": [
+    {
+      "company": "Accenture",
+      "jobId": "ATCI-4335392-S1888515",
+      "jobTitle": "Custom Software Engineer",
+      "jobUrl": "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-4335392-S1888515_en&title=Custom+Software+Engineer",
+      "location": "Noida",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:19:06+05:30"
+    },
+    {
+      "company": "Accenture",
+      "jobId": "ATCI-5002443-S2029222",
+      "jobTitle": "Application Tech Support Practitioner",
+      "jobUrl": "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5002443-S2029222_en&title=Application+Tech+Support+Practitioner",
+      "location": "Noida",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:19:06+05:30"
+    },
+    {
+      "company": "Accenture",
+      "jobId": "ATCI-5153800-S1911919",
+      "jobTitle": "Custom Software Engineer",
+      "jobUrl": "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5153800-S1911919_en&title=Custom+Software+Engineer",
+      "location": "Noida",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:19:06+05:30"
+    }
+  ]
+}

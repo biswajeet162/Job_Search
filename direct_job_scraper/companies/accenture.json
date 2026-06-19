@@ -1,0 +1,41 @@
+{
+  "companyName": "Accenture",
+  "careerUrl": "https://www.accenture.com/in-en/careers/jobsearch",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": ".rad-filters-vertical__job-card" }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 2500,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": ".rad-filters-vertical__job-card"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": ".rad-filters-vertical__job-card",
+    "linkSelector": "a[href*=\"jobdetails\"]",
+    "fields": {
+      "title": ".rad-filters-vertical__job-card-title",
+      "location": ".rad-filters-vertical__job-card-details-location"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "id=([A-Za-z0-9-]+)_en"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "button.rad-pagination__next"
+  }
+}
