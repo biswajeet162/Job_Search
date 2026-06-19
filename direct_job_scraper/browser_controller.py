@@ -491,7 +491,11 @@ class BrowserController:
                 card = cards.nth(index)
                 anchor = card.locator(link_selector).first
                 if anchor.count() == 0:
-                    continue
+                    tag = card.evaluate("el => el.tagName.toLowerCase()")
+                    if tag == "a":
+                        anchor = card
+                    else:
+                        continue
 
                 href = anchor.get_attribute("href") or ""
                 text = anchor.inner_text().strip()
@@ -595,10 +599,15 @@ class BrowserController:
     def selector_exists(self, selector: str) -> bool:
         return self.page.locator(selector).count() > 0
 
-    def wait_for_selector(self, selector: str, timeout_ms: int | None = None) -> None:
+    def wait_for_selector(
+        self,
+        selector: str,
+        timeout_ms: int | None = None,
+        state: str = "visible",
+    ) -> None:
         def _wait() -> None:
             self.page.locator(selector).first.wait_for(
-                state="visible",
+                state=state,
                 timeout=timeout_ms or self.timeout_ms,
             )
 

@@ -37,6 +37,7 @@ JOB_LINK_STRATEGIES = frozenset({
 PAGINATION_TYPES = frozenset({
     "next_button",
     "page_jump",
+    "none",
 })
 
 JOB_ID_SOURCES = frozenset({
@@ -55,6 +56,7 @@ STRATEGY_REQUIRED_FIELDS: dict[str, tuple[str, ...]] = {
 PAGINATION_REQUIRED_FIELDS: dict[str, tuple[str, ...]] = {
     "next_button": ("selector",),
     "page_jump": ("inputSelector", "goButtonSelector"),
+    "none": (),
 }
 
 FILTER_REQUIRED_FIELDS: dict[str, tuple[str, ...]] = {

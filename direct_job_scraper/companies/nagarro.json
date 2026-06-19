@@ -1,0 +1,42 @@
+{
+  "companyName": "Nagarro",
+  "careerUrl": "https://www.nagarro.com/en/careers/job-search?country=india",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait", "ms": 8000 }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 1,
+    "waitAfterFiltersMs": 0,
+    "scrollBeforeExtract": true,
+    "waitForResultsSelector": ".job-list",
+    "waitForResultsState": "attached"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "a.job-row",
+    "linkSelector": "a.job-row",
+    "fields": {
+      "title": ".span6.job-title",
+      "location": ".location span",
+      "jobType": ".job-type"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "/(\\d+)$"
+    }
+  },
+
+  "pagination": {
+    "type": "none"
+  }
+}

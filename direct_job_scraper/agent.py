@@ -116,6 +116,10 @@ class JobScraper:
                 pagination = self.config.get("pagination", {})
                 pagination_type = pagination.get("type", "next_button")
 
+                if pagination_type == "none":
+                    log_step("PAGINATION stop → single page (type=none)")
+                    break
+
                 if pagination_type == "next_button":
                     log_step("PAGINATION checking next page…")
                     if not self._has_next_page():
@@ -205,9 +209,13 @@ class JobScraper:
 
         wait_selector = self.scrape_options.get("waitForResultsSelector")
         if wait_selector:
-            log_step("WAIT for results selector: %s", wait_selector)
+            wait_state = self.scrape_options.get("waitForResultsState", "visible")
+            log_step("WAIT for results selector: %s (state=%s)", wait_selector, wait_state)
             try:
-                self.browser.wait_for_selector(wait_selector)
+                self.browser.wait_for_selector(
+                    wait_selector,
+                    state=wait_state,
+                )
             except BrowserControllerError as exc:
                 logger.warning("Results selector not found, continuing: %s", exc)
 
@@ -334,6 +342,9 @@ class JobScraper:
                 button_selector=pagination["goButtonSelector"],
             )
 
+        if pagination_type == "none":
+            return False
+
         if pagination_type == "next_button":
             return self._go_to_next_page()
 
@@ -342,8 +353,8 @@ class JobScraper:
 
     def _has_next_page(self) -> bool:
         pagination = self.config.get("pagination")
-        if not pagination or pagination.get("type", "next_button") != "next_button":
-            return True
+        if not pagination or pagination.get("type") != "next_button":
+            return False
 
         selector = pagination["selector"]
         if not self.browser.selector_exists(selector):

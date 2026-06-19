@@ -77,7 +77,10 @@ def build_job_records(
             continue
         seen_keys.add(dedupe_key)
 
-        title = str(raw.get("text", "")).strip()
+        title = (
+            str(raw.get("fields", {}).get("title", "")).strip()
+            or str(raw.get("text", "")).strip()
+        )
         location = str(raw.get("fields", {}).get("location", "")).strip()
         if not location:
             location = default_location
@@ -93,7 +96,7 @@ def build_job_records(
         }
 
         for field_name in fields:
-            if field_name == "location":
+            if field_name in {"location", "title"}:
                 continue
             value = str(raw.get("fields", {}).get(field_name, "")).strip()
             if value:
