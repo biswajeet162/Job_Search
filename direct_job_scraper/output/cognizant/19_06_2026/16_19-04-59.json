@@ -1,0 +1,32 @@
+{
+  "company": "Cognizant",
+  "careerUrl": "https://careers.cognizant.com/india-en/jobs/?keyword=&location=India&lat=&lng=&cname=India&ccode=IN&origin=global",
+  "totalScraped": 20,
+  "totalJobs": 2,
+  "newJobs": 2,
+  "skippedKnownJobs": 18,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [],
+  "scrapedAt": "2026-06-19T19:04:59+05:30",
+  "jobs": [
+    {
+      "company": "Cognizant",
+      "jobId": "00063329662",
+      "jobTitle": "Datastage Developer - Pune",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00063329662/datastage-developer-pune/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T19:04:59+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00066457762",
+      "jobTitle": "Pentaho",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00066457762/pentaho/",
+      "location": "KOLKATA, West Bengal, India / PUNE, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T19:04:59+05:30"
+    }
+  ]
+}

@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import json
 import logging
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -13,7 +12,8 @@ from company_config import normalize_config, validate_config
 from errors import ScraperError
 from extraction import ExtractionError, extract_page_jobs
 from logger_util import log_step
-from storage import JobOutputStorage, slugify
+from job_registry import JobRegistry
+from storage import JobOutputStorage, format_scraped_at, slugify
 
 logger = logging.getLogger(__name__)
 
@@ -31,11 +31,14 @@ class JobScraper:
         config_path: Path,
         output_dir: Path,
         browser: BrowserController | None = None,
+        base_dir: Path | None = None,
     ) -> None:
         self.config_path = config_path
         self.output_dir = output_dir
+        self.base_dir = base_dir or output_dir.parent
         self.browser = browser or BrowserController(headless=True)
         self.storage = JobOutputStorage(output_dir)
+        self.registry = JobRegistry(self.base_dir)
         self.config: dict[str, Any] = {}
 
     def load_config(self) -> dict[str, Any]:
@@ -128,11 +131,19 @@ class JobScraper:
 
                 page_number += 1
 
-        scraped_at = datetime.now(timezone.utc).isoformat()
+        scraped_at = format_scraped_at()
+        log_step("REGISTRY checking %d job(s) against known IDs…", len(all_jobs))
+        new_jobs, skipped_known = self.registry.partition_new_jobs(company, all_jobs)
+        for job in new_jobs:
+            job["scrapedAt"] = scraped_at
+
         payload = {
             "company": company,
             "careerUrl": self.config["careerUrl"],
-            "totalJobs": len(all_jobs),
+            "totalScraped": len(all_jobs),
+            "totalJobs": len(new_jobs),
+            "newJobs": len(new_jobs),
+            "skippedKnownJobs": skipped_known,
             "pagesScraped": page_number,
             "maxPages": self.max_pages,
             "filtersApplied": [
@@ -140,15 +151,24 @@ class JobScraper:
                 for f in applied_filters
             ],
             "scrapedAt": scraped_at,
-            "jobs": all_jobs,
+            "jobs": new_jobs,
         }
 
+        log_step(
+            "REGISTRY %d scraped → %d new, %d already known",
+            len(all_jobs),
+            len(new_jobs),
+            skipped_known,
+        )
         log_step("SAVE writing output JSON…")
         output_path = self.storage.save(company, payload)
-        log_step("DONE %d jobs saved → %s", len(all_jobs), output_path)
+        self.registry.register_new_jobs(company, new_jobs)
+        log_step("DONE %d new job(s) saved → %s", len(new_jobs), output_path)
 
         payload["_outputPaths"] = {
             "output": str(output_path),
+            "confidentialIds": str(self.registry.confidential_path),
+            "jobDashboard": str(self.registry.dashboard_path),
         }
         return payload
 

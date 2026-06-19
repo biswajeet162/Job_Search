@@ -1,0 +1,265 @@
+{
+  "company": "Citi",
+  "careerUrl": "https://jobs.citi.com/search-jobs",
+  "totalScraped": 30,
+  "totalJobs": 24,
+  "newJobs": 24,
+  "skippedKnownJobs": 6,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "country",
+      "label": "Country - India",
+      "value": null
+    },
+    {
+      "id": "sortBy",
+      "label": "Sort by Date Posted",
+      "value": "1"
+    }
+  ],
+  "scrapedAt": "2026-06-19T12:55:20.069077+00:00",
+  "jobs": [
+    {
+      "company": "Citi",
+      "jobId": "66267564752",
+      "jobTitle": "Assistant Vice President - Custody Operations - Asset Servicing (Hybrid)",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/assistant-vice-president-custody-operations-asset-servicing-hybrid/287/66267564752",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "76992206832",
+      "jobTitle": "Associate Banker - Hong Kong Team",
+      "jobUrl": "https://jobs.citi.com/job/hong-kong/associate-banker-hong-kong-team/287/76992206832",
+      "location": "Hong Kong, Central and Western District, Hong Kong SAR",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "59474001296",
+      "jobTitle": "Banamex Asesor de Ventas Tarjetas de Crédito",
+      "jobUrl": "https://jobs.citi.com/job/san-pedro-garza-garcia-jesus-maria/banamex-asesor-de-ventas-tarjetas-de-credito/287/59474001296",
+      "location": "San Pedro Garza García (Jesús María), Nuevo León, Mexico",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "75497785040",
+      "jobTitle": "Citi Wealth - Wealth Relationship Manager - Rego Park",
+      "jobUrl": "https://jobs.citi.com/job/new-york/citi-wealth-wealth-relationship-manager-rego-park/287/75497785040",
+      "location": "New York, New York, United States",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "79230562768",
+      "jobTitle": "Citi Wealth - Wealth Relationship Manager - Utopia Branch",
+      "jobUrl": "https://jobs.citi.com/job/new-york/citi-wealth-wealth-relationship-manager-utopia-branch/287/79230562768",
+      "location": "New York, New York, United States",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "52974437888",
+      "jobTitle": "Corporate Banking Associate - AVP",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/corporate-banking-associate-avp/287/52974437888",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "52133499248",
+      "jobTitle": "Credit & Portfolio Risk Management - AVP - Transformation - Hong Kong",
+      "jobUrl": "https://jobs.citi.com/job/kowloon/credit-and-portfolio-risk-management-avp-transformation-hong-kong/287/52133499248",
+      "location": "Kowloon, Kowloon City, Hong Kong SAR",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "75790507824",
+      "jobTitle": "Equity Derivatives Sales North America, Director",
+      "jobUrl": "https://jobs.citi.com/job/new-york/equity-derivatives-sales-north-america-director/287/75790507824",
+      "location": "New York, New York, United States",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "79790833792",
+      "jobTitle": "Private Banker / Senior Private Banker (India Team) - Citi Private Bank",
+      "jobUrl": "https://jobs.citi.com/job/singapore/private-banker-senior-private-banker-india-team-citi-private-bank/287/79790833792",
+      "location": "Singapore, Singapore, Singapore",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "78290086320",
+      "jobTitle": "Insurance Specialist",
+      "jobUrl": "https://jobs.citi.com/job/kowloon/insurance-specialist/287/78290086320",
+      "location": "Kowloon, Kowloon City, Hong Kong SAR",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "80427460464",
+      "jobTitle": "MYS CTSM - Custody Operations Asset Servicing Senior Supervisor",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/mys-ctsm-custody-operations-asset-servicing-senior-supervisor/287/80427460464",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "80427460656",
+      "jobTitle": "MYS CTSM KL Asset Servicing Representative ( Hybrid)",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/mys-ctsm-kl-asset-servicing-representative-hybrid/287/80427460656",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "80427469312",
+      "jobTitle": "Officer, Transfer Agency Analyst",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/officer-transfer-agency-analyst/287/80427469312",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "80427469344",
+      "jobTitle": "Officer, Transfer Agency Senior Analyst - Hybrid",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/officer-transfer-agency-senior-analyst-hybrid/287/80427469344",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "79174901392",
+      "jobTitle": "Securities & Derivatives Analyst 1 - Hybrid",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/securities-and-derivatives-analyst-1-hybrid/287/79174901392",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "77364522816",
+      "jobTitle": "Senior Officer , Securities Services Sanctions Operations (SSO) – Hybrid",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/senior-officer-securities-services-sanctions-operations-sso-hybrid/287/77364522816",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "81532885776",
+      "jobTitle": "Graduan Career Fair - Custody Asset Servicing Analyst / Senior Analyst",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/graduan-career-fair-custody-asset-servicing-analyst-senior-analyst/287/81532885776",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "72465907728",
+      "jobTitle": "Investment Banking Associate/ Senior Associate, Mergers and Acquisitions (\"M&A\")",
+      "jobUrl": "https://jobs.citi.com/job/new-york/investment-banking-associate-senior-associate-mergers-and-acquisitions-m-and-a/287/72465907728",
+      "location": "New York, New York, United States",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543632",
+      "jobTitle": "Citi Private Bank - UHNW Investment Counselor - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/chicago/citi-private-bank-uhnw-investment-counselor-director-md/287/83534543632",
+      "location": "Chicago, Illinois, United States",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543696",
+      "jobTitle": "Citi Private Bank - UHNW Investment Counselor - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/miami/citi-private-bank-uhnw-investment-counselor-director-md/287/83534543696",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543776",
+      "jobTitle": "Citi Private Bank - UHNW Investment Counselor - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/houston/citi-private-bank-uhnw-investment-counselor-director-md/287/83534543776",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543808",
+      "jobTitle": "Citi Private Bank - UHNW Private Banker - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/atlanta/citi-private-bank-uhnw-private-banker-director-md/287/83534543808",
+      "location": "Atlanta, Georgia, United States",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543856",
+      "jobTitle": "Citi Private Bank - UHNW Private Banker - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/houston/citi-private-bank-uhnw-private-banker-director-md/287/83534543856",
+      "location": "Houston, Texas, United States",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543888",
+      "jobTitle": "Citi Private Bank - UHNW Private Banker - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/miami/citi-private-bank-uhnw-private-banker-director-md/287/83534543888",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    }
+  ]
+}

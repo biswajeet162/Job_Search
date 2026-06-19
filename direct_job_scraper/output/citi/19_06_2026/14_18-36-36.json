@@ -1,0 +1,55 @@
+{
+  "company": "Citi",
+  "careerUrl": "https://jobs.citi.com/search-jobs",
+  "totalScraped": 30,
+  "totalJobs": 3,
+  "newJobs": 3,
+  "skippedKnownJobs": 27,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "country",
+      "label": "Country - India",
+      "value": null
+    },
+    {
+      "id": "sortBy",
+      "label": "Sort by Date Posted",
+      "value": "1"
+    }
+  ],
+  "scrapedAt": "2026-06-19T18:36:36+05:30",
+  "jobs": [
+    {
+      "company": "Citi",
+      "jobId": "90305965376",
+      "jobTitle": "US regulatory report FR Y-14 Senior Analyst- Assistant Vice President",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/us-regulatory-report-fr-y-14-senior-analyst-assistant-vice-president/287/90305965376",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T18:36:36+05:30",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "90305965440",
+      "jobTitle": "Regulatory Reporting, Intermediate Analyst, Officer",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/regulatory-reporting-intermediate-analyst-officer/287/90305965440",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T18:36:36+05:30",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "90410060720",
+      "jobTitle": "Business Analytics Int Analyst",
+      "jobUrl": "https://jobs.citi.com/job/haryana/business-analytics-int-analyst/287/90410060720",
+      "location": "Haryana, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T18:36:36+05:30",
+      "jobType": "Hybrid"
+    }
+  ]
+}

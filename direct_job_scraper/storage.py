@@ -6,7 +6,7 @@ import json
 import logging
 import re
 import sys
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -19,6 +19,12 @@ def run_timestamp() -> datetime:
     """Local time for dated folders and run filenames."""
 
     return datetime.now().astimezone()
+
+
+def format_scraped_at(dt: datetime | None = None) -> str:
+    """Local timezone ISO timestamp for job records and registry files."""
+
+    return (dt or run_timestamp()).isoformat(timespec="seconds")
 
 
 def format_date_folder(dt: datetime) -> str:

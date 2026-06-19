@@ -76,8 +76,10 @@ def run_single(config_path: Path, headless: bool) -> int:
     try:
         result = scraper.run()
         logging.info(
-            "Success: %d jobs from %s → %s",
+            "Success: %d new job(s) (%d scraped, %d known skipped) from %s → %s",
             result["totalJobs"],
+            result.get("totalScraped", result["totalJobs"]),
+            result.get("skippedKnownJobs", 0),
             config_path.name,
             result["_outputPaths"]["output"],
         )

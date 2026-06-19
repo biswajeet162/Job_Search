@@ -10,7 +10,7 @@ if errorlevel 1 (
     exit /b 1
 )
 
-python main.py --company cognizant
+python run_company.bat cognizant
 set EXITCODE=%errorlevel%
 
 pause

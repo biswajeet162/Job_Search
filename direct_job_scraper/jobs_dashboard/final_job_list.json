@@ -1,0 +1,1399 @@
+{
+  "updatedAt": "2026-06-19T19:27:52+05:30",
+  "totalJobs": 143,
+  "jobs": [
+    {
+      "company": "Cognizant",
+      "jobId": "00069393752",
+      "jobTitle": "Principal Infra Developer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393752/principal-infra-developer/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069381322",
+      "jobTitle": "Principal Infra Developer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069381322/principal-infra-developer/",
+      "location": "Gandhi Nagar, Gujarat, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068741704",
+      "jobTitle": "Sr. Software Engineer B2",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068741704/sr-software-engineer-b2/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069393751",
+      "jobTitle": "Principal Infra Developer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393751/principal-infra-developer/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068588681",
+      "jobTitle": "IBM Maximo Developer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068588681/ibm-maximo-developer/",
+      "location": "Hyderabad, Telangana, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068728467",
+      "jobTitle": "Lead Quality Engineer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068728467/lead-quality-engineer/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069366591",
+      "jobTitle": "AWS Databricks",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069366591/aws-databricks/",
+      "location": "Kochi, Kerala, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00063329662",
+      "jobTitle": "Datastage Developer - Pune",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00063329662/datastage-developer-pune/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00066558848",
+      "jobTitle": "Azure databricks + Pyspark",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00066558848/azure-databricks-plus-pyspark/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00067268482",
+      "jobTitle": "Microsoft 365 Copilot & AI Agents",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067268482/microsoft-365-copilot-ai-agents/",
+      "location": "Chennai, Tamil Nadu, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:02.628835+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069288392",
+      "jobTitle": "Customer setup - Order to cash",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069288392/customer-setup-order-to-cash/",
+      "location": "Hyderabad, Telangana, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068139631",
+      "jobTitle": "Snowflake DBT",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068139631/snowflake-dbt/",
+      "location": "PUNE, Maharashtra, India / Chennai, Tamil Nadu, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068312153",
+      "jobTitle": "Snowflake Tableau",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068312153/snowflake-tableau/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068914771",
+      "jobTitle": "Snowflake+Collibra",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068914771/snowflakepluscollibra/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00066457762",
+      "jobTitle": "Pentaho",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00066457762/pentaho/",
+      "location": "KOLKATA, West Bengal, India / PUNE, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00066649751",
+      "jobTitle": "IICS Developer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00066649751/iics-developer/",
+      "location": "Hyderabad, Telangana, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069075291",
+      "jobTitle": "Oracle Cloud ERP Finance Tester /Netsuite ERP Tester",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069075291/oracle-cloud-erp-finance-tester-netsuite-erp-tester/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068590781",
+      "jobTitle": "SPE (Senior Process Executive) - US Mortgage",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068590781/spe-senior-process-executive-us-mortgage/",
+      "location": "MUMBAI, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068868091",
+      "jobTitle": "Teamcenter Developers",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068868091/teamcenter-developers/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069393753",
+      "jobTitle": "Principal Infra Developer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393753/principal-infra-developer/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:10.138950+00:00"
+    },
+    {
+      "company": "Citi",
+      "jobId": "79221015312",
+      "jobTitle": "Asset Servicing Intmd Analyst",
+      "jobUrl": "https://jobs.citi.com/job/pune/asset-servicing-intmd-analyst/287/79221015312",
+      "location": "Pune, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "77893940656",
+      "jobTitle": "Custody Client Service Officer",
+      "jobUrl": "https://jobs.citi.com/job/pune/custody-client-service-officer/287/77893940656",
+      "location": "Pune, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "78060291184",
+      "jobTitle": "Java Fullstack Developer - C11 - Pune",
+      "jobUrl": "https://jobs.citi.com/job/pune/java-fullstack-developer-c11-pune/287/78060291184",
+      "location": "Pune, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "78520737520",
+      "jobTitle": "Ops Sup Analyst 2",
+      "jobUrl": "https://jobs.citi.com/job/pune/ops-sup-analyst-2/287/78520737520",
+      "location": "Pune, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "76949818416",
+      "jobTitle": "Sec & Derivatives Sr Analyst",
+      "jobUrl": "https://jobs.citi.com/job/chennai/sec-and-derivatives-sr-analyst/287/76949818416",
+      "location": "Multiple Locations",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "78243480016",
+      "jobTitle": "Sr. Database/BigData Developer - VP/AVP - Chennai",
+      "jobUrl": "https://jobs.citi.com/job/chennai/sr-database-bigdata-developer-vp-avp-chennai/287/78243480016",
+      "location": "Chennai, Tamil Nadu, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "81783896352",
+      "jobTitle": "Officer, Securities & Derivatives Analyst - Hybrid",
+      "jobUrl": "https://jobs.citi.com/job/haryana/officer-securities-and-derivatives-analyst-hybrid/287/81783896352",
+      "location": "Haryana, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83762667920",
+      "jobTitle": "Leveraged Finance Credit Underwriting - Officer",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/leveraged-finance-credit-underwriting-officer/287/83762667920",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "84491099184",
+      "jobTitle": "Securities & Derivatives Rep",
+      "jobUrl": "https://jobs.citi.com/job/chennai/securities-and-derivatives-rep/287/84491099184",
+      "location": "Chennai, Tamil Nadu, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "85205295632",
+      "jobTitle": "Tax Analyst (Tax reporting FATCA CRS) Officer",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/tax-analyst-tax-reporting-fatca-crs-officer/287/85205295632",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "85205295664",
+      "jobTitle": "Tax Analyst (Tax reporting FATCA CRS) Officer",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/tax-analyst-tax-reporting-fatca-crs-officer/287/85205295664",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "85671551824",
+      "jobTitle": "Tax Specialist (Tax reporting FATCA)",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/tax-specialist-tax-reporting-fatca/287/85671551824",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "85691675520",
+      "jobTitle": "Citi Community Capital - Real Estate Underwriter - Officer",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/citi-community-capital-real-estate-underwriter-officer/287/85691675520",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "76949818544",
+      "jobTitle": "Sec & Derivatives Sr Manager",
+      "jobUrl": "https://jobs.citi.com/job/chennai/sec-and-derivatives-sr-manager/287/76949818544",
+      "location": "Multiple Locations",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "79598136432",
+      "jobTitle": "Chat Customer Service Specialist",
+      "jobUrl": "https://jobs.citi.com/job/chennai/chat-customer-service-specialist/287/79598136432",
+      "location": "Chennai, Tamil Nadu, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:13.581730+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "86021359600",
+      "jobTitle": "Data/Information Management Analyst",
+      "jobUrl": "https://jobs.citi.com/job/bengaluru/data-information-management-analyst/287/86021359600",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "86204858512",
+      "jobTitle": "Asset Servicing Senior Operations Analyst-Pune",
+      "jobUrl": "https://jobs.citi.com/job/pune/asset-servicing-senior-operations-analyst-pune/287/86204858512",
+      "location": "Pune, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "86465383904",
+      "jobTitle": "Program Mgmt Intmd Analyst",
+      "jobUrl": "https://jobs.citi.com/job/chennai/program-mgmt-intmd-analyst/287/86465383904",
+      "location": "Chennai, Tamil Nadu, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "87211080176",
+      "jobTitle": "Data Scientist",
+      "jobUrl": "https://jobs.citi.com/job/bengaluru/data-scientist/287/87211080176",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "80313447680",
+      "jobTitle": "Quality Assurance monitoring and testing Analyst",
+      "jobUrl": "https://jobs.citi.com/job/pune/quality-assurance-monitoring-and-testing-analyst/287/80313447680",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "88013765808",
+      "jobTitle": "Citi Community Capital - Real Estate Underwriting - Assistant Vice President",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/citi-community-capital-real-estate-underwriting-assistant-vice-president/287/88013765808",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "88116363392",
+      "jobTitle": "Leveraged Finance Underwriter - Senior Vice President",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/leveraged-finance-underwriter-senior-vice-president/287/88116363392",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "88116363424",
+      "jobTitle": "Leveraged Finance Underwriter – Vice-President",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/leveraged-finance-underwriter-vice-president/287/88116363424",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "88859778672",
+      "jobTitle": "Credit Risk Analyst (Officer) - Leveraged Finance Underwriting",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/credit-risk-analyst-officer-leveraged-finance-underwriting/287/88859778672",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "88859832192",
+      "jobTitle": "Citi Community Capital - Real Estate Underwriting - Officer",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/citi-community-capital-real-estate-underwriting-officer/287/88859832192",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "88859838192",
+      "jobTitle": "AVP- Fund Accounting",
+      "jobUrl": "https://jobs.citi.com/job/haryana/avp-fund-accounting/287/88859838192",
+      "location": "Haryana, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "89617013152",
+      "jobTitle": "Gen AI Engineer Intermediate Analyst(4-7Years)",
+      "jobUrl": "https://jobs.citi.com/job/chennai/gen-ai-engineer-intermediate-analyst-4-7years/287/89617013152",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "90272079472",
+      "jobTitle": "Ops Sup Analyst 2",
+      "jobUrl": "https://jobs.citi.com/job/chennai/ops-sup-analyst-2/287/90272079472",
+      "location": "Chennai, Tamil Nadu, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "88116409776",
+      "jobTitle": "Wholesale Credit Underwriting – Asset Backed Lending – Assistant Vice President",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/wholesale-credit-underwriting-asset-backed-lending-assistant-vice-president/287/88116409776",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "90305965312",
+      "jobTitle": "US regulatory report FR Y-14 Lead Analyst- Vice President",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/us-regulatory-report-fr-y-14-lead-analyst-vice-president/287/90305965312",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:16:32.559503+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-280362",
+      "jobTitle": "Director, Product Management-Technical",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280362/Director-Product-Management-Technical",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:53.432390+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-280385",
+      "jobTitle": "Director, Product Management - Data Products",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280385/Director-Product-Management-Data-Products",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:53.432390+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-280433",
+      "jobTitle": "Manager, Strategy Pricing & Interchange",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280433/Manager-Strategy-Pricing-Interchange",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:53.432390+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-280563",
+      "jobTitle": "Platform Engineer I (DevOps)",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280563/Platform-Engineer-I-DevOps",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:53.432390+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-280704",
+      "jobTitle": "Sr. Web Developer (Full Stack)",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280704/Sr-Web-Developer-Full-Stack",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:16:53.432390+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-279351",
+      "jobTitle": "Senior Site Reliability Engineer",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-279351/Senior-Site-Reliability-Engineer",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:17:02.048994+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-280132",
+      "jobTitle": "Manager, Product Management",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280132/Manager-Product-Management",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:17:02.048994+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-274016",
+      "jobTitle": "Lead, Platform Engineering",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-274016/Lead-Platform-Engineering",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:17:02.048994+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-279419",
+      "jobTitle": "Software Engineer II",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-279419/Software-Engineer-II",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:17:02.048994+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-272873",
+      "jobTitle": "Lead Software Engineer",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-272873/Lead-Software-Engineer",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T10:17:02.048994+00:00"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132427340",
+      "jobTitle": "SpecialistPrincipal Engineer",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132427340",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132074989",
+      "jobTitle": "SeniorSenior Staff Engineer (AI Developer InfraSec Automation)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132074989",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130420909",
+      "jobTitle": "SeniorStaff Engineer, System Analyst (Core banking-Integration)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130420909",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130628449",
+      "jobTitle": "SeniorAssociate Staff Engineer, Workday HCM Functional Consultant",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628449",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132075239",
+      "jobTitle": "SeniorSenior Staff Engineer (AI Developer SOC Automation)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132075239",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131823839",
+      "jobTitle": "SpecialistAssociate Principal Engineer, 5G, RRC,QXDM",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131823839",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000114793717",
+      "jobTitle": "SeniorSenior Staff Engineer, Python & LLM",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000114793717",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130411610",
+      "jobTitle": "SpecialistAssociate Principal Engineer",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130411610",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131857356",
+      "jobTitle": "SeniorStaff Engineer, 5G, ,C++, Linux",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131857356",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131123969",
+      "jobTitle": "SeniorStaff Engineer, Industrial Automation",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131123969",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130150175",
+      "jobTitle": "SeniorStaff Consultant, Business Analyst (Banking and Financial Service)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130150175",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130151059",
+      "jobTitle": "SeniorStaff Consultant, Business Analyst (CASA/TD)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130151059",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130402526",
+      "jobTitle": "SpecialistAssociate Principal Engineer, Delivery (Core banking)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130402526",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000116060067",
+      "jobTitle": "DirectorAssociate Director (Program Delivery, CPG Domain, Digital Transformation)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000116060067",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000079920804",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079920804",
+      "location": "India, Noida",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000127874358",
+      "jobTitle": "SeniorAssociate Staff Consultant (Sales & Marketing)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000127874358",
+      "location": "India, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000079918791",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079918791",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000079920226",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079920226",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132356449",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP Spend management",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132356449",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000118568477",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP-Supply-Chain-Logistics",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000118568477",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132358215",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP Industry Solutions",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132358215",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000126809589",
+      "jobTitle": "SeniorStaff Engineer , Salesforce Health Cloud",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000126809589",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131397309",
+      "jobTitle": "SeniorSenior Staff Engineer, Salesforce Health Cloud",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131397309",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000116582737",
+      "jobTitle": "SpecialistAssociate Principal Engineer, CRM Salesforce CPQ (Technical Architect)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000116582737",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131392824",
+      "jobTitle": "SpecialistAssociate Principal Engineer,  Salesforce Health cloud",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131392824",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131587020",
+      "jobTitle": "SeniorStaff Engineer, Playwright QA",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131587020",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131390284",
+      "jobTitle": "SeniorSenior Staff Engineer, Dotnet Fullstack (Angular)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131390284",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000128687807",
+      "jobTitle": "SpecialistPrincipal Engineer, FASTAPP (Mendix)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000128687807",
+      "location": "India, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000123634645",
+      "jobTitle": "SeniorStaff Engineer, ServiceNow (HAM,ITAM,ITSM,ServiceNow)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000123634645",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131389909",
+      "jobTitle": "SeniorStaff Engineer, Dotnet Fullstack (Angular)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131389909",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000101824446",
+      "jobTitle": "SpecialistAssociate Principal Engineer, ServiceNow (GRC and Legal)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000101824446",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132559784",
+      "jobTitle": "SeniorStaff Engineer",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132559784",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Contractor"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000128687339",
+      "jobTitle": "SpecialistPrincipal Engineer (Mendix + java)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000128687339",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131388944",
+      "jobTitle": "SeniorSenior Staff Engineer, Dotnet Fullstack (Angular)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131388944",
+      "location": "India, Chennai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132561409",
+      "jobTitle": "SeniorStaff Engineer, Java, Docker, Kafka",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132561409",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131389840",
+      "jobTitle": "SeniorStaff Engineer, Dotnet Fullstack (Angular)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131389840",
+      "location": "India, Chennai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000131587329",
+      "jobTitle": "SeniorAssociate Staff Consultant, US IT recruiter",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131587329",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132554729",
+      "jobTitle": "SeniorStaff Engineer, ArgoCD",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132554729",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000129230865",
+      "jobTitle": "SpecialistAssociate Principal Engineer (AEM)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000129230865",
+      "location": "India, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T10:17:17.951494+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-280176",
+      "jobTitle": "Senior Software Engineer (Java Full stack)",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280176/Senior-Software-Engineer-Java-Full-stack",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T11:20:49.956586+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-280640",
+      "jobTitle": "Manager – Business Development Support",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280640/Manager-Business-Development-Support",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T11:20:49.956586+00:00"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132331379",
+      "jobTitle": "SeniorStaff Engineer, Midi Audio",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132331379",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130628649",
+      "jobTitle": "SeniorAssociate Staff Engineer, ERP Workday (Technical Consultant)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628649",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000129477719",
+      "jobTitle": "SeniorSenior Staff Engineer, AI,LLM",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000129477719",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130628779",
+      "jobTitle": "SeniorStaff Engineer, ERP Workday (Functional Consultant)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628779",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130412157",
+      "jobTitle": "SpecialistAssociate Principal Engineer, Solution Architect (Core banking)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130412157",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132467116",
+      "jobTitle": "SeniorSenior Staff Consultant, SAP ABAP SolMan",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132467116",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130631319",
+      "jobTitle": "SeniorSenior Staff Engineer, ERP Dynamics Functional (Finance)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130631319",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132989430",
+      "jobTitle": "SeniorSenior Staff Engineer,IBM Integration Specialist",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132989430",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132993155",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP SD, SAP TM",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132993155",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132989489",
+      "jobTitle": "SeniorSenior Staff Engineer, Java, React",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132989489",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Citi",
+      "jobId": "66267564752",
+      "jobTitle": "Assistant Vice President - Custody Operations - Asset Servicing (Hybrid)",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/assistant-vice-president-custody-operations-asset-servicing-hybrid/287/66267564752",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "76992206832",
+      "jobTitle": "Associate Banker - Hong Kong Team",
+      "jobUrl": "https://jobs.citi.com/job/hong-kong/associate-banker-hong-kong-team/287/76992206832",
+      "location": "Hong Kong, Central and Western District, Hong Kong SAR",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "59474001296",
+      "jobTitle": "Banamex Asesor de Ventas Tarjetas de Crédito",
+      "jobUrl": "https://jobs.citi.com/job/san-pedro-garza-garcia-jesus-maria/banamex-asesor-de-ventas-tarjetas-de-credito/287/59474001296",
+      "location": "San Pedro Garza García (Jesús María), Nuevo León, Mexico",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "75497785040",
+      "jobTitle": "Citi Wealth - Wealth Relationship Manager - Rego Park",
+      "jobUrl": "https://jobs.citi.com/job/new-york/citi-wealth-wealth-relationship-manager-rego-park/287/75497785040",
+      "location": "New York, New York, United States",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "79230562768",
+      "jobTitle": "Citi Wealth - Wealth Relationship Manager - Utopia Branch",
+      "jobUrl": "https://jobs.citi.com/job/new-york/citi-wealth-wealth-relationship-manager-utopia-branch/287/79230562768",
+      "location": "New York, New York, United States",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "52974437888",
+      "jobTitle": "Corporate Banking Associate - AVP",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/corporate-banking-associate-avp/287/52974437888",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "52133499248",
+      "jobTitle": "Credit & Portfolio Risk Management - AVP - Transformation - Hong Kong",
+      "jobUrl": "https://jobs.citi.com/job/kowloon/credit-and-portfolio-risk-management-avp-transformation-hong-kong/287/52133499248",
+      "location": "Kowloon, Kowloon City, Hong Kong SAR",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "75790507824",
+      "jobTitle": "Equity Derivatives Sales North America, Director",
+      "jobUrl": "https://jobs.citi.com/job/new-york/equity-derivatives-sales-north-america-director/287/75790507824",
+      "location": "New York, New York, United States",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "79790833792",
+      "jobTitle": "Private Banker / Senior Private Banker (India Team) - Citi Private Bank",
+      "jobUrl": "https://jobs.citi.com/job/singapore/private-banker-senior-private-banker-india-team-citi-private-bank/287/79790833792",
+      "location": "Singapore, Singapore, Singapore",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "78290086320",
+      "jobTitle": "Insurance Specialist",
+      "jobUrl": "https://jobs.citi.com/job/kowloon/insurance-specialist/287/78290086320",
+      "location": "Kowloon, Kowloon City, Hong Kong SAR",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "80427460464",
+      "jobTitle": "MYS CTSM - Custody Operations Asset Servicing Senior Supervisor",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/mys-ctsm-custody-operations-asset-servicing-senior-supervisor/287/80427460464",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "80427460656",
+      "jobTitle": "MYS CTSM KL Asset Servicing Representative ( Hybrid)",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/mys-ctsm-kl-asset-servicing-representative-hybrid/287/80427460656",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T12:55:00.395039+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "80427469312",
+      "jobTitle": "Officer, Transfer Agency Analyst",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/officer-transfer-agency-analyst/287/80427469312",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "80427469344",
+      "jobTitle": "Officer, Transfer Agency Senior Analyst - Hybrid",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/officer-transfer-agency-senior-analyst-hybrid/287/80427469344",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "79174901392",
+      "jobTitle": "Securities & Derivatives Analyst 1 - Hybrid",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/securities-and-derivatives-analyst-1-hybrid/287/79174901392",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "77364522816",
+      "jobTitle": "Senior Officer , Securities Services Sanctions Operations (SSO) – Hybrid",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/senior-officer-securities-services-sanctions-operations-sso-hybrid/287/77364522816",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "81532885776",
+      "jobTitle": "Graduan Career Fair - Custody Asset Servicing Analyst / Senior Analyst",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/graduan-career-fair-custody-asset-servicing-analyst-senior-analyst/287/81532885776",
+      "location": "Kuala Lumpur, Kuala Lumpur, Malaysia",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "72465907728",
+      "jobTitle": "Investment Banking Associate/ Senior Associate, Mergers and Acquisitions (\"M&A\")",
+      "jobUrl": "https://jobs.citi.com/job/new-york/investment-banking-associate-senior-associate-mergers-and-acquisitions-m-and-a/287/72465907728",
+      "location": "New York, New York, United States",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543632",
+      "jobTitle": "Citi Private Bank - UHNW Investment Counselor - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/chicago/citi-private-bank-uhnw-investment-counselor-director-md/287/83534543632",
+      "location": "Chicago, Illinois, United States",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543696",
+      "jobTitle": "Citi Private Bank - UHNW Investment Counselor - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/miami/citi-private-bank-uhnw-investment-counselor-director-md/287/83534543696",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543776",
+      "jobTitle": "Citi Private Bank - UHNW Investment Counselor - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/houston/citi-private-bank-uhnw-investment-counselor-director-md/287/83534543776",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543808",
+      "jobTitle": "Citi Private Bank - UHNW Private Banker - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/atlanta/citi-private-bank-uhnw-private-banker-director-md/287/83534543808",
+      "location": "Atlanta, Georgia, United States",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543856",
+      "jobTitle": "Citi Private Bank - UHNW Private Banker - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/houston/citi-private-bank-uhnw-private-banker-director-md/287/83534543856",
+      "location": "Houston, Texas, United States",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Citi",
+      "jobId": "83534543888",
+      "jobTitle": "Citi Private Bank - UHNW Private Banker - Director / MD",
+      "jobUrl": "https://jobs.citi.com/job/miami/citi-private-bank-uhnw-private-banker-director-md/287/83534543888",
+      "location": "Multiple Locations",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:19.956188+00:00",
+      "jobType": "Hybrid"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-274386",
+      "jobTitle": "Specialist, Legal Services",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-274386/Specialist-Legal-Services",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:48.299774+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-270313",
+      "jobTitle": "Senior Software Engineer",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-270313/Senior-Software-Engineer",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:48.299774+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-272983",
+      "jobTitle": "Lead BizOps Engineer",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-272983/Lead-BizOps-Engineer",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:48.299774+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-278689",
+      "jobTitle": "Director, Technology Risk Management",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-278689/Director-Technology-Risk-Management",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:48.299774+00:00"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-278412",
+      "jobTitle": "Software Engineer II",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-278412/Software-Engineer-II",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T12:55:48.299774+00:00"
+    },
+    {
+      "company": "Citi",
+      "jobId": "90305965376",
+      "jobTitle": "US regulatory report FR Y-14 Senior Analyst- Assistant Vice President",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/us-regulatory-report-fr-y-14-senior-analyst-assistant-vice-president/287/90305965376",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T18:36:36+05:30",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "90305965440",
+      "jobTitle": "Regulatory Reporting, Intermediate Analyst, Officer",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/regulatory-reporting-intermediate-analyst-officer/287/90305965440",
+      "location": "Mumbai, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T18:36:36+05:30",
+      "jobType": "On-Site/Resident"
+    },
+    {
+      "company": "Citi",
+      "jobId": "90410060720",
+      "jobTitle": "Business Analytics Int Analyst",
+      "jobUrl": "https://jobs.citi.com/job/haryana/business-analytics-int-analyst/287/90410060720",
+      "location": "Haryana, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T18:36:36+05:30",
+      "jobType": "Hybrid"
+    }
+  ]
+}

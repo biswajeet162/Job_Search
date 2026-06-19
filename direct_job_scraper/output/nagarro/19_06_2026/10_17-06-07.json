@@ -1,0 +1,114 @@
+{
+  "company": "Nagarro",
+  "careerUrl": "https://www.nagarro.com/en/careers/job-search?country=india",
+  "totalScraped": 39,
+  "totalJobs": 10,
+  "newJobs": 10,
+  "skippedKnownJobs": 29,
+  "pagesScraped": 1,
+  "maxPages": 1,
+  "filtersApplied": [],
+  "scrapedAt": "2026-06-19T11:36:07.124368+00:00",
+  "jobs": [
+    {
+      "company": "Nagarro",
+      "jobId": "744000132331379",
+      "jobTitle": "SeniorStaff Engineer, Midi Audio",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132331379",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130628649",
+      "jobTitle": "SeniorAssociate Staff Engineer, ERP Workday (Technical Consultant)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628649",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000129477719",
+      "jobTitle": "SeniorSenior Staff Engineer, AI,LLM",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000129477719",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130628779",
+      "jobTitle": "SeniorStaff Engineer, ERP Workday (Functional Consultant)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628779",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130412157",
+      "jobTitle": "SpecialistAssociate Principal Engineer, Solution Architect (Core banking)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130412157",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132467116",
+      "jobTitle": "SeniorSenior Staff Consultant, SAP ABAP SolMan",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132467116",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130631319",
+      "jobTitle": "SeniorSenior Staff Engineer, ERP Dynamics Functional (Finance)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130631319",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132989430",
+      "jobTitle": "SeniorSenior Staff Engineer,IBM Integration Specialist",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132989430",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132993155",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP SD, SAP TM",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132993155",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132989489",
+      "jobTitle": "SeniorSenior Staff Engineer, Java, React",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132989489",
+      "location": "India, Bengaluru",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T11:36:05.786743+00:00",
+      "jobType": "Employee"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "company": "Nagarro",
+  "careerUrl": "https://www.nagarro.com/en/careers/job-search?country=india",
+  "totalScraped": 39,
+  "totalJobs": 1,
+  "newJobs": 1,
+  "skippedKnownJobs": 38,
+  "pagesScraped": 1,
+  "maxPages": 1,
+  "filtersApplied": [],
+  "scrapedAt": "2026-06-19T19:25:53+05:30",
+  "jobs": [
+    {
+      "company": "Nagarro",
+      "jobId": "744000079918791",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079918791",
+      "location": "India, Gurugram",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T19:25:53+05:30",
+      "jobType": "Employee"
+    }
+  ]
+}

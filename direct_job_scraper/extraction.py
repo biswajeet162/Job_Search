@@ -2,13 +2,12 @@
 
 from __future__ import annotations
 
-from datetime import datetime, timezone
 from typing import Any
 
 from browser_controller import BrowserController, BrowserControllerError
 from company_config import get_job_id_config
 from job_id_util import resolve_job_id
-from logger_util import log_job
+from storage import format_scraped_at
 
 
 class ExtractionError(Exception):
@@ -62,7 +61,7 @@ def build_job_records(
     fields = strategy.get("fields", {})
     company = config["companyName"]
     default_location = config.get("defaultLocation", "")
-    scraped_at = datetime.now(timezone.utc).isoformat()
+    scraped_at = format_scraped_at()
 
     jobs: list[dict[str, Any]] = []
 
@@ -103,8 +102,6 @@ def build_job_records(
                 job[field_name] = value
 
         jobs.append(job)
-        id_display = job_id if job_id else "—"
-        log_job("  JOB [%s] %s", id_display, title[:70])
 
     return jobs
 

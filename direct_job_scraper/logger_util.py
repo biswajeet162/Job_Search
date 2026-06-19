@@ -18,10 +18,15 @@ try:
         "INFO": Fore.WHITE,
         "DEBUG": Fore.LIGHTBLACK_EX,
         "JOB": Fore.MAGENTA,
+        "JOB_NEW": Fore.GREEN + Style.BRIGHT,
+        "JOB_KNOWN": Fore.RED,
         "RESET": Style.RESET_ALL,
     }
 except ImportError:
-    _COLORS = {k: "" for k in ("STEP", "OK", "WARN", "ERR", "INFO", "DEBUG", "JOB", "RESET")}
+    _COLORS = {
+        k: ""
+        for k in ("STEP", "OK", "WARN", "ERR", "INFO", "DEBUG", "JOB", "JOB_NEW", "JOB_KNOWN", "RESET")
+    }
 
 
 class ColorFormatter(logging.Formatter):
@@ -40,6 +45,10 @@ class ColorFormatter(logging.Formatter):
             return f"{_COLORS['STEP']}{msg}{_COLORS['RESET']}"
         if getattr(record, "job_line", False):
             return f"{_COLORS['JOB']}{msg}{_COLORS['RESET']}"
+        if getattr(record, "job_new", False):
+            return f"{_COLORS['JOB_NEW']}{msg}{_COLORS['RESET']}"
+        if getattr(record, "job_known", False):
+            return f"{_COLORS['JOB_KNOWN']}{msg}{_COLORS['RESET']}"
         return f"{color}{msg}{_COLORS['RESET']}"
 
 
@@ -65,3 +74,21 @@ def log_step(message: str, *args: Any) -> None:
 
 def log_job(message: str, *args: Any) -> None:
     logging.getLogger("scraper.job").info(message, *args, extra={"job_line": True})
+
+
+def log_job_new(job_id: str, title: str) -> None:
+    logging.getLogger("scraper.job").info(
+        "  NEW   [%s] %s",
+        job_id,
+        title[:70],
+        extra={"job_new": True},
+    )
+
+
+def log_job_known(job_id: str, title: str) -> None:
+    logging.getLogger("scraper.job").info(
+        "  KNOWN [%s] %s",
+        job_id,
+        title[:70],
+        extra={"job_known": True},
+    )

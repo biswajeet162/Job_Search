@@ -1,4 +1,6 @@
 {
   "staggerSeconds": 30,
-  "companyIntervalMinutes": 15
+  "companyIntervalMinutes": 15,
+  "runBatchFile": "run_company.bat",
+  "schedulePreviewHours": 24
 }
