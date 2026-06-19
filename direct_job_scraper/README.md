@@ -2,6 +2,20 @@ RUn inside  Conda ENV
 
 job_search
 
+python main.py --company citi
+python main.py --company cognizant
+python main.py --company mastercard
+
+
+cd D:\ZZ_APPS\JOB_Search\direct_job_scraper
+conda activate job_search
+Remove-Item -Recurse -Force .\output
+python main.py --all
+
+cd D:\ZZ_APPS\JOB_Search\direct_job_scraper
+Remove-Item -Recurse -Force .\output
+python main.py --all
+
 
 # Direct Job Scraper
 
