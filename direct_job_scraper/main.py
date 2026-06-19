@@ -7,7 +7,8 @@ import logging
 import sys
 from pathlib import Path
 
-from agent import JobScraper, ScraperError
+from agent import JobScraper
+from errors import ScraperError
 from browser_controller import BrowserController
 from logger_util import setup_colored_logging
 

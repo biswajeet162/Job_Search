@@ -9,15 +9,13 @@ from pathlib import Path
 from typing import Any
 
 from browser_controller import BrowserController, BrowserControllerError
-from job_id_util import extract_job_id
-from logger_util import log_job, log_step
+from company_config import normalize_config, validate_config
+from errors import ScraperError
+from extraction import ExtractionError, extract_page_jobs
+from logger_util import log_step
 from storage import JobOutputStorage, slugify
 
 logger = logging.getLogger(__name__)
-
-
-class ScraperError(Exception):
-    """Raised when scraping cannot complete."""
 
 
 class JobScraper:
@@ -45,12 +43,9 @@ class JobScraper:
             raise ScraperError(f"Config not found: {self.config_path}")
 
         with self.config_path.open(encoding="utf-8") as handle:
-            self.config = json.load(handle)
+            self.config = normalize_config(json.load(handle))
 
-        required = ("companyName", "careerUrl", "jobLinkStrategy")
-        missing = [field for field in required if field not in self.config]
-        if missing:
-            raise ScraperError(f"Config missing required fields: {missing}")
+        validate_config(self.config)
 
         log_step("CONFIG loaded → %s", self.config["companyName"])
         return self.config
@@ -76,9 +71,10 @@ class JobScraper:
         all_jobs: list[dict[str, Any]] = []
         page_number = 1
         seen_urls: set[str] = set()
-        applied_filters = self.config.get("filters", [])
 
         log_step("BROWSER starting (headless=%s)", self.browser.headless)
+
+        applied_filters = self.config.get("filters", [])
 
         with self.browser:
             self._execute_steps()
@@ -86,8 +82,25 @@ class JobScraper:
             self._prepare_for_extract()
 
             while True:
+                if page_number > 1:
+                    log_step("PAGINATION navigating to page %d…", page_number)
+                    if not self._navigate_to_page(page_number):
+                        log_step("PAGINATION stop → could not reach page %d", page_number)
+                        break
+                    if self.scrape_options.get("scrollBeforeExtract", True):
+                        log_step("SCROLL before page %d", page_number)
+                        self.browser.scroll_to_bottom()
+
                 log_step("SCRAPE page %d — extracting jobs…", page_number)
-                page_jobs = self._extract_jobs(page_number, seen_urls)
+                try:
+                    page_jobs = extract_page_jobs(
+                        self.browser,
+                        config=self.config,
+                        page_number=page_number,
+                        seen_keys=seen_urls,
+                    )
+                except ExtractionError as exc:
+                    raise ScraperError(f"Extraction failed on page {page_number}: {exc}") from exc
                 all_jobs.extend(page_jobs)
                 log_step(
                     "SCRAPE page %d done → %d jobs (%d total)",
@@ -100,15 +113,16 @@ class JobScraper:
                     log_step("PAGINATION stop → maxPages=%d reached", self.max_pages)
                     break
 
-                log_step("PAGINATION checking next page…")
-                if not self._go_to_next_page():
-                    log_step("PAGINATION stop → no more pages")
-                    break
+                pagination = self.config.get("pagination", {})
+                pagination_type = pagination.get("type", "next_button")
+
+                if pagination_type == "next_button":
+                    log_step("PAGINATION checking next page…")
+                    if not self._has_next_page():
+                        log_step("PAGINATION stop → no more pages")
+                        break
 
                 page_number += 1
-                if self.scrape_options.get("scrollBeforeExtract", True):
-                    log_step("SCROLL before page %d", page_number)
-                    self.browser.scroll_to_bottom()
 
         scraped_at = datetime.now(timezone.utc).isoformat()
         payload = {
@@ -205,7 +219,7 @@ class JobScraper:
             self.browser.fill(filter_cfg["selector"], value)
             if filter_cfg.get("submit", True):
                 self.browser.page.keyboard.press("Enter")
-                self.browser.page.wait_for_load_state("networkidle")
+                self.browser._wait_for_settle(pause_ms=2000)
             return
 
         if action == "select":
@@ -214,7 +228,7 @@ class JobScraper:
                 value,
                 match_by=filter_cfg.get("matchBy", "label"),
             )
-            self.browser.page.wait_for_load_state("networkidle")
+            self.browser._wait_for_settle(pause_ms=2000)
             return
 
         if action == "facet_pick":
@@ -246,6 +260,14 @@ class JobScraper:
             )
             return
 
+        if action == "checkbox":
+            self.browser.toggle_facet_checkbox(
+                checkbox_selector=filter_cfg["checkboxSelector"],
+                open_selector=filter_cfg.get("openSelector"),
+                ensure_checked=filter_cfg.get("ensureChecked", True),
+            )
+            return
+
         if action == "click":
             self.browser.click(filter_cfg["selector"])
             return
@@ -261,7 +283,12 @@ class JobScraper:
 
         if action == "dismiss_cookies":
             log_step("  → dismiss_cookies")
-            self.browser.dismiss_cookie_banner()
+            self.browser.dismiss_page_overlays(step.get("selectors"))
+            return
+
+        if action == "dismiss_overlays":
+            log_step("  → dismiss_overlays")
+            self.browser.dismiss_page_overlays(step.get("selectors"))
             return
 
         if action == "apply_filter":
@@ -293,51 +320,36 @@ class JobScraper:
 
         logger.warning("Unknown step action ignored: %s", action)
 
-    def _extract_jobs(
-        self,
-        page_number: int,
-        seen_urls: set[str],
-    ) -> list[dict[str, Any]]:
-        strategy = self.config["jobLinkStrategy"]
-        strategy_type = strategy.get("type", "direct_extract")
-        scraped_at = datetime.now(timezone.utc).isoformat()
-        company = self.config["companyName"]
+    def _navigate_to_page(self, page_number: int) -> bool:
+        pagination = self.config.get("pagination")
+        if not pagination:
+            return False
 
-        if strategy_type == "hover_and_extract":
-            raw_links = self.browser.extract_hover_links(
-                job_card_selector=strategy["jobCardSelector"],
-                link_selector=strategy.get("linkSelector", "a"),
+        pagination_type = pagination.get("type", "next_button")
+
+        if pagination_type == "page_jump":
+            return self.browser.jump_to_page(
+                page_number,
+                input_selector=pagination["inputSelector"],
+                button_selector=pagination["goButtonSelector"],
             )
-        elif strategy_type == "direct_extract":
-            selector = strategy.get("linkSelector") or strategy.get("jobCardSelector", "a")
-            raw_links = self.browser.extract_links(selector)
-        else:
-            raise ScraperError(f"Unsupported jobLinkStrategy type: {strategy_type}")
 
-        jobs: list[dict[str, Any]] = []
-        for link in raw_links:
-            url = link.get("href", "").strip()
-            if not url or url in seen_urls:
-                continue
-            seen_urls.add(url)
+        if pagination_type == "next_button":
+            return self._go_to_next_page()
 
-            job_id = extract_job_id(url, strategy)
-            title = link.get("text", "").strip()
+        logger.warning("Unsupported pagination type: %s", pagination_type)
+        return False
 
-            jobs.append({
-                "company": company,
-                "jobId": job_id,
-                "jobTitle": title,
-                "jobUrl": url,
-                "location": self.config.get("defaultLocation", ""),
-                "pageNumber": page_number,
-                "scrapedAt": scraped_at,
-            })
+    def _has_next_page(self) -> bool:
+        pagination = self.config.get("pagination")
+        if not pagination or pagination.get("type", "next_button") != "next_button":
+            return True
 
-            id_display = job_id if job_id else "—"
-            log_job("  JOB [%s] %s", id_display, title[:70])
-
-        return jobs
+        selector = pagination["selector"]
+        if not self.browser.selector_exists(selector):
+            logger.info("Pagination selector not found; stopping")
+            return False
+        return True
 
     def _go_to_next_page(self) -> bool:
         pagination = self.config.get("pagination")
@@ -345,12 +357,7 @@ class JobScraper:
             return False
 
         if pagination.get("type", "next_button") != "next_button":
-            logger.warning("Unsupported pagination type: %s", pagination.get("type"))
             return False
 
         selector = pagination["selector"]
-        if not self.browser.selector_exists(selector):
-            logger.info("Pagination selector not found; stopping")
-            return False
-
         return self.browser.next_page(selector)

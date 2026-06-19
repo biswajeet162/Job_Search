@@ -102,17 +102,28 @@ class BrowserController:
             f"{action_name} failed after {self.max_retries} attempts: {last_error}"
         ) from last_error
 
+    def _wait_for_settle(self, pause_ms: int = 2000) -> None:
+        """Wait for page to settle; tolerate sites that never reach networkidle."""
+        try:
+            self.page.wait_for_load_state("networkidle", timeout=15_000)
+        except Exception:
+            pass
+        if pause_ms > 0:
+            self.page.wait_for_timeout(pause_ms)
+
     def open_url(self, url: str) -> None:
         def _navigate() -> None:
-            self.page.goto(url, wait_until="domcontentloaded")
-            self.page.wait_for_load_state("networkidle", timeout=self.timeout_ms)
-            self._current_url = url
+            self.page.goto(url, wait_until="domcontentloaded", timeout=self.timeout_ms)
+            self._wait_for_settle(pause_ms=2000)
+            self._current_url = self.page.url
 
         self._retry(f"open_url({url})", _navigate)
-        logger.info("Page opened: %s", url)
+        logger.info("Page opened: %s", self._current_url)
 
-    def dismiss_cookie_banner(self) -> None:
-        selectors = [
+    def dismiss_page_overlays(self, custom_selectors: list[str] | None = None) -> None:
+        """Dismiss cookie banners and site alert popups."""
+
+        default_selectors = [
             "#onetrust-accept-btn-handler",
             "button#onetrust-accept-btn-handler",
             "button:has-text('Accept All Cookies')",
@@ -120,7 +131,11 @@ class BrowserController:
             "button:has-text('Accept')",
             "button:has-text('I Accept')",
             "[data-testid='cookie-accept']",
+            "#system-ialert .system-ialert-close-button",
+            "#system-ialert button",
         ]
+        selectors = custom_selectors if custom_selectors else default_selectors
+
         for selector in selectors:
             locator = self.page.locator(selector).first
             try:
@@ -128,11 +143,13 @@ class BrowserController:
                     continue
                 locator.click(timeout=2000)
                 self.page.wait_for_timeout(500)
-                logger.info("Cookie banner dismissed via: %s", selector)
-                return
+                logger.info("Overlay dismissed via: %s", selector)
             except Exception:
                 continue
-        logger.debug("No cookie banner dismissed")
+
+    def dismiss_cookie_banner(self) -> None:
+        """Backward-compatible alias for overlay dismissal."""
+        self.dismiss_page_overlays()
 
     def click(self, selector: str) -> None:
         def _click() -> None:
@@ -201,7 +218,7 @@ class BrowserController:
                 option.click(timeout=3000)
             except Exception:
                 option.click(force=True)
-            self.page.wait_for_load_state("networkidle", timeout=self.timeout_ms)
+            self._wait_for_settle(pause_ms=1500)
 
         self._retry(f"apply_facet_filter({open_selector})", _apply)
         logger.info("Facet filter applied: %s → %s", value, option_selector)
@@ -238,7 +255,7 @@ class BrowserController:
             else:
                 self.page.get_by_role("option", name=pick_text).first.click()
 
-            self.page.wait_for_load_state("networkidle", timeout=self.timeout_ms)
+            self._wait_for_settle(pause_ms=1500)
 
         self._retry(f"apply_autocomplete({input_selector})", _apply)
         logger.info("Autocomplete filter applied: %s → %s", input_selector, value)
@@ -255,9 +272,12 @@ class BrowserController:
             self.page.locator(open_selector).first.click()
             self.page.wait_for_timeout(wait_ms)
             option = self.page.locator(option_selector).first
-            option.wait_for(state="visible", timeout=self.timeout_ms)
-            option.click()
-            self.page.wait_for_load_state("networkidle", timeout=self.timeout_ms)
+            option.wait_for(state="attached", timeout=5000)
+            try:
+                option.click(timeout=3000)
+            except Exception:
+                option.click(force=True)
+            self._wait_for_settle(pause_ms=1500)
 
         self._retry(f"click_option({open_selector})", _click_option)
         logger.info("Clicked option via %s → %s", open_selector, option_selector)
@@ -370,6 +390,171 @@ class BrowserController:
         logger.info("Hover links found: %d", len(links))
         return links
 
+    def toggle_facet_checkbox(
+        self,
+        checkbox_selector: str,
+        open_selector: str | None = None,
+        ensure_checked: bool = True,
+    ) -> None:
+        """Open facet panel (optional) and toggle a filter checkbox."""
+
+        def _toggle() -> None:
+            if open_selector:
+                open_loc = self.page.locator(open_selector).first
+                open_loc.wait_for(state="visible", timeout=self.timeout_ms)
+                open_loc.click()
+                self.page.wait_for_timeout(400)
+
+            checkbox = self.page.locator(checkbox_selector).first
+            checkbox.wait_for(state="attached", timeout=self.timeout_ms)
+            is_checked = checkbox.is_checked()
+            if ensure_checked and is_checked:
+                return
+            if not ensure_checked and not is_checked:
+                return
+
+            try:
+                checkbox.click(timeout=3000)
+            except Exception:
+                label_for = checkbox.get_attribute("id")
+                if label_for:
+                    self.page.locator(f"label[for='{label_for}']").first.click(force=True)
+                else:
+                    checkbox.click(force=True)
+
+            self._wait_for_settle(pause_ms=2000)
+
+        self._retry(f"toggle_facet_checkbox({checkbox_selector})", _toggle)
+        logger.info("Checkbox filter toggled: %s (checked=%s)", checkbox_selector, ensure_checked)
+
+    def jump_to_page(
+        self,
+        page_number: int,
+        input_selector: str,
+        button_selector: str,
+    ) -> bool:
+        """Fill page number input and click 'Go to page'."""
+
+        def _jump() -> bool:
+            page_input = self.page.locator(input_selector).first
+            if page_input.count() == 0:
+                return False
+            page_input.wait_for(state="visible", timeout=self.timeout_ms)
+            page_input.fill(str(page_number))
+            go_btn = self.page.locator(button_selector).first
+            if go_btn.count() == 0:
+                return False
+            go_btn.click()
+            self._wait_for_settle(pause_ms=2500)
+            return True
+
+        try:
+            jumped = self._retry(f"jump_to_page({page_number})", _jump)
+        except BrowserControllerError:
+            logger.info("Page jump failed for page %d", page_number)
+            return False
+
+        if jumped:
+            logger.info("Jumped to page %d via %s", page_number, button_selector)
+        return jumped
+
+    def extract_structured_cards(
+        self,
+        card_selector: str,
+        link_selector: str,
+        fields: dict[str, str] | None = None,
+        attributes: dict[str, str] | None = None,
+        attribute_scope: str = "link",
+    ) -> list[dict[str, Any]]:
+        """Extract jobs from cards using company-specific field and attribute selectors."""
+
+        field_map = fields or {}
+        attribute_map = attributes or {}
+
+        def _extract() -> list[dict[str, Any]]:
+            cards = self.page.locator(card_selector)
+            count = cards.count()
+            if count == 0:
+                raise BrowserControllerError(f"No job cards found: {card_selector}")
+
+            results: list[dict[str, Any]] = []
+            seen: set[str] = set()
+
+            for index in range(count):
+                card = cards.nth(index)
+                anchor = card.locator(link_selector).first
+                if anchor.count() == 0:
+                    continue
+
+                href = anchor.get_attribute("href") or ""
+                text = anchor.inner_text().strip()
+                if not href:
+                    continue
+
+                absolute = urljoin(self._current_url or self.page.url, href)
+
+                extracted_fields: dict[str, str] = {}
+                for field_name, field_selector in field_map.items():
+                    field_loc = card.locator(field_selector).first
+                    if field_loc.count():
+                        extracted_fields[field_name] = field_loc.inner_text().strip()
+
+                extracted_attributes: dict[str, str] = {}
+                scope = anchor if attribute_scope == "link" else card
+                for logical_name, html_attribute in attribute_map.items():
+                    value = scope.get_attribute(html_attribute) or ""
+                    if value:
+                        extracted_attributes[logical_name] = value.strip()
+
+                dedupe_key = extracted_attributes.get("jobId") or absolute
+                if dedupe_key in seen:
+                    continue
+                seen.add(dedupe_key)
+
+                results.append({
+                    "href": absolute,
+                    "text": text,
+                    "fields": extracted_fields,
+                    "attributes": extracted_attributes,
+                })
+
+            if not results:
+                raise BrowserControllerError(f"No jobs extracted from cards: {card_selector}")
+            return results
+
+        results = self._retry(f"extract_structured_cards({card_selector})", _extract)
+        logger.info("Structured cards found: %d (%s)", len(results), card_selector)
+        return results
+
+    def extract_job_cards(
+        self,
+        link_selector: str,
+        card_selector: str,
+        location_selector: str | None = None,
+        job_id_attribute: str | None = None,
+    ) -> list[dict[str, str]]:
+        """Backward-compatible wrapper around extract_structured_cards."""
+
+        fields = {"location": location_selector} if location_selector else {}
+        attributes = {"jobId": job_id_attribute} if job_id_attribute else {}
+        structured = self.extract_structured_cards(
+            card_selector=card_selector,
+            link_selector=link_selector,
+            fields=fields,
+            attributes=attributes,
+            attribute_scope="link",
+        )
+
+        legacy: list[dict[str, str]] = []
+        for item in structured:
+            legacy.append({
+                "href": item["href"],
+                "text": item["text"],
+                "jobId": item.get("attributes", {}).get("jobId", ""),
+                "location": item.get("fields", {}).get("location", ""),
+            })
+        return legacy
+
     def next_page(self, selector: str) -> bool:
         def _next() -> bool:
             button = self.page.locator(selector).first
@@ -378,7 +563,7 @@ class BrowserController:
             if not button.is_enabled() or not button.is_visible():
                 return False
             button.click()
-            self.page.wait_for_load_state("networkidle", timeout=self.timeout_ms)
+            self._wait_for_settle(pause_ms=2000)
             return True
 
         try:

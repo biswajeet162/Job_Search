@@ -1,37 +1,50 @@
-"""Extract job IDs from URLs using config patterns or common defaults."""
+"""Resolve job IDs using per-company rules from JSON config."""
 
 from __future__ import annotations
 
 import re
 from typing import Any
 
-# Tried in order when no custom pattern is configured
-DEFAULT_JOB_ID_PATTERNS = [
-    r"/job/(R-\d+)/",           # Mastercard / Phenom
-    r"/job/(\d+)/",             # numeric requisition
-    r"[?&]jobId=(\w+)",
-    r"[?&]requisitionId=(\w+)",
-    r"/requisition/(\d+)",
-    r"/jobs/(\d+)",
-    r"/job/([A-Z0-9-]+)/",
-]
 
-
-def extract_job_id(url: str, strategy: dict[str, Any] | None = None) -> str:
-    """Return job ID from URL, or empty string if not found."""
-    if not url:
+def extract_job_id_from_url(url: str, pattern: str) -> str:
+    if not url or not pattern:
         return ""
+    match = re.search(pattern, url, re.IGNORECASE)
+    if not match:
+        return ""
+    return match.group(1).strip()
 
-    strategy = strategy or {}
-    custom = strategy.get("jobIdPattern") or strategy.get("jobIdRegex")
-    patterns: list[str] = [custom] if custom else []
-    patterns.extend(DEFAULT_JOB_ID_PATTERNS)
 
-    for pattern in patterns:
-        if not pattern:
-            continue
-        match = re.search(pattern, url, re.IGNORECASE)
-        if match:
-            return match.group(1).strip()
+def resolve_job_id(
+    *,
+    url: str,
+    raw_record: dict[str, Any],
+    job_id_config: dict[str, Any],
+) -> str:
+    """
+    Resolve a job ID using company-specific rules.
 
-    return ""
+    Config shape (in jobLinkStrategy.jobId):
+      - source: url | attribute | attribute_first | url_first
+      - urlPattern: regex with one capture group
+      - attribute: HTML attribute name (e.g. data-job-id)
+      - attributeScope: link | card (where attribute is read)
+    """
+
+    source = job_id_config.get("source", "url")
+    pattern = job_id_config.get("urlPattern", "")
+    attribute = job_id_config.get("attribute", "")
+
+    from_url = extract_job_id_from_url(url, pattern) if pattern else ""
+    from_attribute = str(raw_record.get("attributes", {}).get(attribute, "")).strip()
+
+    if source == "url":
+        return from_url
+    if source == "attribute":
+        return from_attribute
+    if source == "url_first":
+        return from_url or from_attribute
+    if source == "attribute_first":
+        return from_attribute or from_url
+
+    return from_url or from_attribute

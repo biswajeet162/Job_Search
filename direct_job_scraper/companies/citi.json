@@ -1,39 +1,19 @@
 {
-  "_comment": "Copy to companies/<company>.json — all scraping rules live here; Python code stays generic.",
-
-  "companyName": "Example Company",
-  "careerUrl": "https://careers.example.com/jobs",
+  "companyName": "Citi",
+  "careerUrl": "https://jobs.citi.com/search-jobs",
   "enabled": true,
   "crawlFrequencyHours": 24,
-  "defaultLocation": "",
+  "defaultLocation": "India",
 
   "steps": [
     { "action": "open_url" },
-    {
-      "action": "dismiss_overlays",
-      "selectors": [
-        "#onetrust-accept-btn-handler",
-        "button:has-text('Accept')"
-      ]
-    }
+    { "action": "dismiss_cookies" }
   ],
 
   "filters": [
     {
-      "id": "location",
-      "label": "Location",
-      "action": "autocomplete",
-      "openSelector": "button:has-text('Location')",
-      "inputSelector": "#location-input",
-      "value": "India",
-      "optionText": "India",
-      "optionSelector": "[role='option']:has-text('India')",
-      "waitMs": 800,
-      "optional": false
-    },
-    {
       "id": "country",
-      "label": "Country checkbox",
+      "label": "Country - India",
       "action": "checkbox",
       "openSelector": "#country-toggle",
       "checkboxSelector": "#country-filter-18",
@@ -42,25 +22,23 @@
     },
     {
       "id": "sortBy",
-      "label": "Sort by date posted",
+      "label": "Sort by Date Posted",
       "action": "select",
       "selector": "select[data-search-results-sort-enhanced='true']",
       "value": "1",
       "matchBy": "value",
-      "optional": true
+      "optional": false
     }
   ],
 
   "scrapeOptions": {
     "maxPages": 2,
-    "waitAfterFiltersMs": 2000,
+    "waitAfterFiltersMs": 3000,
     "scrollBeforeExtract": true,
-    "waitForResultsSelector": "li.sr-job-item, a[href*='/job/']"
+    "waitForResultsSelector": "li.sr-job-item"
   },
 
   "jobLinkStrategy": {
-    "_strategyTypes": ["direct_extract", "card_extract", "hover_and_extract"],
-
     "type": "card_extract",
     "cardSelector": "li.sr-job-item",
     "linkSelector": "a.sr-job-item__link",
@@ -69,7 +47,6 @@
       "jobType": "span.sr-job-type"
     },
     "jobId": {
-      "_sources": ["url", "attribute", "attribute_first", "url_first"],
       "source": "attribute_first",
       "attribute": "data-job-id",
       "attributeScope": "link",
@@ -78,7 +55,6 @@
   },
 
   "pagination": {
-    "_types": ["next_button", "page_jump"],
     "type": "page_jump",
     "inputSelector": "#pagination-current-bottom",
     "goButtonSelector": "button.pagination-page-jump"
