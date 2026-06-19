@@ -1,3 +1,8 @@
+RUn inside  Conda ENV
+
+job_search
+
+
 # Direct Job Scraper
 
 Extracts **structured job listings** from career pages using **per-company JSON configs**. The Python engine is generic; each company defines its own selectors, filters, pagination, and job ID rules in `companies/<name>.json`.
