@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import sys
 from pathlib import Path
@@ -22,6 +23,16 @@ def list_company_configs() -> list[Path]:
         p for p in COMPANIES_DIR.glob("*.json")
         if not p.name.startswith("_")
     )
+
+
+def list_enabled_company_configs() -> list[Path]:
+    enabled: list[Path] = []
+    for path in list_company_configs():
+        with path.open(encoding="utf-8") as handle:
+            raw = json.load(handle)
+        if raw.get("enabled", True):
+            enabled.append(path)
+    return enabled
 
 
 def parse_args() -> argparse.Namespace:
@@ -88,7 +99,7 @@ def main() -> int:
         )
         return 1
 
-    configs = list_company_configs() if args.all else [resolve_config_path(args.company)]
+    configs = list_enabled_company_configs() if args.all else [resolve_config_path(args.company)]
     if not configs:
         logging.error("No company configs in %s", COMPANIES_DIR)
         return 1
