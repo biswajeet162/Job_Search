@@ -1,0 +1,42 @@
+{
+  "companyName": "Infosys",
+  "careerUrl": "https://career.infosys.com/jobs?companyhiringtype=IL&countrycode=IN",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "mat-card.DSA_wb_card-widget" }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 0,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "mat-card.DSA_wb_card-widget"
+  },
+
+  "jobLinkStrategy": {
+    "type": "fetch_extract",
+    "apiUrl": "https://intapgateway.infosysapps.com/careersci/search/intapjbsrch/getCareerSearchJobs?sourceId=1,21&searchText=ALL",
+    "pageSize": 10,
+    "urlTemplate": "https://career.infosys.com/jobdesc?jobReferenceCode={jobId}&rc=0&jobType=normal",
+    "fields": {
+      "title": "postingTitle",
+      "location": "location"
+    },
+    "jobId": {
+      "source": "attribute",
+      "attribute": "referenceCode"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "ul.pagination li.pointer:last-child a"
+  }
+}

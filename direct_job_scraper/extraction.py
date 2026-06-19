@@ -14,7 +14,12 @@ class ExtractionError(Exception):
     """Raised when configured extraction cannot complete."""
 
 
-def extract_raw_jobs(browser: BrowserController, strategy: dict[str, Any]) -> list[dict[str, Any]]:
+def extract_raw_jobs(
+    browser: BrowserController,
+    strategy: dict[str, Any],
+    *,
+    page_number: int = 1,
+) -> list[dict[str, Any]]:
     """Run the configured extraction strategy and return raw page records."""
 
     strategy_type = strategy.get("type", "direct_extract")
@@ -44,7 +49,64 @@ def extract_raw_jobs(browser: BrowserController, strategy: dict[str, Any]) -> li
             attribute_scope=job_id.get("attributeScope", "link"),
         )
 
+    if strategy_type == "fetch_extract":
+        return _extract_fetch_jobs(browser, strategy, page_number=page_number)
+
     raise ExtractionError(f"Unsupported jobLinkStrategy type: {strategy_type}")
+
+
+def _extract_fetch_jobs(
+    browser: BrowserController,
+    strategy: dict[str, Any],
+    *,
+    page_number: int,
+) -> list[dict[str, Any]]:
+    api_url = strategy["apiUrl"]
+    url_template = strategy["urlTemplate"]
+    page_size = int(strategy.get("pageSize", 10))
+    fields_map = strategy.get("fields", {})
+    job_id_config = get_job_id_config(strategy)
+    id_field = job_id_config.get("attribute") or strategy.get("jobIdField", "referenceCode")
+    id_attribute = job_id_config.get("attribute") or id_field
+
+    data = browser.fetch_json_cached(api_url)
+    if not isinstance(data, list):
+        raise ExtractionError(f"Expected JSON array from {api_url}")
+
+    start = (page_number - 1) * page_size
+    page_items = data[start : start + page_size]
+    if not page_items:
+        raise ExtractionError(f"No jobs in API page slice {page_number}")
+
+    results: list[dict[str, Any]] = []
+    for item in page_items:
+        if not isinstance(item, dict):
+            continue
+
+        job_id = str(item.get(id_field, "")).strip()
+        if not job_id:
+            continue
+
+        href = url_template.replace("{jobId}", job_id)
+        extracted_fields: dict[str, str] = {}
+        for field_name, json_key in fields_map.items():
+            extracted_fields[field_name] = str(item.get(json_key, "")).strip()
+
+        title = extracted_fields.get("title", "")
+        if not title:
+            title_key = fields_map.get("title", "postingTitle")
+            title = str(item.get(title_key, "")).strip()
+
+        results.append({
+            "href": href,
+            "text": title,
+            "fields": extracted_fields,
+            "attributes": {id_attribute: job_id},
+        })
+
+    if not results:
+        raise ExtractionError(f"No jobs extracted from API page {page_number}")
+    return results
 
 
 def build_job_records(
@@ -117,7 +179,7 @@ def extract_page_jobs(
 
     strategy = config["jobLinkStrategy"]
     try:
-        raw_jobs = extract_raw_jobs(browser, strategy)
+        raw_jobs = extract_raw_jobs(browser, strategy, page_number=page_number)
     except BrowserControllerError as exc:
         raise ExtractionError(str(exc)) from exc
 

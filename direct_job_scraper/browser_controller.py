@@ -40,6 +40,7 @@ class BrowserController:
         self._context: BrowserContext | None = None
         self._page: Page | None = None
         self._current_url: str = ""
+        self._fetch_cache: dict[str, Any] = {}
 
     @property
     def page(self) -> Page:
@@ -566,13 +567,49 @@ class BrowserController:
             })
         return legacy
 
+    def fetch_json(self, url: str) -> Any:
+        """Fetch JSON from the browser context (inherits page cookies / CORS)."""
+
+        def _fetch() -> Any:
+            return self.page.evaluate(
+                """async (targetUrl) => {
+                    const response = await fetch(targetUrl);
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status} for ${targetUrl}`);
+                    }
+                    return await response.json();
+                }""",
+                url,
+            )
+
+        data = self._retry(f"fetch_json({url})", _fetch)
+        logger.info("Fetched JSON: %s", url)
+        return data
+
+    def fetch_json_cached(self, url: str) -> Any:
+        if url not in self._fetch_cache:
+            self._fetch_cache[url] = self.fetch_json(url)
+        return self._fetch_cache[url]
+
+    def can_paginate_next(self, selector: str) -> bool:
+        button = self.page.locator(selector).first
+        if button.count() == 0 or not button.is_visible():
+            return False
+
+        parent_li = button.locator("xpath=ancestor::li[1]")
+        if parent_li.count():
+            classes = (parent_li.get_attribute("class") or "").split()
+            if "disabled" in classes:
+                return False
+
+        return button.is_enabled()
+
     def next_page(self, selector: str) -> bool:
         def _next() -> bool:
+            if not self.can_paginate_next(selector):
+                return False
+
             button = self.page.locator(selector).first
-            if button.count() == 0:
-                return False
-            if not button.is_enabled() or not button.is_visible():
-                return False
             button.click()
             self._wait_for_settle(pause_ms=2000)
             return True

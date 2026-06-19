@@ -376,8 +376,8 @@ class JobScraper:
             return False
 
         selector = pagination["selector"]
-        if not self.browser.selector_exists(selector):
-            logger.info("Pagination selector not found; stopping")
+        if not self.browser.can_paginate_next(selector):
+            logger.info("Pagination next control unavailable or disabled; stopping")
             return False
         return True
 

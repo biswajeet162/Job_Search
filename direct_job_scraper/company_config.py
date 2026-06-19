@@ -32,6 +32,7 @@ JOB_LINK_STRATEGIES = frozenset({
     "direct_extract",
     "card_extract",
     "hover_and_extract",
+    "fetch_extract",
 })
 
 PAGINATION_TYPES = frozenset({
@@ -51,6 +52,7 @@ STRATEGY_REQUIRED_FIELDS: dict[str, tuple[str, ...]] = {
     "direct_extract": ("linkSelector",),
     "card_extract": ("cardSelector", "linkSelector"),
     "hover_and_extract": ("jobCardSelector",),
+    "fetch_extract": ("apiUrl", "urlTemplate"),
 }
 
 PAGINATION_REQUIRED_FIELDS: dict[str, tuple[str, ...]] = {
