@@ -1,0 +1,42 @@
+{
+  "companyName": "NTT DATA",
+  "careerUrl": "https://careers-inc.nttdata.com/search/?createNewAlert=false&q=&locationsearch=india",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "tr.data-row a.jobTitle-link" }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 3,
+    "waitAfterFiltersMs": 0,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "tr.data-row a.jobTitle-link"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "tr.data-row",
+    "linkSelector": "a.jobTitle-link",
+    "fields": {
+      "location": "span.jobLocation",
+      "reqId": "span.jobFacility"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "/(\\d+)/$"
+    }
+  },
+
+  "pagination": {
+    "type": "url_page",
+    "pageSize": 25,
+    "urlTemplate": "https://careers-inc.nttdata.com/search/?createNewAlert=false&q=&locationsearch=india&startrow={startrow}"
+  }
+}
