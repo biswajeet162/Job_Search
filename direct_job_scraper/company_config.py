@@ -63,7 +63,7 @@ PAGINATION_REQUIRED_FIELDS: dict[str, tuple[str, ...]] = {
     "page_jump": ("inputSelector", "goButtonSelector"),
     "api_page": (),
     "infinite_scroll": (),
-    "url_page": ("urlTemplate", "nextSelector"),
+    "url_page": ("urlTemplate",),
     "none": (),
 }
 

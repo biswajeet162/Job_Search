@@ -58,11 +58,11 @@
 | 56   | Amdocs                  | ☐       |
 | 57   | Atos                    | ☐       |
 | 58   | DXC Technology          | ☐       |
-| 59   | NTT DATA                | ☐       |
+| 59   | NTT DATA                | yes       |
 | 60   | Fujitsu                 | ☐       |
 | 61   | Hitachi Digital         | ☐       |
 | 62   | Bosch                   | ☐       |
-| 63   | Siemens                 | ☐       |
+| 63   | Siemens                 | yes       |
 | 64   | Schneider Electric      | ☐       |
 | 65   | Philips                 | ☐       |
 | 66   | Honeywell               | ☐       |

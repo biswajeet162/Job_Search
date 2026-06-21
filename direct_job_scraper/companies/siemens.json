@@ -1,0 +1,53 @@
+{
+  "companyName": "Siemens",
+  "careerUrl": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?42386=%5B812053%5D&42386_format=17546&listFilterMode=1&folderRecordsPerPage=6&",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "article.article--result a[href*='JobDetail']" }
+  ],
+
+  "filters": [
+    {
+      "id": "sortBy",
+      "label": "Sort by Most recent",
+      "action": "click_option",
+      "openSelector": ".list-controls__sort .dropdown__placeholder",
+      "optionSelector": "li[data-sortby='postedDate']",
+      "waitMs": 800,
+      "optional": false
+    }
+  ],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 3000,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "article.article--result a[href*='JobDetail']"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "article.article--result:has(.list-item-jobId)",
+    "linkSelector": "a[href*='JobDetail']",
+    "fields": {
+      "location": ".list-item-location",
+      "department": ".list-item-family"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "/JobDetail/(\\d+)"
+    }
+  },
+
+  "pagination": {
+    "type": "url_page",
+    "pageSize": 6,
+    "offsetParam": "folderOffset",
+    "urlTemplate": "https://jobs.siemens.com/en_US/externaljobs/SearchJobs/?42386=%5B812053%5D&42386_format=17546&listFilterMode=1&folderRecordsPerPage=6&folderOffset={startrow}"
+  }
+}

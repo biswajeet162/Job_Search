@@ -146,7 +146,7 @@ class JobScraper:
                         break
                 elif pagination_type in {"next_button", "url_page"}:
                     log_step("PAGINATION checking next page…")
-                    if not self._has_next_page():
+                    if not self._has_next_page(page_number):
                         log_step("PAGINATION stop → no more pages")
                         break
 
@@ -385,7 +385,15 @@ class JobScraper:
         if pagination_type == "url_page":
             if page_number == 1:
                 return True
-            url = pagination["urlTemplate"].format(page=page_number)
+            page_size = int(pagination.get("pageSize") or 0)
+            if page_size:
+                startrow = (page_number - 1) * page_size
+                url = pagination["urlTemplate"].format(
+                    startrow=startrow,
+                    page=page_number,
+                )
+            else:
+                url = pagination["urlTemplate"].format(page=page_number)
             self.browser.open_url(url)
             pause_ms = int(pagination.get("pauseMs", 5000))
             if pause_ms > 0:
@@ -408,7 +416,7 @@ class JobScraper:
         logger.warning("Unsupported pagination type: %s", pagination_type)
         return False
 
-    def _has_next_page(self) -> bool:
+    def _has_next_page(self, page_number: int = 1) -> bool:
         pagination = self.config.get("pagination")
         if not pagination:
             return False
@@ -416,6 +424,22 @@ class JobScraper:
         pagination_type = pagination.get("type", "next_button")
         if pagination_type not in {"next_button", "url_page"}:
             return False
+
+        if pagination_type == "url_page":
+            page_size = pagination.get("pageSize")
+            if page_size:
+                next_offset = page_number * int(page_size)
+                offset_param = pagination.get("offsetParam", "startrow")
+                if not self.browser.selector_exists(
+                    f"a[href*='{offset_param}={next_offset}']"
+                ):
+                    logger.info(
+                        "Pagination stop → no link for %s=%d",
+                        offset_param,
+                        next_offset,
+                    )
+                    return False
+                return True
 
         selector = pagination.get("selector") or pagination.get("nextSelector")
         if not selector:
