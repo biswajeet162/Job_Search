@@ -1,0 +1,46 @@
+{
+  "companyName": "Virtusa",
+  "careerUrl": "https://www.virtusa.com/careers/job-search#india",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "browserOptions": {
+    "channel": "chrome"
+  },
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "a[class*='List_jobTitle']" },
+    { "action": "wait", "ms": 3000 }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 5,
+    "waitAfterFiltersMs": 0,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "a[class*='List_jobTitle']"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "div[class*='List_job__']:has(a[class*='List_jobTitle'])",
+    "linkSelector": "a[class*='List_jobTitle']",
+    "fields": {
+      "location": "[class*='List_jobLocation']",
+      "category": "[class*='List_jobCategory']"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "/creq(\\d+)"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "button[class*='List_next']"
+  }
+}

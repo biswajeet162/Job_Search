@@ -7,6 +7,7 @@ import json
 import logging
 import sys
 from pathlib import Path
+from typing import Any
 
 from agent import JobScraper
 from errors import ScraperError
@@ -65,8 +66,19 @@ def resolve_config_path(company_arg: str) -> Path:
     return config_path
 
 
+def _browser_options_from_config(config_path: Path, headless: bool) -> dict[str, Any]:
+    with config_path.open(encoding="utf-8") as handle:
+        raw = json.load(handle)
+    opts = dict(raw.get("browserOptions", {}))
+    if "headless" in opts:
+        headless = bool(opts.pop("headless"))
+    opts["headless"] = headless
+    return opts
+
+
 def run_single(config_path: Path, headless: bool) -> int:
-    browser = BrowserController(headless=headless)
+    browser_opts = _browser_options_from_config(config_path, headless)
+    browser = BrowserController(**browser_opts)
     scraper = JobScraper(
         config_path=config_path,
         output_dir=OUTPUT_DIR,

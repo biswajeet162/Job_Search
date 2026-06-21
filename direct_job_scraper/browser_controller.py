@@ -27,11 +27,13 @@ class BrowserController:
     def __init__(
         self,
         headless: bool = True,
+        channel: str | None = None,
         timeout_ms: int = DEFAULT_TIMEOUT_MS,
         max_retries: int = DEFAULT_RETRIES,
         retry_delay_sec: float = DEFAULT_RETRY_DELAY_SEC,
     ) -> None:
         self.headless = headless
+        self.channel = channel
         self.timeout_ms = timeout_ms
         self.max_retries = max_retries
         self.retry_delay_sec = retry_delay_sec
@@ -51,10 +53,13 @@ class BrowserController:
 
     def start(self) -> None:
         self._playwright = sync_playwright().start()
-        self._browser = self._playwright.chromium.launch(
-            headless=self.headless,
-            args=["--disable-blink-features=AutomationControlled"],
-        )
+        launch_kwargs: dict[str, Any] = {
+            "headless": self.headless,
+            "args": ["--disable-blink-features=AutomationControlled"],
+        }
+        if self.channel:
+            launch_kwargs["channel"] = self.channel
+        self._browser = self._playwright.chromium.launch(**launch_kwargs)
         self._context = self._browser.new_context(
             viewport={"width": 1440, "height": 900},
             user_agent=(
@@ -69,7 +74,11 @@ class BrowserController:
         )
         self._page = self._context.new_page()
         self._page.set_default_timeout(self.timeout_ms)
-        logger.info("Browser started (headless=%s)", self.headless)
+        logger.info(
+            "Browser started (headless=%s, channel=%s)",
+            self.headless,
+            self.channel or "chromium",
+        )
 
     def stop(self) -> None:
         if self._context:

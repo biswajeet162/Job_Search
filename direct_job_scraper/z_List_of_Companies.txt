@@ -45,7 +45,7 @@
 | 43   | KPIT                    | ☐       |
 | 44   | Cyient                  | ☐       |
 | 45   | Sonata Software         | ☐       |
-| 46   | Virtusa                 | ☐       |
+| 46   | Virtusa                 | yes       |
 | 47   | UST                     | ☐       |
 | 48   | Nagarro                 | yes       |
 | 49   | Publicis Sapient        | ☐       |
