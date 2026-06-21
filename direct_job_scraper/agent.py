@@ -144,7 +144,7 @@ class JobScraper:
                     if not self.browser.scroll_infinite_load(card_selector, pause_ms=pause_ms):
                         log_step("PAGINATION stop → no more jobs loaded")
                         break
-                elif pagination_type == "next_button":
+                elif pagination_type in {"next_button", "url_page"}:
                     log_step("PAGINATION checking next page…")
                     if not self._has_next_page():
                         log_step("PAGINATION stop → no more pages")
@@ -382,6 +382,20 @@ class JobScraper:
                 button_selector=pagination["goButtonSelector"],
             )
 
+        if pagination_type == "url_page":
+            if page_number == 1:
+                return True
+            url = pagination["urlTemplate"].format(page=page_number)
+            self.browser.open_url(url)
+            pause_ms = int(pagination.get("pauseMs", 5000))
+            if pause_ms > 0:
+                self.browser.wait_ms(pause_ms)
+            wait_selector = self.scrape_options.get("waitForResultsSelector")
+            if wait_selector:
+                wait_state = self.scrape_options.get("waitForResultsState", "visible")
+                self.browser.wait_for_selector(wait_selector, state=wait_state)
+            return True
+
         if pagination_type == "none":
             return False
 
@@ -396,10 +410,16 @@ class JobScraper:
 
     def _has_next_page(self) -> bool:
         pagination = self.config.get("pagination")
-        if not pagination or pagination.get("type") != "next_button":
+        if not pagination:
             return False
 
-        selector = pagination["selector"]
+        pagination_type = pagination.get("type", "next_button")
+        if pagination_type not in {"next_button", "url_page"}:
+            return False
+
+        selector = pagination.get("selector") or pagination.get("nextSelector")
+        if not selector:
+            return False
         if not self.browser.can_paginate_next(selector):
             logger.info("Pagination next control unavailable or disabled; stopping")
             return False

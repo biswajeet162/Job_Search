@@ -2,13 +2,13 @@ india tag -  It is already avalable in the link it self
 
 ORRRRRRRR
 
-India tag is need and here it html
+India tag is needed and here it html
 <BACKEND DATA>
 
 #####################################################
 
 
-Pagination - When we are scrolling then pagination is happening
+Pagination - When we are scrolling down then pagination is happening
 
 ORRRRRRRR
 

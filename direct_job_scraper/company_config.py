@@ -40,6 +40,7 @@ PAGINATION_TYPES = frozenset({
     "page_jump",
     "api_page",
     "infinite_scroll",
+    "url_page",
     "none",
 })
 
@@ -62,6 +63,7 @@ PAGINATION_REQUIRED_FIELDS: dict[str, tuple[str, ...]] = {
     "page_jump": ("inputSelector", "goButtonSelector"),
     "api_page": (),
     "infinite_scroll": (),
+    "url_page": ("urlTemplate", "nextSelector"),
     "none": (),
 }
 

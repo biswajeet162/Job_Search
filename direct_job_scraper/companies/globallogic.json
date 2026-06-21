@@ -1,0 +1,49 @@
+{
+  "companyName": "GlobalLogic",
+  "careerUrl": "https://www.globallogic.com/in/career-search-page/?experience=none&location=india",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "browserOptions": {
+    "channel": "chrome"
+  },
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait", "ms": 5000 },
+    { "action": "wait_for", "selector": "a.job_box" }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 5,
+    "waitAfterFiltersMs": 0,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "a.job_box",
+    "waitForResultsState": "attached"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "a.job_box",
+    "linkSelector": "a",
+    "fields": {
+      "title": "h4",
+      "location": "span.job_location",
+      "workModel": "span.job_tag"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "irc(\\d+)"
+    }
+  },
+
+  "pagination": {
+    "type": "url_page",
+    "urlTemplate": "https://www.globallogic.com/in/career-search-page/page/{page}/?experience=none&location=india",
+    "nextSelector": "a.next.page-numbers"
+  }
+}

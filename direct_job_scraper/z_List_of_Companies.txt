@@ -49,9 +49,9 @@
 | 47   | UST                     | ☐       |
 | 48   | Nagarro                 | yes       |
 | 49   | Publicis Sapient        | ☐       |
-| 50   | EPAM                    | ☐       |
+| 50   | EPAM                    | yes       |
 | 51   | Thoughtworks            | ☐       |
-| 52   | GlobalLogic             | ☐       |
+| 52   | GlobalLogic             | yes       |
 | 53   | Tredence                | ☐       |
 | 54   | Brillio                 | ☐       |
 | 55   | Data Axle               | ☐       |
