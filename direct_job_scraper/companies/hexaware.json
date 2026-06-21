@@ -1,6 +1,6 @@
 {
   "companyName": "Hexaware",
-  "careerUrl": "https://jobs.hexaware.com/#en/sites/CX_1/jobs?lastSelectedFacet=POSTING_DATES&location=India&locationId=300000000446279&locationLevel=country&mode=location&selectedPostingDatesFacet=7&sortBy=RELEVANCY",
+  "careerUrl": "https://jobs.hexaware.com/#en/sites/CX_1/jobs?lastSelectedFacet=POSTING_DATES&location=India&locationId=300000000446279&locationLevel=country&mode=location&selectedPostingDatesFacet=30%3B7&sortBy=POSTING_DATES_DESC",
   "enabled": true,
   "crawlFrequencyHours": 24,
   "defaultLocation": "India",
@@ -15,7 +15,7 @@
   "filters": [],
 
   "scrapeOptions": {
-    "maxPages": 2,
+    "maxPages": 5,
     "waitAfterFiltersMs": 0,
     "scrollBeforeExtract": false,
     "waitForResultsSelector": ".job-list-item"
