@@ -1,0 +1,50 @@
+{
+  "companyName": "EPAM",
+  "careerUrl": "https://jobs.welcome.epam.in/jobs",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "a[data-testid='job-card-link']" }
+  ],
+
+  "filters": [
+    {
+      "id": "sortBy",
+      "label": "Sort by Newest first",
+      "action": "click_option",
+      "openSelector": "[data-testid='dropdown-value']",
+      "optionSelector": "text=Newest first",
+      "waitMs": 800,
+      "optional": false
+    }
+  ],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 2500,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "a[data-testid='job-card-link']"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "div[class*='JobCard_panel']:has(a[data-testid='job-card-link'])",
+    "linkSelector": "a[data-testid='job-card-link']",
+    "fields": {
+      "location": "[class*='JobCard_workplaceWithLocationText']"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "-(blt[a-z0-9]+)$"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "button[aria-label='next page']"
+  }
+}
