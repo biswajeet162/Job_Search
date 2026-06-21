@@ -613,6 +613,14 @@ class BrowserController:
         if button.count() == 0 or not button.is_visible():
             return False
 
+        aria_disabled = (button.get_attribute("aria-disabled") or "").lower()
+        if aria_disabled == "true":
+            return False
+
+        element_classes = button.get_attribute("class") or ""
+        if "--disabled" in element_classes:
+            return False
+
         parent_li = button.locator("xpath=ancestor::li[1]")
         if parent_li.count():
             classes = (parent_li.get_attribute("class") or "").split()

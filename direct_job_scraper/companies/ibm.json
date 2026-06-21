@@ -1,0 +1,44 @@
+{
+  "companyName": "IBM",
+  "careerUrl": "https://www.ibm.com/in-en/careers/search?sort=dcdate_desc",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "a.bx--card-group__card" }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 0,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "a.bx--card-group__card"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "a.bx--card-group__card",
+    "linkSelector": "a",
+    "fields": {
+      "title": ".bx--card__heading",
+      "location": {
+        "selector": ".ibm--card__copy__inner",
+        "regex": "\\n(.+)$"
+      }
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "jobId=(\\d+)"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "a.cds--pagination-nav__page--direction[aria-label='Next']"
+  }
+}
