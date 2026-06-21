@@ -1,0 +1,61 @@
+{
+  "companyName": "Tech Mahindra",
+  "careerUrl": "https://careers.techmahindra.com/CurrentOpportunity.aspx#Advance",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "#ctl00_ContentPlaceHolder1_ddlCountry" }
+  ],
+
+  "filters": [
+    {
+      "id": "country",
+      "label": "Country - India",
+      "action": "select",
+      "selector": "#ctl00_ContentPlaceHolder1_ddlCountry",
+      "value": "IND",
+      "matchBy": "value",
+      "optional": false
+    },
+    {
+      "id": "search",
+      "label": "Search jobs",
+      "action": "click",
+      "selector": "#ctl00_ContentPlaceHolder1_btnSearchJobs",
+      "optional": false
+    }
+  ],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 4000,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "div.joblisting a[href*='JobDetails.aspx']"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "div.joblisting .paragraph--type--card-info-stand-tiles",
+    "linkSelector": "a[href*='JobDetails.aspx']",
+    "fields": {
+      "title": "div[style*='font-size: 13px']",
+      "location": {
+        "selector": "p",
+        "regex": "Location\\s*:\\s*([^\\n\\r]+)"
+      }
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "JobCode=([^&]+)"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "a.page_disabled + a.page_enabled"
+  }
+}

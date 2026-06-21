@@ -1,0 +1,200 @@
+{
+  "company": "HCLTech",
+  "careerUrl": "https://careers.hcltech.com/go/India/9553955/",
+  "totalScraped": 20,
+  "totalJobs": 20,
+  "newJobs": 20,
+  "skippedKnownJobs": 0,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "sortBy",
+      "label": "Sort by Most Recent",
+      "value": null
+    }
+  ],
+  "scrapedAt": "2026-06-19T22:26:12+05:30",
+  "jobs": [
+    {
+      "company": "HCLTech",
+      "jobId": "124248",
+      "jobTitle": "Senior Project Lead - Scrum Master",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Project-Lead-Scrum-Master/124248-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124917",
+      "jobTitle": "Snowflake Technical Specialist",
+      "jobUrl": "https://careers.hcltech.com/job/Snowflake-Technical-Specialist/124917-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "94389",
+      "jobTitle": "Senior Technical Specialist",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Technical-Specialist/94389-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "39249",
+      "jobTitle": "SME - SharePoint Administration",
+      "jobUrl": "https://careers.hcltech.com/job/SME-SharePoint-Administration/39249-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "44071",
+      "jobTitle": "Subject Matter Expert (Support&Ops)",
+      "jobUrl": "https://careers.hcltech.com/job/Subject-Matter-Expert-%28Support&amp;Ops%29/44071-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124845",
+      "jobTitle": "Service Delivery Manager (DFS)",
+      "jobUrl": "https://careers.hcltech.com/job/Service-Delivery-Manager-%28DFS%29/124845-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "109626",
+      "jobTitle": "Senior Automation Tester Java, Selenium",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Automation-Tester-Java%2C-Selenium/109626-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "113759",
+      "jobTitle": "Analyst (Support & Operations)",
+      "jobUrl": "https://careers.hcltech.com/job/Analyst-%28Support-&amp;-Operations%29/113759-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "113741",
+      "jobTitle": "Administrator (Tools & Automation)",
+      "jobUrl": "https://careers.hcltech.com/job/Administrator-%28Tools-&amp;-Automation%29/113741-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "113756",
+      "jobTitle": "Sr Analyst",
+      "jobUrl": "https://careers.hcltech.com/job/Sr-Analyst/113756-en_US",
+      "location": "India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "118086",
+      "jobTitle": "Senior Analyst - English, Arabic, Microsoft Windows",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Analyst-English%2C-Arabic%2C-Microsoft-Windows/118086-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124494",
+      "jobTitle": "Track Lead - Data Loss Prevention,Palo Alto Firewalls",
+      "jobUrl": "https://careers.hcltech.com/job/Track-Lead-Data-Loss-Prevention%2CPalo-Alto-Firewalls/124494-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124496",
+      "jobTitle": "Track Manager -Data Loss Prevention,Palo Alto Firewalls",
+      "jobUrl": "https://careers.hcltech.com/job/Track-Manager-Data-Loss-Prevention%2CPalo-Alto-Firewalls/124496-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124801",
+      "jobTitle": "SME - Data Loss Prevention,Palo Alto Firewalls",
+      "jobUrl": "https://careers.hcltech.com/job/SME-Data-Loss-Prevention%2CPalo-Alto-Firewalls/124801-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124435",
+      "jobTitle": "Sr Subject Matter Expert (Support&Ops)",
+      "jobUrl": "https://careers.hcltech.com/job/Sr-Subject-Matter-Expert-%28Support&amp;Ops%29/124435-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124433",
+      "jobTitle": "Sr Subject Matter Expert (Support&Ops)",
+      "jobUrl": "https://careers.hcltech.com/job/Sr-Subject-Matter-Expert-%28Support&amp;Ops%29/124433-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124440",
+      "jobTitle": "Senior Administrator - Network LAN/WAN",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Administrator-Network-LANWAN/124440-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124444",
+      "jobTitle": "Senior Administrator - Network LAN/WAN",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Administrator-Network-LANWAN/124444-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124438",
+      "jobTitle": "Subject Matter Expert (Support&Ops)",
+      "jobUrl": "https://careers.hcltech.com/job/Subject-Matter-Expert-%28Support&amp;Ops%29/124438-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "124806",
+      "jobTitle": "SME - Data Loss Prevention,Palo Alto Firewalls",
+      "jobUrl": "https://careers.hcltech.com/job/SME-Data-Loss-Prevention%2CPalo-Alto-Firewalls/124806-en_US",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T22:26:12+05:30"
+    }
+  ]
+}

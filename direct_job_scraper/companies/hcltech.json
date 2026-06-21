@@ -1,0 +1,40 @@
+{
+  "companyName": "HCLTech",
+  "careerUrl": "https://careers.hcltech.com/go/NonTPDemand/9558355/?markerViewed=&carouselIndex=&facetFilters=%7B%22custCountryRegion%22%3A%5B%22India%22%5D%7D&pageNumber=0",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "li[data-testid='jobCard']" }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 2500,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "li[data-testid='jobCard']"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "li[data-testid='jobCard']",
+    "linkSelector": "a[data-testid^='jobCardTitle']",
+    "fields": {
+      "location": "[data-testid='jobCardFooter'] > div:last-child span[class*='jobCardFooterValue']"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "/job/[^/]+/(\\d+)-"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "[data-testid='goToNextPageBtn']"
+  }
+}

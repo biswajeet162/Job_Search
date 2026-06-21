@@ -1,0 +1,200 @@
+{
+  "company": "HCLTech",
+  "careerUrl": "https://careers.hcltech.com/go/NonTPDemand/9558355/?markerViewed=&carouselIndex=&facetFilters=%7B%22custCountryRegion%22%3A%5B%22India%22%5D%7D&pageNumber=0",
+  "totalScraped": 20,
+  "totalJobs": 20,
+  "newJobs": 20,
+  "skippedKnownJobs": 0,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "sortBy",
+      "label": "Sort by Most Relevant",
+      "value": null
+    }
+  ],
+  "scrapedAt": "2026-06-19T23:58:02+05:30",
+  "jobs": [
+    {
+      "company": "HCLTech",
+      "jobId": "99679",
+      "jobTitle": "Presales - Team Lead",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Lead/99679-en_US",
+      "location": "99679",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "92014",
+      "jobTitle": "Presales - Team Member",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Member/92014-en_US",
+      "location": "92014",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "92023",
+      "jobTitle": "Presales - Team Member",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Member/92023-en_US",
+      "location": "92023",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "54163",
+      "jobTitle": "Hunter",
+      "jobUrl": "https://careers.hcltech.com/job/Hunter/54163-en_US",
+      "location": "54163",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "71560",
+      "jobTitle": "SAP ABAP Senior Technical Lead",
+      "jobUrl": "https://careers.hcltech.com/job/SAP-ABAP-Senior-Technical-Lead/71560-en_US",
+      "location": "71560",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "102263",
+      "jobTitle": "Senior Consultant(DFS)",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Consultant%28DFS%29/102263-en_US",
+      "location": "102263",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "102264",
+      "jobTitle": "Senior Consultant(DFS)",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Consultant%28DFS%29/102264-en_US",
+      "location": "102264",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "68867",
+      "jobTitle": "Presales - Team Member",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Member/68867-en_US",
+      "location": "68867",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "98930",
+      "jobTitle": "Campus-Advanced Beginner",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Advanced-Beginner/98930-en_US",
+      "location": "98930",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "102652",
+      "jobTitle": "Senior Designer",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Designer/102652-en_US",
+      "location": "102652",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "73172",
+      "jobTitle": "Campus-Competent",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Competent/73172-en_US",
+      "location": "73172",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "96306",
+      "jobTitle": "Business Assurance - Lead",
+      "jobUrl": "https://careers.hcltech.com/job/Business-Assurance-Lead/96306-en_US",
+      "location": "96306",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "32201",
+      "jobTitle": "Senior Specialist",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Specialist/32201-en_US",
+      "location": "32201",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "106337",
+      "jobTitle": "Technical Manager-GIT",
+      "jobUrl": "https://careers.hcltech.com/job/Technical-Manager-GIT/106337-en_US",
+      "location": "106337",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "105565",
+      "jobTitle": "Senior Project Manager - Scrum Master",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Project-Manager-Scrum-Master/105565-en_US",
+      "location": "105565",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "99095",
+      "jobTitle": "Revenue Cycle Associate",
+      "jobUrl": "https://careers.hcltech.com/job/Revenue-Cycle-Associate/99095-en_US",
+      "location": "99095",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "107818",
+      "jobTitle": "Business Continuity Mgmt. Manager",
+      "jobUrl": "https://careers.hcltech.com/job/Business-Continuity-Mgmt_-Manager/107818-en_US",
+      "location": "107818",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "11929",
+      "jobTitle": "Campus-Advanced Beginner",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Advanced-Beginner/11929-en_US",
+      "location": "11929",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "11925",
+      "jobTitle": "Campus-Advanced Beginner",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Advanced-Beginner/11925-en_US",
+      "location": "11925",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "11932",
+      "jobTitle": "Campus-Advanced Beginner",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Advanced-Beginner/11932-en_US",
+      "location": "11932",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    }
+  ]
+}

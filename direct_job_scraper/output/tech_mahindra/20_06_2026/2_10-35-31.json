@@ -1,0 +1,24 @@
+{
+  "company": "Tech Mahindra",
+  "careerUrl": "https://careers.techmahindra.com/CurrentOpportunity.aspx#Advance",
+  "totalScraped": 24,
+  "totalJobs": 0,
+  "newJobs": 0,
+  "skippedKnownJobs": 24,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "country",
+      "label": "Country - India",
+      "value": "IND"
+    },
+    {
+      "id": "search",
+      "label": "Search jobs",
+      "value": null
+    }
+  ],
+  "scrapedAt": "2026-06-20T10:35:31+05:30",
+  "jobs": []
+}

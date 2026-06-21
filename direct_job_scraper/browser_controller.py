@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import time
 from typing import Any
 from urllib.parse import urljoin
@@ -506,10 +507,26 @@ class BrowserController:
                 absolute = urljoin(self._current_url or self.page.url, href)
 
                 extracted_fields: dict[str, str] = {}
-                for field_name, field_selector in field_map.items():
+                for field_name, field_spec in field_map.items():
+                    if isinstance(field_spec, dict):
+                        field_selector = field_spec.get("selector", "")
+                        field_regex = field_spec.get("regex")
+                    else:
+                        field_selector = field_spec
+                        field_regex = None
+
+                    if not field_selector:
+                        continue
+
                     field_loc = card.locator(field_selector).first
-                    if field_loc.count():
-                        extracted_fields[field_name] = field_loc.inner_text().strip()
+                    if not field_loc.count():
+                        continue
+
+                    value = field_loc.inner_text().strip()
+                    if field_regex:
+                        match = re.search(field_regex, value, re.IGNORECASE)
+                        value = match.group(1).strip() if match else ""
+                    extracted_fields[field_name] = value
 
                 extracted_attributes: dict[str, str] = {}
                 scope = anchor if attribute_scope == "link" else card

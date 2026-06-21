@@ -1,0 +1,19 @@
+{
+  "company": "HCLTech",
+  "careerUrl": "https://careers.hcltech.com/go/India/9553955/",
+  "totalScraped": 20,
+  "totalJobs": 0,
+  "newJobs": 0,
+  "skippedKnownJobs": 20,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "sortBy",
+      "label": "Sort by Most Recent",
+      "value": null
+    }
+  ],
+  "scrapedAt": "2026-06-19T22:28:47+05:30",
+  "jobs": []
+}

@@ -1,0 +1,103 @@
+| S.No | Company                 | Applied |
+| ---- | ----------------------- | ------- |
+| 1    | TCS                     | yes       |
+| 2    | Infosys                 | yes       |
+| 3    | Wipro                   | yes       |
+| 4    | Cognizant               | yes       |
+| 5    | Accenture               | yes       |
+| 6    | Capgemini               | ☐       |
+| 7    | HCLTech                 | yes       |
+| 8    | Tech Mahindra           | ☐       |
+| 9    | IBM India               | ☐       |
+| 10   | Deloitte India          | ☐       |
+| 11   | Amazon                  | ☐       |
+| 12   | Google                  | ☐       |
+| 13   | Microsoft               | ☐       |
+| 14   | Oracle                  | ☐       |
+| 15   | SAP                     | ☐       |
+| 16   | Salesforce              | ☐       |
+| 17   | Adobe                   | ☐       |
+| 18   | Intel                   | ☐       |
+| 19   | NVIDIA                  | ☐       |
+| 20   | Cisco                   | ☐       |
+| 21   | JPMorgan Chase          | ☐       |
+| 22   | Goldman Sachs           | ☐       |
+| 23   | Morgan Stanley          | ☐       |
+| 24   | American Express        | ☐       |
+| 25   | HSBC                    | ☐       |
+| 26   | Barclays                | ☐       |
+| 27   | UBS                     | ☐       |
+| 28   | Deutsche Bank           | ☐       |
+| 29   | Mastercard              | yes       |
+| 30   | Visa                    | ☐       |
+| 31   | PayPal                  | ☐       |
+| 32   | EY                      | ☐       |
+| 33   | KPMG                    | ☐       |
+| 34   | PwC                     | ☐       |
+| 35   | LTIMindtree             | ☐       |
+| 36   | Mphasis                 | ☐       |
+| 37   | Persistent Systems      | ☐       |
+| 38   | Coforge                 | ☐       |
+| 39   | L&T Technology Services | ☐       |
+| 40   | Birlasoft               | ☐       |
+| 41   | Hexaware                | ☐       |
+| 42   | Zensar                  | ☐       |
+| 43   | KPIT                    | ☐       |
+| 44   | Cyient                  | ☐       |
+| 45   | Sonata Software         | ☐       |
+| 46   | Virtusa                 | ☐       |
+| 47   | UST                     | ☐       |
+| 48   | Nagarro                 | yes       |
+| 49   | Publicis Sapient        | ☐       |
+| 50   | EPAM                    | ☐       |
+| 51   | Thoughtworks            | ☐       |
+| 52   | GlobalLogic             | ☐       |
+| 53   | Tredence                | ☐       |
+| 54   | Brillio                 | ☐       |
+| 55   | Data Axle               | ☐       |
+| 56   | Amdocs                  | ☐       |
+| 57   | Atos                    | ☐       |
+| 58   | DXC Technology          | ☐       |
+| 59   | NTT DATA                | ☐       |
+| 60   | Fujitsu                 | ☐       |
+| 61   | Hitachi Digital         | ☐       |
+| 62   | Bosch                   | ☐       |
+| 63   | Siemens                 | ☐       |
+| 64   | Schneider Electric      | ☐       |
+| 65   | Philips                 | ☐       |
+| 66   | Honeywell               | ☐       |
+| 67   | GE Aerospace            | ☐       |
+| 68   | Qualcomm                | ☐       |
+| 69   | AMD                     | ☐       |
+| 70   | ServiceNow              | ☐       |
+| 71   | Workday                 | ☐       |
+| 72   | Atlassian               | ☐       |
+| 73   | Zoho                    | ☐       |
+| 74   | Freshworks              | ☐       |
+| 75   | InMobi                  | ☐       |
+| 76   | Flipkart                | ☐       |
+| 77   | Meesho                  | ☐       |
+| 78   | Swiggy                  | ☐       |
+| 79   | Zomato                  | ☐       |
+| 80   | PhonePe                 | ☐       |
+| 81   | Razorpay                | ☐       |
+| 82   | Paytm                   | ☐       |
+| 83   | Ola                     | ☐       |
+| 84   | Reliance Jio            | ☐       |
+| 85   | Airtel                  | ☐       |
+| 86   | Tata Elxsi              | ☐       |
+| 87   | Tata Technologies       | ☐       |
+| 88   | Infosys BPM             | ☐       |
+| 89   | Mu Sigma                | ☐       |
+| 90   | Fractal Analytics       | ☐       |
+| 91   | Tiger Analytics         | ☐       |
+| 92   | Sasken                  | ☐       |
+| 93   | eClerx                  | ☐       |
+| 94   | OpenText                | ☐       |
+| 95   | Red Hat                 | ☐       |
+| 96   | VMware                  | ☐       |
+| 97   | Rakuten India           | ☐       |
+| 98   | Wells Fargo India       | ☐       |
+| 99   | Northern Trust          | ☐       |
+| 100  | BNY                     | ☐       |
+| 101  | CITI                    | yes       |

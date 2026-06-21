@@ -1,0 +1,92 @@
+{
+  "company": "Wipro",
+  "careerUrl": "https://careers.wipro.com/search/?q=&searchResultView=LIST",
+  "totalScraped": 20,
+  "totalJobs": 8,
+  "newJobs": 8,
+  "skippedKnownJobs": 12,
+  "pagesScraped": 2,
+  "maxPages": 2,
+  "filtersApplied": [
+    {
+      "id": "sortBy",
+      "label": "Sort by Most Recent",
+      "value": null
+    }
+  ],
+  "scrapedAt": "2026-06-20T10:35:36+05:30",
+  "jobs": [
+    {
+      "company": "Wipro",
+      "jobId": "175502",
+      "jobTitle": "PRODUCTION AGENT L1",
+      "jobUrl": "https://careers.wipro.com/job/PRODUCTION-AGENT-L1/175502-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182411",
+      "jobTitle": "TECHNICAL LEAD L1",
+      "jobUrl": "https://careers.wipro.com/job/TECHNICAL-LEAD-L1/182411-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182457",
+      "jobTitle": "DEVOPS ENGINEER L4",
+      "jobUrl": "https://careers.wipro.com/job/DEVOPS-ENGINEER-L4/182457-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182458",
+      "jobTitle": "SDET- Healthcare",
+      "jobUrl": "https://careers.wipro.com/job/SDET-Healthcare/182458-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182304",
+      "jobTitle": "TECHNO FUNCTIONAL CONSULTANT L1",
+      "jobUrl": "https://careers.wipro.com/job/TECHNO-FUNCTIONAL-CONSULTANT-L1/182304-en_US",
+      "location": "Mumbai, IND-27, IND, 400708",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182383",
+      "jobTitle": "ADMINISTRATOR L3",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L3/182383-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182426",
+      "jobTitle": "ADMINISTRATOR L3",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L3/182426-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182409",
+      "jobTitle": "ADMINISTRATOR L2",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L2/182409-en_US",
+      "location": "Kochi, IND-32, IND,",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    }
+  ]
+}

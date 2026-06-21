@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-19T22:19:06+05:30",
-  "totalJobs": 221,
+  "updatedAt": "2026-06-20T10:35:36+05:30",
+  "totalJobs": 318,
   "jobs": [
     {
       "company": "Cognizant",
@@ -2096,6 +2096,883 @@
       "location": "Noida",
       "pageNumber": 2,
       "scrapedAt": "2026-06-19T22:19:06+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "99679",
+      "jobTitle": "Presales - Team Lead",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Lead/99679-en_US",
+      "location": "99679",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "92014",
+      "jobTitle": "Presales - Team Member",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Member/92014-en_US",
+      "location": "92014",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "92023",
+      "jobTitle": "Presales - Team Member",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Member/92023-en_US",
+      "location": "92023",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "54163",
+      "jobTitle": "Hunter",
+      "jobUrl": "https://careers.hcltech.com/job/Hunter/54163-en_US",
+      "location": "54163",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "71560",
+      "jobTitle": "SAP ABAP Senior Technical Lead",
+      "jobUrl": "https://careers.hcltech.com/job/SAP-ABAP-Senior-Technical-Lead/71560-en_US",
+      "location": "71560",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "102263",
+      "jobTitle": "Senior Consultant(DFS)",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Consultant%28DFS%29/102263-en_US",
+      "location": "102263",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "102264",
+      "jobTitle": "Senior Consultant(DFS)",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Consultant%28DFS%29/102264-en_US",
+      "location": "102264",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "68867",
+      "jobTitle": "Presales - Team Member",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Member/68867-en_US",
+      "location": "68867",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "98930",
+      "jobTitle": "Campus-Advanced Beginner",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Advanced-Beginner/98930-en_US",
+      "location": "98930",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "102652",
+      "jobTitle": "Senior Designer",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Designer/102652-en_US",
+      "location": "102652",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "73172",
+      "jobTitle": "Campus-Competent",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Competent/73172-en_US",
+      "location": "73172",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "96306",
+      "jobTitle": "Business Assurance - Lead",
+      "jobUrl": "https://careers.hcltech.com/job/Business-Assurance-Lead/96306-en_US",
+      "location": "96306",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "32201",
+      "jobTitle": "Senior Specialist",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Specialist/32201-en_US",
+      "location": "32201",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "106337",
+      "jobTitle": "Technical Manager-GIT",
+      "jobUrl": "https://careers.hcltech.com/job/Technical-Manager-GIT/106337-en_US",
+      "location": "106337",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "105565",
+      "jobTitle": "Senior Project Manager - Scrum Master",
+      "jobUrl": "https://careers.hcltech.com/job/Senior-Project-Manager-Scrum-Master/105565-en_US",
+      "location": "105565",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "99095",
+      "jobTitle": "Revenue Cycle Associate",
+      "jobUrl": "https://careers.hcltech.com/job/Revenue-Cycle-Associate/99095-en_US",
+      "location": "99095",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "107818",
+      "jobTitle": "Business Continuity Mgmt. Manager",
+      "jobUrl": "https://careers.hcltech.com/job/Business-Continuity-Mgmt_-Manager/107818-en_US",
+      "location": "107818",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "11929",
+      "jobTitle": "Campus-Advanced Beginner",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Advanced-Beginner/11929-en_US",
+      "location": "11929",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "11925",
+      "jobTitle": "Campus-Advanced Beginner",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Advanced-Beginner/11925-en_US",
+      "location": "11925",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "HCLTech",
+      "jobId": "11932",
+      "jobTitle": "Campus-Advanced Beginner",
+      "jobUrl": "https://careers.hcltech.com/job/Campus-Advanced-Beginner/11932-en_US",
+      "location": "11932",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-19T23:58:02+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068680431",
+      "jobTitle": "Manager-Data & ML Engg",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068680431/manager-data-ml-engg/",
+      "location": "Hyderabad, Telangana, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00067769831",
+      "jobTitle": "SAP PAPM Consultant",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067769831/sap-papm-consultant/",
+      "location": "Chennai, Tamil Nadu, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00066980601",
+      "jobTitle": "C# Developer with Capital Market",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00066980601/c-developer-with-capital-market/",
+      "location": "Chennai, Tamil Nadu, India / Coimbatore, Tamil Nadu, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068557421",
+      "jobTitle": "AI Architect-.Net",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068557421/ai-architect-net/",
+      "location": "KOLKATA, West Bengal, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068840501",
+      "jobTitle": "Program Director (Agentic AI )",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068840501/program-director-agentic-ai/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00065374712",
+      "jobTitle": "Sr. Architect",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00065374712/sr-architect/",
+      "location": "Hyderabad, Telangana, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069252161",
+      "jobTitle": "Manager – ServiceNow Solutions",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069252161/manager-servicenow-solutions/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069252431",
+      "jobTitle": "Senior Manager – ServiceNow Solutions",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069252431/senior-manager-servicenow-solutions/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069252641",
+      "jobTitle": "Associate Director - ServiceNow Solutions",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069252641/associate-director-servicenow-solutions/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069300781",
+      "jobTitle": "Functional Architect",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069300781/functional-architect/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00067387421",
+      "jobTitle": "AI Developer (Campaign+ Developer)",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067387421/ai-developer-campaignplus-developer/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00067676681",
+      "jobTitle": "Marketing Liaison",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067676681/marketing-liaison/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00067676151",
+      "jobTitle": "Sr Brand Liaison",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067676151/sr-brand-liaison/",
+      "location": "Chennai, Tamil Nadu, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00067679491",
+      "jobTitle": "Marketing Video Content Designer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067679491/marketing-video-content-designer/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00067385641",
+      "jobTitle": "Marketing Creative Designer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067385641/marketing-creative-designer/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00067385521",
+      "jobTitle": "Creative Director",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067385521/creative-director/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00067332911",
+      "jobTitle": "Paid Media Strategist",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067332911/paid-media-strategist/",
+      "location": "Indore, Madhya Pradesh, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068594021",
+      "jobTitle": "Architect",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068594021/architect/",
+      "location": "PUNE, Maharashtra, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00068593798",
+      "jobTitle": "Senior Solution Architect",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068593798/senior-solution-architect/",
+      "location": "KOLKATA, West Bengal, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Cognizant",
+      "jobId": "00069424561",
+      "jobTitle": "Sr. Infra Developer",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069424561/sr-infra-developer/",
+      "location": "Bangalore, Karnataka, India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:17:40+05:30"
+    },
+    {
+      "company": "Mastercard",
+      "jobId": "R-276730",
+      "jobTitle": "Senior Software Engineer",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-276730/Senior-Software-Engineer",
+      "location": "India",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:19:34+05:30"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132329469",
+      "jobTitle": "SpecialistPrincipal Engineer, Apache Camel",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132329469",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:19:48+05:30",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130628839",
+      "jobTitle": "SeniorStaff Engineer, ERP Workday (Technical Consultant)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628839",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:19:48+05:30",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000124111209",
+      "jobTitle": "SeniorAssociate Staff Engineer, ERP Dynamics Technical",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000124111209",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:19:48+05:30",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132075349",
+      "jobTitle": "SeniorAssociate Staff Engineer (Python + Agentic Workflows)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132075349",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:19:48+05:30",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "148065",
+      "jobTitle": "DEVELOPER L3",
+      "jobUrl": "https://careers.wipro.com/job/DEVELOPER-L3/148065-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "181645",
+      "jobTitle": "Oracle Fusion Benefits Lead",
+      "jobUrl": "https://careers.wipro.com/job/Oracle-Fusion-Benefits-Lead/181645-en_US",
+      "location": "New York, USA-NY, USA, 10110",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182560",
+      "jobTitle": "NETWORK ENGINEER L4",
+      "jobUrl": "https://careers.wipro.com/job/NETWORK-ENGINEER-L4/182560-en_US",
+      "location": "Pune, IND-27, IND, 411005",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182393",
+      "jobTitle": "QUALITY ASSURANCE (QA) LEAD L2",
+      "jobUrl": "https://careers.wipro.com/job/QUALITY-ASSURANCE-%28QA%29-LEAD-L2/182393-en_US",
+      "location": "Kolkata, IND-19, IND, 700091",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182412",
+      "jobTitle": "Pyspark Lead Developer",
+      "jobUrl": "https://careers.wipro.com/job/Pyspark-Lead-Developer/182412-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182475",
+      "jobTitle": "DEVELOPER L3",
+      "jobUrl": "https://careers.wipro.com/job/DEVELOPER-L3/182475-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182672",
+      "jobTitle": "ADMINISTRATOR L1",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L1/182672-en_US",
+      "location": "Pune, IND-27, IND, 411005",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182582",
+      "jobTitle": "AI LEAD L1",
+      "jobUrl": "https://careers.wipro.com/job/AI-LEAD-L1/182582-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182282",
+      "jobTitle": "DOMAIN CONSULTANT L3",
+      "jobUrl": "https://careers.wipro.com/job/DOMAIN-CONSULTANT-L3/182282-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182545",
+      "jobTitle": "PRODUCTION AGENT L1",
+      "jobUrl": "https://careers.wipro.com/job/PRODUCTION-AGENT-L1/182545-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182401",
+      "jobTitle": "SOFTWARE ENGINEER L4",
+      "jobUrl": "https://careers.wipro.com/job/SOFTWARE-ENGINEER-L4/182401-en_US",
+      "location": "Pune, IND-27, IND, 411005",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182570",
+      "jobTitle": "TECHNICAL LEAD L1",
+      "jobUrl": "https://careers.wipro.com/job/TECHNICAL-LEAD-L1/182570-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182539",
+      "jobTitle": "TEST ENGINEER L3",
+      "jobUrl": "https://careers.wipro.com/job/TEST-ENGINEER-L3/182539-en_US",
+      "location": "Bengaluru, IND-29, IND, 560035",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182369",
+      "jobTitle": "LEAD ADMINISTRATOR L2",
+      "jobUrl": "https://careers.wipro.com/job/LEAD-ADMINISTRATOR-L2/182369-en_US",
+      "location": "Mumbai, IND-27, IND, 400708",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182320",
+      "jobTitle": "LEAD ADMINISTRATOR L1",
+      "jobUrl": "https://careers.wipro.com/job/LEAD-ADMINISTRATOR-L1/182320-en_US",
+      "location": "Pune, IND-27, IND, 411005",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182650",
+      "jobTitle": "ADMINISTRATOR L3",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L3/182650-en_US",
+      "location": "Pune, IND-27, IND, 411005",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182500",
+      "jobTitle": "TECHNICAL LEAD L1",
+      "jobUrl": "https://careers.wipro.com/job/TECHNICAL-LEAD-L1/182500-en_US",
+      "location": "Bengaluru, IND-29, IND, 560035",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182460",
+      "jobTitle": "DEVELOPER L3",
+      "jobUrl": "https://careers.wipro.com/job/DEVELOPER-L3/182460-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182520",
+      "jobTitle": "TECHNO FUNCTIONAL CONSULTANT L2",
+      "jobUrl": "https://careers.wipro.com/job/TECHNO-FUNCTIONAL-CONSULTANT-L2/182520-en_US",
+      "location": "Bengaluru, IND-29, IND, 560035",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182670",
+      "jobTitle": "ADMINISTRATOR L2",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L2/182670-en_US",
+      "location": "Pune, IND-27, IND, 411005",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:20:13+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "NgAAADkAAAAyAAAAMwAAADgAAAA=-8tUlYmcQK3A=",
+      "jobTitle": "Sr. Software Engineer",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=NgAAADkAAAAyAAAAMwAAADgAAAA=-8tUlYmcQK3A=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "BENGALURU",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADIAAAA5AAAANwAAADgAAAA=-ZKPADKyw5NQ=",
+      "jobTitle": "Java Full Stack Developer",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADIAAAA5AAAANwAAADgAAAA=-ZKPADKyw5NQ=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "BENGALURU",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADQAAAA0AAAAOAAAADkAAAA=-D64QRy3nNGE=",
+      "jobTitle": "Field Service & PCF",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADQAAAA0AAAAOAAAADkAAAA=-D64QRy3nNGE=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "HYDERABAD",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADUAAAA2AAAAMAAAADcAAAA=-UXqBlOf+4Kk=",
+      "jobTitle": "Associate Business Consultant",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADUAAAA2AAAAMAAAADcAAAA=-UXqBlOf+4Kk=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "HYDERABAD",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADUAAAA4AAAAOAAAADEAAAA=-HsJ7bfzYRUE=",
+      "jobTitle": "Automation Testing",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADUAAAA4AAAAOAAAADEAAAA=-HsJ7bfzYRUE=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "BENGALURU",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADUAAAA4AAAAOAAAADcAAAA=-MDeiPvAEaUg=",
+      "jobTitle": "Sr. Tech Manager",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADUAAAA4AAAAOAAAADcAAAA=-MDeiPvAEaUg=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "BENGALURU",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADUAAAA4AAAAOAAAADgAAAA=-vWdr2owwBJ4=",
+      "jobTitle": "Technical Project Manager",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADUAAAA4AAAAOAAAADgAAAA=-vWdr2owwBJ4=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "BENGALURU",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADYAAAAwAAAAMQAAADMAAAA=-I/PUSpJbDR8=",
+      "jobTitle": "Senior Cloud Architect – AI, Data & GenAI (Google Cloud)",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADYAAAAwAAAAMQAAADMAAAA=-I/PUSpJbDR8=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADYAAAAwAAAAMQAAADcAAAA=-tnpB5xpOdM0=",
+      "jobTitle": "Cloud Architect – Solutions (Data, AI & Modernization) | Google Cloud",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADYAAAAwAAAAMQAAADcAAAA=-tnpB5xpOdM0=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADYAAAAzAAAAMAAAADcAAAA=-pMOxeLmsqNk=",
+      "jobTitle": "Tech Lead",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADYAAAAzAAAAMAAAADcAAAA=-pMOxeLmsqNk=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADYAAAA0AAAAMQAAADEAAAA=-IIlCcHJv+O8=",
+      "jobTitle": "Associate Product Architect",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADYAAAA0AAAAMQAAADEAAAA=-IIlCcHJv+O8=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADYAAAA0AAAAMQAAADUAAAA=-o0zepdWFVYs=",
+      "jobTitle": "AI Engineer / Lead",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADYAAAA0AAAAMQAAADUAAAA=-o0zepdWFVYs=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAAyAAAANwAAADIAAAA=-xLFXWNr/RjE=",
+      "jobTitle": "Tech Lead",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAAyAAAANwAAADIAAAA=-xLFXWNr/RjE=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "CHENNAI",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAAyAAAAOQAAADgAAAA=-RP6mrdqJbkI=",
+      "jobTitle": "Network Lead",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAAyAAAAOQAAADgAAAA=-RP6mrdqJbkI=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAAzAAAAMQAAADIAAAA=-3hoQsiLcLoI=",
+      "jobTitle": "Sr. Software Engineer",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAAzAAAAMQAAADIAAAA=-3hoQsiLcLoI=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "HYDERABAD",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAAzAAAAMQAAADYAAAA=-ZbYIpoh+1Vw=",
+      "jobTitle": "Tech Lead",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAAzAAAAMQAAADYAAAA=-ZbYIpoh+1Vw=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "HYDERABAD",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAAzAAAANAAAADUAAAA=-406BdEFlrLY=",
+      "jobTitle": "Tech Lead",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAAzAAAANAAAADUAAAA=-406BdEFlrLY=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "NOIDA",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAAzAAAANgAAADQAAAA=-43WgTxvIXkE=",
+      "jobTitle": "Tech Lead",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAAzAAAANgAAADQAAAA=-43WgTxvIXkE=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "HYDERABAD",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAA0AAAANAAAADMAAAA=-8ZtFbvPFnYU=",
+      "jobTitle": "Associate Engineer",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAA0AAAANAAAADMAAAA=-8ZtFbvPFnYU=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAA0AAAANAAAADUAAAA=-Ylcop3QxOIA=",
+      "jobTitle": "Sr. Software Engineer",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAA0AAAANAAAADUAAAA=-Ylcop3QxOIA=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAA1AAAAMQAAADgAAAA=-+KzTI+cnxmo=",
+      "jobTitle": "Sr. Software Engineer",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAA1AAAAMQAAADgAAAA=-+KzTI+cnxmo=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAA1AAAAMgAAADIAAAA=-U17J5N/7mYo=",
+      "jobTitle": "Sr. Data Analyst",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAA1AAAAMgAAADIAAAA=-U17J5N/7mYo=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAA1AAAANgAAADcAAAA=-WcysYkZ407Q=",
+      "jobTitle": "Software Engineer",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAA1AAAANgAAADcAAAA=-WcysYkZ407Q=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Tech Mahindra",
+      "jobId": "OAAAADcAAAA1AAAAOAAAADgAAAA=-qc5esz78VQE=",
+      "jobTitle": "Network Lead",
+      "jobUrl": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=OAAAADcAAAA1AAAAOAAAADgAAAA=-qc5esz78VQE=&IndustryType=SQAAAFQAAAA=-cu6HGbNv01o=",
+      "location": "PUNE",
+      "pageNumber": 2,
+      "scrapedAt": "2026-06-20T10:24:49+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "175502",
+      "jobTitle": "PRODUCTION AGENT L1",
+      "jobUrl": "https://careers.wipro.com/job/PRODUCTION-AGENT-L1/175502-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182411",
+      "jobTitle": "TECHNICAL LEAD L1",
+      "jobUrl": "https://careers.wipro.com/job/TECHNICAL-LEAD-L1/182411-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182457",
+      "jobTitle": "DEVOPS ENGINEER L4",
+      "jobUrl": "https://careers.wipro.com/job/DEVOPS-ENGINEER-L4/182457-en_US",
+      "location": "Chennai, IND-33, IND, 600119",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182458",
+      "jobTitle": "SDET- Healthcare",
+      "jobUrl": "https://careers.wipro.com/job/SDET-Healthcare/182458-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182304",
+      "jobTitle": "TECHNO FUNCTIONAL CONSULTANT L1",
+      "jobUrl": "https://careers.wipro.com/job/TECHNO-FUNCTIONAL-CONSULTANT-L1/182304-en_US",
+      "location": "Mumbai, IND-27, IND, 400708",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182383",
+      "jobTitle": "ADMINISTRATOR L3",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L3/182383-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182426",
+      "jobTitle": "ADMINISTRATOR L3",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L3/182426-en_US",
+      "location": "Hyderabad, IND-36, IND, 500032",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
+    },
+    {
+      "company": "Wipro",
+      "jobId": "182409",
+      "jobTitle": "ADMINISTRATOR L2",
+      "jobUrl": "https://careers.wipro.com/job/ADMINISTRATOR-L2/182409-en_US",
+      "location": "Kochi, IND-32, IND,",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:35:36+05:30"
     }
   ]
 }

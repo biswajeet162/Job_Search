@@ -1,0 +1,54 @@
+{
+  "company": "Nagarro",
+  "careerUrl": "https://www.nagarro.com/en/careers/job-search?country=india",
+  "totalScraped": 39,
+  "totalJobs": 4,
+  "newJobs": 4,
+  "skippedKnownJobs": 35,
+  "pagesScraped": 1,
+  "maxPages": 1,
+  "filtersApplied": [],
+  "scrapedAt": "2026-06-20T10:19:48+05:30",
+  "jobs": [
+    {
+      "company": "Nagarro",
+      "jobId": "744000132329469",
+      "jobTitle": "SpecialistPrincipal Engineer, Apache Camel",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132329469",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:19:48+05:30",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000130628839",
+      "jobTitle": "SeniorStaff Engineer, ERP Workday (Technical Consultant)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628839",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:19:48+05:30",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000124111209",
+      "jobTitle": "SeniorAssociate Staff Engineer, ERP Dynamics Technical",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000124111209",
+      "location": "India, WFA/Remote",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:19:48+05:30",
+      "jobType": "Employee"
+    },
+    {
+      "company": "Nagarro",
+      "jobId": "744000132075349",
+      "jobTitle": "SeniorAssociate Staff Engineer (Python + Agentic Workflows)",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132075349",
+      "location": "India, Mumbai",
+      "pageNumber": 1,
+      "scrapedAt": "2026-06-20T10:19:48+05:30",
+      "jobType": "Employee"
+    }
+  ]
+}
