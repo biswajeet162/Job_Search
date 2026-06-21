@@ -10,7 +10,7 @@
 | 8    | Tech Mahindra           | yes       |
 | 9    | IBM India               | yes       |
 | 10   | Deloitte India          | yes       |
-| 11   | Amazon                  | ☐       |
+| 11   | Amazon                  | yes       |
 | 12   | Google                  | ☐       |
 | 13   | Microsoft               | ☐       |
 | 14   | Oracle                  | ☐       |
@@ -25,7 +25,7 @@
 | 23   | Morgan Stanley          | ☐       |
 | 24   | American Express        | ☐       |
 | 25   | HSBC                    | ☐       |
-| 26   | Barclays                | ☐       |
+| 26   | Barclays                |        |
 | 27   | UBS                     | ☐       |
 | 28   | Deutsche Bank           | ☐       |
 | 29   | Mastercard              | yes       |

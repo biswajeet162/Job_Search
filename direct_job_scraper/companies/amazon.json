@@ -1,0 +1,51 @@
+{
+  "companyName": "Amazon",
+  "careerUrl": "https://www.amazon.jobs/content/en/teams/international-stores/india?country%5B%5D=IN",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "India",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" },
+    { "action": "wait_for", "selector": "[class*='job-card-module_root']" }
+  ],
+
+  "filters": [
+    {
+      "id": "sortBy",
+      "label": "Sort by most relevant",
+      "action": "select",
+      "selector": "select[class*='sort-module_select']",
+      "value": "most-relevant",
+      "matchBy": "value",
+      "optional": false
+    }
+  ],
+
+  "scrapeOptions": {
+    "maxPages": 2,
+    "waitAfterFiltersMs": 2500,
+    "scrollBeforeExtract": false,
+    "waitForResultsSelector": "[class*='job-card-module_root']"
+  },
+
+  "jobLinkStrategy": {
+    "type": "card_extract",
+    "cardSelector": "[class*='job-card-module_root']",
+    "linkSelector": "a[class*='header-module_title']",
+    "fields": {
+      "title": "a[class*='header-module_title']",
+      "location": "[class*='metadata-wrapper'] [class*='metadatum-module_text']"
+    },
+    "jobId": {
+      "source": "url",
+      "urlPattern": "/jobs/(\\d+)"
+    }
+  },
+
+  "pagination": {
+    "type": "next_button",
+    "selector": "button[data-test-id='next-page']"
+  }
+}
