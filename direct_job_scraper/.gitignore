@@ -1,4 +1,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Generated / local data (keep companies/ tracked)
+output/
 confidential/
+jobs_dashboard/

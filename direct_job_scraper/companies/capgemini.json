@@ -1,0 +1,40 @@
+{
+  "companyName": "Capgemini",
+  "careerUrl": "https://www.capgemini.com/in-en/careers/?page=1&size=11",
+  "enabled": true,
+  "crawlFrequencyHours": 24,
+  "defaultLocation": "",
+
+  "steps": [
+    { "action": "open_url" },
+    { "action": "dismiss_cookies" }
+  ],
+
+  "filters": [],
+
+  "scrapeOptions": {
+    "maxPages": 5,
+    "waitAfterFiltersMs": 0,
+    "scrollBeforeExtract": false
+  },
+
+  "jobLinkStrategy": {
+    "type": "fetch_extract",
+    "apiUrlTemplate": "https://cg-jobstream-api.azurewebsites.net/api/job-search?page={page}&size=11",
+    "responseDataKey": "data",
+    "pageSize": 11,
+    "urlField": "apply_job_url",
+    "fields": {
+      "title": "title",
+      "location": "location"
+    },
+    "jobId": {
+      "source": "attribute",
+      "attribute": "id"
+    }
+  },
+
+  "pagination": {
+    "type": "api_page"
+  }
+}

@@ -61,22 +61,44 @@ def _extract_fetch_jobs(
     *,
     page_number: int,
 ) -> list[dict[str, Any]]:
-    api_url = strategy["apiUrl"]
-    url_template = strategy["urlTemplate"]
     page_size = int(strategy.get("pageSize", 10))
+    url_template = strategy.get("urlTemplate", "")
+    url_field = strategy.get("urlField", "")
+    api_url_template = strategy.get("apiUrlTemplate")
+    response_data_key = strategy.get("responseDataKey")
     fields_map = strategy.get("fields", {})
     job_id_config = get_job_id_config(strategy)
     id_field = job_id_config.get("attribute") or strategy.get("jobIdField", "referenceCode")
     id_attribute = job_id_config.get("attribute") or id_field
 
-    data = browser.fetch_json_cached(api_url)
-    if not isinstance(data, list):
-        raise ExtractionError(f"Expected JSON array from {api_url}")
+    if api_url_template:
+        api_url = (
+            api_url_template.replace("{page}", str(page_number))
+            .replace("{pageSize}", str(page_size))
+        )
+    else:
+        api_url = strategy["apiUrl"]
 
-    start = (page_number - 1) * page_size
-    page_items = data[start : start + page_size]
-    if not page_items:
-        raise ExtractionError(f"No jobs in API page slice {page_number}")
+    data = browser.fetch_json_cached(api_url)
+
+    if response_data_key:
+        if not isinstance(data, dict):
+            raise ExtractionError(f"Expected JSON object from {api_url}")
+        page_items = data.get(response_data_key, [])
+        if not isinstance(page_items, list):
+            raise ExtractionError(
+                f"Expected list at '{response_data_key}' in API response from {api_url}"
+            )
+        if not page_items:
+            return []
+    else:
+        if not isinstance(data, list):
+            raise ExtractionError(f"Expected JSON array from {api_url}")
+
+        start = (page_number - 1) * page_size
+        page_items = data[start : start + page_size]
+        if not page_items:
+            raise ExtractionError(f"No jobs in API page slice {page_number}")
 
     results: list[dict[str, Any]] = []
     for item in page_items:
@@ -87,7 +109,12 @@ def _extract_fetch_jobs(
         if not job_id:
             continue
 
-        href = url_template.replace("{jobId}", job_id)
+        href = str(item.get(url_field, "")).strip() if url_field else ""
+        if not href and url_template:
+            href = url_template.replace("{jobId}", job_id)
+        if not href:
+            continue
+
         extracted_fields: dict[str, str] = {}
         for field_name, json_key in fields_map.items():
             extracted_fields[field_name] = str(item.get(json_key, "")).strip()
@@ -105,6 +132,8 @@ def _extract_fetch_jobs(
         })
 
     if not results:
+        if api_url_template:
+            return []
         raise ExtractionError(f"No jobs extracted from API page {page_number}")
     return results
 

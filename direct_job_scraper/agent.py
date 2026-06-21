@@ -123,6 +123,16 @@ class JobScraper:
                     log_step("PAGINATION stop → single page (type=none)")
                     break
 
+                if pagination_type == "api_page":
+                    page_size = int(self.config["jobLinkStrategy"].get("pageSize", 10))
+                    if not page_jobs or len(page_jobs) < page_size:
+                        log_step(
+                            "PAGINATION stop → API page %d returned %d job(s)",
+                            page_number,
+                            len(page_jobs),
+                        )
+                        break
+
                 if pagination_type == "next_button":
                     log_step("PAGINATION checking next page…")
                     if not self._has_next_page():
@@ -361,8 +371,8 @@ class JobScraper:
                 button_selector=pagination["goButtonSelector"],
             )
 
-        if pagination_type == "none":
-            return False
+        if pagination_type in {"none", "api_page"}:
+            return pagination_type == "api_page"
 
         if pagination_type == "next_button":
             return self._go_to_next_page()

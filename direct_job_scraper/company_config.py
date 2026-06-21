@@ -38,6 +38,7 @@ JOB_LINK_STRATEGIES = frozenset({
 PAGINATION_TYPES = frozenset({
     "next_button",
     "page_jump",
+    "api_page",
     "none",
 })
 
@@ -52,12 +53,13 @@ STRATEGY_REQUIRED_FIELDS: dict[str, tuple[str, ...]] = {
     "direct_extract": ("linkSelector",),
     "card_extract": ("cardSelector", "linkSelector"),
     "hover_and_extract": ("jobCardSelector",),
-    "fetch_extract": ("apiUrl", "urlTemplate"),
+    "fetch_extract": (),
 }
 
 PAGINATION_REQUIRED_FIELDS: dict[str, tuple[str, ...]] = {
     "next_button": ("selector",),
     "page_jump": ("inputSelector", "goButtonSelector"),
+    "api_page": (),
     "none": (),
 }
 
@@ -142,6 +144,16 @@ def validate_config(config: dict[str, Any]) -> None:
         if not strategy.get(field):
             raise ScraperError(
                 f"jobLinkStrategy.type '{strategy_type}' requires '{field}'"
+            )
+
+    if strategy_type == "fetch_extract":
+        if not strategy.get("apiUrl") and not strategy.get("apiUrlTemplate"):
+            raise ScraperError(
+                "jobLinkStrategy.type 'fetch_extract' requires 'apiUrl' or 'apiUrlTemplate'"
+            )
+        if not strategy.get("urlTemplate") and not strategy.get("urlField"):
+            raise ScraperError(
+                "jobLinkStrategy.type 'fetch_extract' requires 'urlTemplate' or 'urlField'"
             )
 
     job_id = get_job_id_config(strategy)
