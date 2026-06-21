@@ -99,5 +99,336 @@
 | 97   | Rakuten India           | ☐       |
 | 98   | Wells Fargo India       | ☐       |
 | 99   | Northern Trust          | ☐       |
-| 100  | BNY                     | ☐       |
+| 100  | BNY                     | yes       |
 | 101  | CITI                    | yes       |
+
+
+
+
+
+| S.No | Company                                     | Applied |
+| ---- | ------------------------------------------- | ------- |
+| 101  | Ericsson                                    | ☐       |
+| 102  | Nokia                                       | ☐       |
+| 103  | Samsung R&D India                           | ☐       |
+| 104  | LG Soft India                               | ☐       |
+| 105  | Panasonic India                             | ☐       |
+| 106  | Lenovo India                                | ☐       |
+| 107  | Dell Technologies                           | ☐       |
+| 108  | HP Enterprise (HPE)                         | ☐       |
+| 109  | NetApp                                      | ☐       |
+| 110  | Pure Storage                                | ☐       |
+| 111  | Western Digital                             | ☐       |
+| 112  | Micron Technology                           | ☐       |
+| 113  | Broadcom                                    | ☐       |
+| 114  | Marvell Technology                          | ☐       |
+| 115  | ARM                                         | ☐       |
+| 116  | Synopsys                                    | ☐       |
+| 117  | Cadence Design Systems                      | ☐       |
+| 118  | Siemens EDA                                 | ☐       |
+| 119  | MathWorks                                   | ☐       |
+| 120  | MathCo                                      | ☐       |
+| 121  | Dassault Systèmes                           | ☐       |
+| 122  | Autodesk                                    | ☐       |
+| 123  | PTC                                         | ☐       |
+| 124  | Bentley Systems                             | ☐       |
+| 125  | Trimble                                     | ☐       |
+| 126  | Fiserv                                      | ☐       |
+| 127  | Fidelity Investments                        | ☐       |
+| 128  | State Street                                | ☐       |
+| 129  | S&P Global                                  | ☐       |
+| 130  | Moody's                                     | ☐       |
+| 131  | FactSet                                     | ☐       |
+| 132  | London Stock Exchange Group (LSEG)          | ☐       |
+| 133  | Refinitiv                                   | ☐       |
+| 134  | Thomson Reuters                             | ☐       |
+| 135  | Broadridge                                  | ☐       |
+| 136  | BlackRock                                   | ☐       |
+| 137  | Citi                                        | ☐       |
+| 138  | Bank of America                             | ☐       |
+| 139  | Standard Chartered                          | ☐       |
+| 140  | NatWest Group                               | ☐       |
+| 141  | ANZ                                         | ☐       |
+| 142  | Commonwealth Bank                           | ☐       |
+| 143  | Credit Suisse Technology (legacy UBS teams) | ☐       |
+| 144  | Western Union                               | ☐       |
+| 145  | FIS Global                                  | ☐       |
+| 146  | CGI                                         | ☐       |
+| 147  | Sopra Steria                                | ☐       |
+| 148  | Avanade                                     | ☐       |
+| 149  | Eviden                                      | ☐       |
+| 150  | Expleo                                      | ☐       |
+| 151  | Encora                                      | ☐       |
+| 152  | Valtech                                     | ☐       |
+| 153  | LTTS Digital Engineering                    | ☐       |
+| 154  | Quest Global                                | ☐       |
+| 155  | Alten India                                 | ☐       |
+| 156  | CSG International                           | ☐       |
+| 157  | Cloudera                                    | ☐       |
+| 158  | Informatica                                 | ☐       |
+| 159  | Teradata                                    | ☐       |
+| 160  | SAS Institute                               | ☐       |
+| 161  | Pegasystems                                 | ☐       |
+| 162  | OpenText Cybersecurity                      | ☐       |
+| 163  | Elastic                                     | ☐       |
+| 164  | MongoDB                                     | ☐       |
+| 165  | Confluent                                   | ☐       |
+| 166  | Databricks                                  | ☐       |
+| 167  | Snowflake                                   | ☐       |
+| 168  | Clari                                       | ☐       |
+| 169  | HubSpot                                     | ☐       |
+| 170  | Twilio                                      | ☐       |
+| 171  | Okta                                        | ☐       |
+| 172  | CrowdStrike                                 | ☐       |
+| 173  | Palo Alto Networks                          | ☐       |
+| 174  | Zscaler                                     | ☐       |
+| 175  | Fortinet                                    | ☐       |
+| 176  | Check Point Software                        | ☐       |
+| 177  | McAfee Enterprise                           | ☐       |
+| 178  | Trellix                                     | ☐       |
+| 179  | Veritas Technologies                        | ☐       |
+| 180  | Cohesity                                    | ☐       |
+| 181  | Rubrik                                      | ☐       |
+| 182  | Nutanix                                     | ☐       |
+| 183  | Veeva Systems                               | ☐       |
+| 184  | Medtronic Digital                           | ☐       |
+| 185  | GE Healthcare                               | ☐       |
+| 186  | Roche Information Solutions                 | ☐       |
+| 187  | Bayer Digital Hub                           | ☐       |
+| 188  | AstraZeneca Technology                      | ☐       |
+| 189  | Novartis                                    | ☐       |
+| 190  | Shell India                                 | ☐       |
+| 191  | BP                                          | ☐       |
+| 192  | Baker Hughes                                | ☐       |
+| 193  | Halliburton                                 | ☐       |
+| 194  | SLB (Schlumberger)                          | ☐       |
+| 195  | Eaton                                       | ☐       |
+| 196  | Emerson                                     | ☐       |
+| 197  | Rockwell Automation                         | ☐       |
+| 198  | ABB                                         | ☐       |
+| 199  | Yokogawa                                    | ☐       |
+| 200  | Johnson Controls                            | ☐       |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| S.No | Company                                     | Applied |
+| ---- | ------------------------------------------- | ------- |
+| 201  | Walmart Global Tech India                   | ☐       |
+| 202  | Target India                                | ☐       |
+| 203  | Tesco Bengaluru                             | ☐       |
+| 204  | Lowe's India                                | ☐       |
+| 205  | Home Depot Technology Center                | ☐       |
+| 206  | Costco Technology India                     | ☐       |
+| 207  | Best Buy India                              | ☐       |
+| 208  | Wayfair India                               | ☐       |
+| 209  | Expedia Group                               | ☐       |
+| 210  | Booking.com India                           | ☐       |
+| 211  | Agoda                                       | ☐       |
+| 212  | Airbnb India                                | ☐       |
+| 213  | Uber                                        | ☐       |
+| 214  | Lyft Engineering India                      | ☐       |
+| 215  | Grab India                                  | ☐       |
+| 216  | Gojek India                                 | ☐       |
+| 217  | LinkedIn                                    | ☐       |
+| 218  | Indeed India                                | ☐       |
+| 219  | Glassdoor                                   | ☐       |
+| 220  | Slack Technologies                          | ☐       |
+| 221  | Dropbox                                     | ☐       |
+| 222  | Box Inc                                     | ☐       |
+| 223  | Zoom                                        | ☐       |
+| 224  | RingCentral                                 | ☐       |
+| 225  | Miro                                        | ☐       |
+| 226  | GitHub                                      | ☐       |
+| 227  | GitLab                                      | ☐       |
+| 228  | HashiCorp                                   | ☐       |
+| 229  | Docker Inc                                  | ☐       |
+| 230  | Redfin                                      | ☐       |
+| 231  | Stripe                                      | ☐       |
+| 232  | Revolut                                     | ☐       |
+| 233  | Wise                                        | ☐       |
+| 234  | Coinbase                                    | ☐       |
+| 235  | Ripple                                      | ☐       |
+| 236  | American Airlines GCC                       | ☐       |
+| 237  | United Airlines Digital                     | ☐       |
+| 238  | Delta Air Lines GCC                         | ☐       |
+| 239  | Lufthansa Systems                           | ☐       |
+| 240  | Boeing India                                | ☐       |
+| 241  | Airbus India                                | ☐       |
+| 242  | Collins Aerospace                           | ☐       |
+| 243  | Pratt & Whitney                             | ☐       |
+| 244  | Safran Engineering                          | ☐       |
+| 245  | Thales India                                | ☐       |
+| 246  | BAE Systems India                           | ☐       |
+| 247  | RTX Technology Center                       | ☐       |
+| 248  | Volvo Group India                           | ☐       |
+| 249  | Mercedes-Benz R&D India                     | ☐       |
+| 250  | BMW Tech Office India                       | ☐       |
+| 251  | Volkswagen IT Services India                | ☐       |
+| 252  | Audi Electronics Venture India              | ☐       |
+| 253  | Stellantis India                            | ☐       |
+| 254  | Renault Nissan Technology                   | ☐       |
+| 255  | Hyundai AutoEver India                      | ☐       |
+| 256  | Toyota Connected India                      | ☐       |
+| 257  | Harman International                        | ☐       |
+| 258  | Visteon                                     | ☐       |
+| 259  | Aptiv                                       | ☐       |
+| 260  | Magna Electronics                           | ☐       |
+| 261  | Continental Automotive                      | ☐       |
+| 262  | Bosch Global Software Technologies          | ☐       |
+| 263  | Valeo India                                 | ☐       |
+| 264  | ZF Group                                    | ☐       |
+| 265  | HERE Technologies                           | ☐       |
+| 266  | Cerence                                     | ☐       |
+| 267  | Ericsson Global AI Accelerator              | ☐       |
+| 268  | Juniper Networks                            | ☐       |
+| 269  | Arista Networks                             | ☐       |
+| 270  | F5 Networks                                 | ☐       |
+| 271  | Riverbed Technology                         | ☐       |
+| 272  | Extreme Networks                            | ☐       |
+| 273  | Akamai Technologies                         | ☐       |
+| 274  | Cloudflare                                  | ☐       |
+| 275  | Fastly                                      | ☐       |
+| 276  | VMware by Broadcom India                    | ☐       |
+| 277  | SUSE                                        | ☐       |
+| 278  | Canonical                                   | ☐       |
+| 279  | Neo4j                                       | ☐       |
+| 280  | Redis Inc                                   | ☐       |
+| 281  | Cockroach Labs                              | ☐       |
+| 282  | Yugabyte                                    | ☐       |
+| 283  | SingleStore                                 | ☐       |
+| 284  | PlanetScale                                 | ☐       |
+| 285  | Informatica Cloud                           | ☐       |
+| 286  | Alteryx                                     | ☐       |
+| 287  | Qlik                                        | ☐       |
+| 288  | Talend                                      | ☐       |
+| 289  | Denodo                                      | ☐       |
+| 290  | ThoughtSpot                                 | ☐       |
+| 291  | Splunk                                      | ☐       |
+| 292  | Dynatrace                                   | ☐       |
+| 293  | New Relic                                   | ☐       |
+| 294  | AppDynamics                                 | ☐       |
+| 295  | DataDog                                     | ☐       |
+| 296  | Harness                                     | ☐       |
+| 297  | PagerDuty                                   | ☐       |
+| 298  | LaunchDarkly                                | ☐       |
+| 299  | Redis Enterprise                            | ☐       |
+| 300  | Celonis                                     | ☐       |
+| 301  | Guidewire Software                          | ☐       |
+| 302  | Duck Creek Technologies                     | ☐       |
+| 303  | Duck Creek India                            | ☐       |
+| 304  | NICE                                        | ☐       |
+| 305  | Genesys                                     | ☐       |
+| 306  | Five9                                       | ☐       |
+| 307  | Verint                                      | ☐       |
+| 308  | Ciena                                       | ☐       |
+| 309  | CommScope                                   | ☐       |
+| 310  | Mavenir                                     | ☐       |
+| 311  | Rakuten Symphony                            | ☐       |
+| 312  | NEC Corporation India                       | ☐       |
+| 313  | Fujifilm India Digital                      | ☐       |
+| 314  | Epson India                                 | ☐       |
+| 315  | Canon India Technology                      | ☐       |
+| 316  | Zebra Technologies                          | ☐       |
+| 317  | Zebra Medical India                         | ☐       |
+| 318  | Trimble Mobility                            | ☐       |
+| 319  | Esri India                                  | ☐       |
+| 320  | Hexagon AB                                  | ☐       |
+| 321  | ANSYS                                       | ☐       |
+| 322  | Keysight Technologies                       | ☐       |
+| 323  | National Instruments                        | ☐       |
+| 324  | MathWorks EDG                               | ☐       |
+| 325  | Wolters Kluwer                              | ☐       |
+| 326  | RELX                                        | ☐       |
+| 327  | Elsevier Technology                         | ☐       |
+| 328  | Pearson Technology                          | ☐       |
+| 329  | McGraw Hill Technology                      | ☐       |
+| 330  | Gartner                                     | ☐       |
+| 331  | Forrester                                   | ☐       |
+| 332  | NielsenIQ                                   | ☐       |
+| 333  | Kantar                                      | ☐       |
+| 334  | Circana                                     | ☐       |
+| 335  | Dun & Bradstreet                            | ☐       |
+| 336  | LexisNexis Risk Solutions                   | ☐       |
+| 337  | Equifax                                     | ☐       |
+| 338  | TransUnion CIBIL                            | ☐       |
+| 339  | Experian India                              | ☐       |
+| 340  | CRED                                        | ☐       |
+| 341  | Groww                                       | ☐       |
+| 342  | Zerodha                                     | ☐       |
+| 343  | Upstox                                      | ☐       |
+| 344  | Angel One                                   | ☐       |
+| 345  | Navi                                        | ☐       |
+| 346  | PolicyBazaar                                | ☐       |
+| 347  | ACKO                                        | ☐       |
+| 348  | Pine Labs                                   | ☐       |
+| 349  | BharatPe                                    | ☐       |
+| 350  | Juspay                                      | ☐       |
+| 351  | Chargebee                                   | ☐       |
+| 352  | Postman                                     | ☐       |
+| 353  | BrowserStack                                | ☐       |
+| 354  | Hasura                                      | ☐       |
+| 355  | Gupshup                                     | ☐       |
+| 356  | Unacademy                                   | ☐       |
+| 357  | PhysicsWallah                               | ☐       |
+| 358  | Byju's Technology                           | ☐       |
+| 359  | Vedantu                                     | ☐       |
+| 360  | Simplilearn                                 | ☐       |
+| 361  | Intuit India                                | ☐       |
+| 362  | Khan Academy India                          | ☐       |
+| 363  | Open Financial Technologies                 | ☐       |
+| 364  | Slice                                       | ☐       |
+| 365  | Niyo                                        | ☐       |
+| 366  | ClearTax                                    | ☐       |
+| 367  | Urban Company                               | ☐       |
+| 368  | Dream11                                     | ☐       |
+| 369  | Games24x7                                   | ☐       |
+| 370  | MPL                                         | ☐       |
+| 371  | Nazara Technologies                         | ☐       |
+| 372  | Ubisoft India                               | ☐       |
+| 373  | Electronic Arts India                       | ☐       |
+| 374  | Rockstar India                              | ☐       |
+| 375  | Zynga India                                 | ☐       |
+| 376  | Scopely India                               | ☐       |
+| 377  | Warner Bros Discovery India                 | ☐       |
+| 378  | Disney Star Technology                      | ☐       |
+| 379  | Sony India Software Centre                  | ☐       |
+| 380  | Netflix India Engineering                   | ☐       |
+| 381  | Apple India                                 | ☐       |
+| 382  | TikTok India Engineering (where applicable) | ☐       |
+| 383  | ByteDance India                             | ☐       |
+| 384  | Yahoo India                                 | ☐       |
+| 385  | Media.net                                   | ☐       |
+| 386  | Taboola India                               | ☐       |
+| 387  | Criteo India                                | ☐       |
+| 388  | PubMatic                                    | ☐       |
+| 389  | Moloco India                                | ☐       |
+| 390  | Yahoo DSP India                             | ☐       |
+| 391  | OLX Group India                             | ☐       |
+| 392  | Quikr                                       | ☐       |
+| 393  | Naukri (Info Edge)                          | ☐       |
+| 394  | Info Edge India                             | ☐       |
+| 395  | MakeMyTrip                                  | ☐       |
+| 396  | Yatra                                       | ☐       |
+| 397  | Cleartrip                                   | ☐       |
+| 398  | Ixigo                                       | ☐       |
+| 399  | Porter                                      | ☐       |
+| 400  | Delhivery                                   | ☐       |
+
+
+
+
+

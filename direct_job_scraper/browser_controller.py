@@ -314,6 +314,24 @@ class BrowserController:
         self._retry("scroll_to_bottom", _scroll)
         logger.info("Scrolled to bottom")
 
+    def scroll_infinite_load(self, card_selector: str, pause_ms: int = 2000) -> bool:
+        """Scroll to load the next infinite-scroll batch; return True if more cards appeared."""
+
+        def _scroll() -> bool:
+            before = self.page.locator(card_selector).count()
+            self.page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            self.page.wait_for_timeout(pause_ms)
+            after = self.page.locator(card_selector).count()
+            logger.info(
+                "Infinite scroll (%s): %d → %d cards",
+                card_selector,
+                before,
+                after,
+            )
+            return after > before
+
+        return self._retry(f"scroll_infinite_load({card_selector})", _scroll)
+
     def extract_links(self, selector: str) -> list[dict[str, str]]:
         def _extract() -> list[dict[str, str]]:
             locator = self.page.locator(selector)

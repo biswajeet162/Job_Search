@@ -133,7 +133,18 @@ class JobScraper:
                         )
                         break
 
-                if pagination_type == "next_button":
+                if pagination_type == "infinite_scroll":
+                    pagination = self.config.get("pagination", {})
+                    card_selector = (
+                        pagination.get("cardSelector")
+                        or self.config["jobLinkStrategy"]["cardSelector"]
+                    )
+                    pause_ms = int(pagination.get("pauseMs", 2000))
+                    log_step("PAGINATION scrolling for more jobs…")
+                    if not self.browser.scroll_infinite_load(card_selector, pause_ms=pause_ms):
+                        log_step("PAGINATION stop → no more jobs loaded")
+                        break
+                elif pagination_type == "next_button":
                     log_step("PAGINATION checking next page…")
                     if not self._has_next_page():
                         log_step("PAGINATION stop → no more pages")
@@ -371,8 +382,11 @@ class JobScraper:
                 button_selector=pagination["goButtonSelector"],
             )
 
-        if pagination_type in {"none", "api_page"}:
-            return pagination_type == "api_page"
+        if pagination_type == "none":
+            return False
+
+        if pagination_type in {"api_page", "infinite_scroll"}:
+            return True
 
         if pagination_type == "next_button":
             return self._go_to_next_page()
