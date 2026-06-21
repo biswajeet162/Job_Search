@@ -40,7 +40,7 @@
 | 38   | Coforge                 | ☐       |
 | 39   | L&T Technology Services | ☐       |
 | 40   | Birlasoft               | ☐       |
-| 41   | Hexaware                | ☐       |
+| 41   | Hexaware                | yes       |
 | 42   | Zensar                  | ☐       |
 | 43   | KPIT                    | ☐       |
 | 44   | Cyient                  | ☐       |
