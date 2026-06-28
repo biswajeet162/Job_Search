@@ -1,0 +1,11 @@
+{
+  "companyName": "Wipro",
+  "extraWaitMs": 5000,
+  "cookieSelectors": [
+    "button:has-text('Accept All Cookies')"
+  ],
+  "fields": {
+    "title": ["h1", ".job-title", ".jobTitle", "[class*='job-title']"],
+    "description": [".job-description", "[class*='job-description']", ".jobdetail", "main"]
+  }
+}

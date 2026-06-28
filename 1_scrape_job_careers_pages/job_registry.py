@@ -107,6 +107,7 @@ class JobRegistry:
         company_slug = slugify(company)
         self._append_confidential_ids(company_slug, new_jobs)
         self._append_dashboard_jobs(new_jobs)
+        self._enqueue_pipeline_jobs(new_jobs)
         logger.info(
             "Registry updated: %d new job(s) for %s → %s & %s",
             len(new_jobs),
@@ -114,6 +115,22 @@ class JobRegistry:
             self.confidential_path,
             self.dashboard_path,
         )
+
+    def _enqueue_pipeline_jobs(self, new_jobs: list[dict[str, Any]]) -> None:
+        """Hand over new jobs to the central pipeline queue (project 2+)."""
+        try:
+            import sys
+
+            repo_root = self.base_dir.parent
+            if str(repo_root) not in sys.path:
+                sys.path.insert(0, str(repo_root))
+            from pipeline.core.queue import PipelineQueue
+
+            added = PipelineQueue().enqueue_discovered_jobs(new_jobs)
+            if added:
+                logger.info("Pipeline queue: %d new job(s) enqueued for detail scraping", added)
+        except Exception as exc:
+            logger.warning("Pipeline enqueue skipped: %s", exc)
 
     def _load_known_ids_for_company(self, company_slug: str) -> set[str]:
         with file_lock(self.confidential_lock):

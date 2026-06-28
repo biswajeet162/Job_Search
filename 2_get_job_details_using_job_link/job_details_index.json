@@ -1,0 +1,1347 @@
+{
+  "updatedAt": "2026-06-28T15:48:43+05:30",
+  "totalFiles": 149,
+  "files": [
+    {
+      "filename": "00069393752-cognizant-20260628-142809.json",
+      "company": "Cognizant",
+      "jobId": "00069393752",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393752/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:09+05:30"
+    },
+    {
+      "filename": "00069381322-cognizant-20260628-142814.json",
+      "company": "Cognizant",
+      "jobId": "00069381322",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069381322/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:14+05:30"
+    },
+    {
+      "filename": "00068741704-cognizant-20260628-142818.json",
+      "company": "Cognizant",
+      "jobId": "00068741704",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068741704/sr-software-engineer-b2/",
+      "jobTitle": "Sr. Software Engineer B2",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:18+05:30"
+    },
+    {
+      "filename": "744000132427340-nagarro-20260628-142825.json",
+      "company": "Nagarro",
+      "jobId": "744000132427340",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132427340",
+      "jobTitle": "SpecialistPrincipal Engineer",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T14:28:25+05:30"
+    },
+    {
+      "filename": "4554878101_GREENHSE-capgemini-20260628-142826.json",
+      "company": "Capgemini",
+      "jobId": "4554878101_GREENHSE",
+      "jobUrl": "https://job-boards.eu.greenhouse.io/capgeminideutschlandgmbh/jobs/4554878101",
+      "jobTitle": "Senior Manager Value Steering/ Management (w/m/d)",
+      "extractionMethod": "greenhouse_api",
+      "scrapedAt": "2026-06-28T14:28:26+05:30"
+    },
+    {
+      "filename": "INFSYS-EXTERNAL-247296-infosys-20260628-142836.json",
+      "company": "Infosys",
+      "jobId": "INFSYS-EXTERNAL-247296",
+      "jobUrl": "https://career.infosys.com/jobdesc?jobReferenceCode=INFSYS-EXTERNAL-247296&rc=0&jobType=normal",
+      "jobTitle": "Python GenAI",
+      "extractionMethod": "company_config",
+      "scrapedAt": "2026-06-28T14:28:36+05:30"
+    },
+    {
+      "filename": "00069393751-cognizant-20260628-142849.json",
+      "company": "Cognizant",
+      "jobId": "00069393751",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393751/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:49+05:30"
+    },
+    {
+      "filename": "00068588681-cognizant-20260628-142854.json",
+      "company": "Cognizant",
+      "jobId": "00068588681",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068588681/ibm-maximo-developer/",
+      "jobTitle": "IBM Maximo Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:54+05:30"
+    },
+    {
+      "filename": "00069393752-cognizant-20260628-152530.json",
+      "company": "Cognizant",
+      "jobId": "00069393752",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393752/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:30+05:30"
+    },
+    {
+      "filename": "00069381322-cognizant-20260628-152531.json",
+      "company": "Cognizant",
+      "jobId": "00069381322",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069381322/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:31+05:30"
+    },
+    {
+      "filename": "00068588681-cognizant-20260628-152535.json",
+      "company": "Cognizant",
+      "jobId": "00068588681",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068588681/ibm-maximo-developer/",
+      "jobTitle": "IBM Maximo Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:35+05:30"
+    },
+    {
+      "filename": "00069393751-cognizant-20260628-152535.json",
+      "company": "Cognizant",
+      "jobId": "00069393751",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393751/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:35+05:30"
+    },
+    {
+      "filename": "00068728467-cognizant-20260628-152536.json",
+      "company": "Cognizant",
+      "jobId": "00068728467",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068728467/lead-quality-engineer/",
+      "jobTitle": "Lead Quality Engineer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:36+05:30"
+    },
+    {
+      "filename": "00069366591-cognizant-20260628-152538.json",
+      "company": "Cognizant",
+      "jobId": "00069366591",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069366591/aws-databricks/",
+      "jobTitle": "AWS Databricks",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:38+05:30"
+    },
+    {
+      "filename": "00063329662-cognizant-20260628-152538.json",
+      "company": "Cognizant",
+      "jobId": "00063329662",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00063329662/datastage-developer-pune/",
+      "jobTitle": "Datastage Developer - Pune",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:38+05:30"
+    },
+    {
+      "filename": "00066558848-cognizant-20260628-152540.json",
+      "company": "Cognizant",
+      "jobId": "00066558848",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00066558848/azure-databricks-plus-pyspark/",
+      "jobTitle": "Azure databricks + Pyspark",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:40+05:30"
+    },
+    {
+      "filename": "00067268482-cognizant-20260628-152542.json",
+      "company": "Cognizant",
+      "jobId": "00067268482",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00067268482/microsoft-365-copilot-ai-agents/",
+      "jobTitle": "Microsoft 365 Copilot & AI Agents",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:42+05:30"
+    },
+    {
+      "filename": "00069288392-cognizant-20260628-152542.json",
+      "company": "Cognizant",
+      "jobId": "00069288392",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069288392/customer-setup-order-to-cash/",
+      "jobTitle": "Customer setup - Order to cash",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:25:42+05:30"
+    },
+    {
+      "filename": "00068139631-cognizant-20260628-152543.json",
+      "company": "Cognizant",
+      "jobId": "00068139631",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068139631/snowflake-dbt/",
+      "jobTitle": "Snowflake DBT",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:43+05:30"
+    },
+    {
+      "filename": "00068312153-cognizant-20260628-152545.json",
+      "company": "Cognizant",
+      "jobId": "00068312153",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068312153/snowflake-tableau/",
+      "jobTitle": "Snowflake Tableau",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:45+05:30"
+    },
+    {
+      "filename": "00068914771-cognizant-20260628-152546.json",
+      "company": "Cognizant",
+      "jobId": "00068914771",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068914771/snowflakepluscollibra/",
+      "jobTitle": "Snowflake+Collibra",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:46+05:30"
+    },
+    {
+      "filename": "00066457762-cognizant-20260628-152546.json",
+      "company": "Cognizant",
+      "jobId": "00066457762",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00066457762/pentaho/",
+      "jobTitle": "Pentaho",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:46+05:30"
+    },
+    {
+      "filename": "00066649751-cognizant-20260628-152549.json",
+      "company": "Cognizant",
+      "jobId": "00066649751",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00066649751/iics-developer/",
+      "jobTitle": "IICS Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:49+05:30"
+    },
+    {
+      "filename": "00069075291-cognizant-20260628-152549.json",
+      "company": "Cognizant",
+      "jobId": "00069075291",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069075291/oracle-cloud-erp-finance-tester-netsuite-erp-tester/",
+      "jobTitle": "Oracle Cloud ERP Finance Tester /Netsuite ERP Tester",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:49+05:30"
+    },
+    {
+      "filename": "00068590781-cognizant-20260628-152550.json",
+      "company": "Cognizant",
+      "jobId": "00068590781",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068590781/spe-senior-process-executive-us-mortgage/",
+      "jobTitle": "SPE (Senior Process Executive) - US Mortgage",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:50+05:30"
+    },
+    {
+      "filename": "00068868091-cognizant-20260628-152552.json",
+      "company": "Cognizant",
+      "jobId": "00068868091",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068868091/teamcenter-developers/",
+      "jobTitle": "Teamcenter Developers",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:52+05:30"
+    },
+    {
+      "filename": "00069393753-cognizant-20260628-152553.json",
+      "company": "Cognizant",
+      "jobId": "00069393753",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393753/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:53+05:30"
+    },
+    {
+      "filename": "79221015312-citi-20260628-152558.json",
+      "company": "Citi",
+      "jobId": "79221015312",
+      "jobUrl": "https://jobs.citi.com/job/pune/asset-servicing-intmd-analyst/287/79221015312",
+      "jobTitle": "Asset Servicing Intmd Analyst",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:25:58+05:30"
+    },
+    {
+      "filename": "77893940656-citi-20260628-152601.json",
+      "company": "Citi",
+      "jobId": "77893940656",
+      "jobUrl": "https://jobs.citi.com/job/pune/custody-client-service-officer/287/77893940656",
+      "jobTitle": "Custody Client Service Officer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:01+05:30"
+    },
+    {
+      "filename": "78060291184-citi-20260628-152602.json",
+      "company": "Citi",
+      "jobId": "78060291184",
+      "jobUrl": "https://jobs.citi.com/job/pune/java-fullstack-developer-c11-pune/287/78060291184",
+      "jobTitle": "Java Fullstack Developer - C11 - Pune",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:02+05:30"
+    },
+    {
+      "filename": "78520737520-citi-20260628-152613.json",
+      "company": "Citi",
+      "jobId": "78520737520",
+      "jobUrl": "https://jobs.citi.com/job/pune/ops-sup-analyst-2/287/78520737520",
+      "jobTitle": "Ops Sup Analyst 2",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:26:13+05:30"
+    },
+    {
+      "filename": "76949818416-citi-20260628-152616.json",
+      "company": "Citi",
+      "jobId": "76949818416",
+      "jobUrl": "https://jobs.citi.com/job/chennai/sec-and-derivatives-sr-analyst/287/76949818416",
+      "jobTitle": "Sec & Derivatives Sr Analyst",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:26:16+05:30"
+    },
+    {
+      "filename": "78243480016-citi-20260628-152617.json",
+      "company": "Citi",
+      "jobId": "78243480016",
+      "jobUrl": "https://jobs.citi.com/job/chennai/sr-database-bigdata-developer-vp-avp-chennai/287/78243480016",
+      "jobTitle": "Sr. Database/BigData Developer - VP/AVP - Chennai",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:17+05:30"
+    },
+    {
+      "filename": "81783896352-citi-20260628-152628.json",
+      "company": "Citi",
+      "jobId": "81783896352",
+      "jobUrl": "https://jobs.citi.com/job/haryana/officer-securities-and-derivatives-analyst-hybrid/287/81783896352",
+      "jobTitle": "Officer, Securities & Derivatives Analyst - Hybrid",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:28+05:30"
+    },
+    {
+      "filename": "83762667920-citi-20260628-152631.json",
+      "company": "Citi",
+      "jobId": "83762667920",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/leveraged-finance-credit-underwriting-officer/287/83762667920",
+      "jobTitle": "Leveraged Finance Credit Underwriting - Officer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:31+05:30"
+    },
+    {
+      "filename": "84491099184-citi-20260628-152632.json",
+      "company": "Citi",
+      "jobId": "84491099184",
+      "jobUrl": "https://jobs.citi.com/job/chennai/securities-and-derivatives-rep/287/84491099184",
+      "jobTitle": "Securities & Derivatives Rep",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:32+05:30"
+    },
+    {
+      "filename": "85205295632-citi-20260628-152644.json",
+      "company": "Citi",
+      "jobId": "85205295632",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/tax-analyst-tax-reporting-fatca-crs-officer/287/85205295632",
+      "jobTitle": "Tax Analyst (Tax reporting FATCA CRS) Officer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:44+05:30"
+    },
+    {
+      "filename": "85205295664-citi-20260628-152647.json",
+      "company": "Citi",
+      "jobId": "85205295664",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/tax-analyst-tax-reporting-fatca-crs-officer/287/85205295664",
+      "jobTitle": "Tax Analyst (Tax reporting FATCA CRS) Officer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:47+05:30"
+    },
+    {
+      "filename": "85671551824-citi-20260628-152647.json",
+      "company": "Citi",
+      "jobId": "85671551824",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/tax-specialist-tax-reporting-fatca/287/85671551824",
+      "jobTitle": "Tax Specialist (Tax reporting FATCA)",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:47+05:30"
+    },
+    {
+      "filename": "85691675520-citi-20260628-152659.json",
+      "company": "Citi",
+      "jobId": "85691675520",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/citi-community-capital-real-estate-underwriter-officer/287/85691675520",
+      "jobTitle": "Citi Community Capital - Real Estate Underwriter - Officer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:26:59+05:30"
+    },
+    {
+      "filename": "76949818544-citi-20260628-152701.json",
+      "company": "Citi",
+      "jobId": "76949818544",
+      "jobUrl": "https://jobs.citi.com/job/chennai/sec-and-derivatives-sr-manager/287/76949818544",
+      "jobTitle": "Sec & Derivatives Sr Manager",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:27:01+05:30"
+    },
+    {
+      "filename": "79598136432-citi-20260628-152702.json",
+      "company": "Citi",
+      "jobId": "79598136432",
+      "jobUrl": "https://jobs.citi.com/job/chennai/chat-customer-service-specialist/287/79598136432",
+      "jobTitle": "Chat Customer Service Specialist",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:02+05:30"
+    },
+    {
+      "filename": "86021359600-citi-20260628-152714.json",
+      "company": "Citi",
+      "jobId": "86021359600",
+      "jobUrl": "https://jobs.citi.com/job/bengaluru/data-information-management-analyst/287/86021359600",
+      "jobTitle": "Data/Information Management Analyst",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:14+05:30"
+    },
+    {
+      "filename": "86465383904-citi-20260628-152716.json",
+      "company": "Citi",
+      "jobId": "86465383904",
+      "jobUrl": "https://jobs.citi.com/job/chennai/program-mgmt-intmd-analyst/287/86465383904",
+      "jobTitle": "Program Mgmt Intmd Analyst",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:16+05:30"
+    },
+    {
+      "filename": "86204858512-citi-20260628-152716.json",
+      "company": "Citi",
+      "jobId": "86204858512",
+      "jobUrl": "https://jobs.citi.com/job/pune/asset-servicing-senior-operations-analyst-pune/287/86204858512",
+      "jobTitle": "Asset Servicing Senior Operations Analyst-Pune",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:27:16+05:30"
+    },
+    {
+      "filename": "87211080176-citi-20260628-152728.json",
+      "company": "Citi",
+      "jobId": "87211080176",
+      "jobUrl": "https://jobs.citi.com/job/bengaluru/data-scientist/287/87211080176",
+      "jobTitle": "Data Scientist",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:28+05:30"
+    },
+    {
+      "filename": "80313447680-citi-20260628-152730.json",
+      "company": "Citi",
+      "jobId": "80313447680",
+      "jobUrl": "https://jobs.citi.com/job/pune/quality-assurance-monitoring-and-testing-analyst/287/80313447680",
+      "jobTitle": "Quality Assurance monitoring and testing Analyst",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:30+05:30"
+    },
+    {
+      "filename": "88013765808-citi-20260628-152732.json",
+      "company": "Citi",
+      "jobId": "88013765808",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/citi-community-capital-real-estate-underwriting-assistant-vice-president/287/88013765808",
+      "jobTitle": "Citi Community Capital - Real Estate Underwriting - Assistant Vice President",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:32+05:30"
+    },
+    {
+      "filename": "88116363392-citi-20260628-152744.json",
+      "company": "Citi",
+      "jobId": "88116363392",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/leveraged-finance-underwriter-senior-vice-president/287/88116363392",
+      "jobTitle": "Leveraged Finance Underwriter - Senior Vice President",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:44+05:30"
+    },
+    {
+      "filename": "88116363424-citi-20260628-152746.json",
+      "company": "Citi",
+      "jobId": "88116363424",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/leveraged-finance-underwriter-vice-president/287/88116363424",
+      "jobTitle": "Leveraged Finance Underwriter – Vice-President",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:46+05:30"
+    },
+    {
+      "filename": "88859778672-citi-20260628-152746.json",
+      "company": "Citi",
+      "jobId": "88859778672",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/credit-risk-analyst-officer-leveraged-finance-underwriting/287/88859778672",
+      "jobTitle": "Credit Risk Analyst (Officer) - Leveraged Finance Underwriting",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:46+05:30"
+    },
+    {
+      "filename": "88859832192-citi-20260628-152758.json",
+      "company": "Citi",
+      "jobId": "88859832192",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/citi-community-capital-real-estate-underwriting-officer/287/88859832192",
+      "jobTitle": "Citi Community Capital - Real Estate Underwriting - Officer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:27:58+05:30"
+    },
+    {
+      "filename": "88859838192-citi-20260628-152800.json",
+      "company": "Citi",
+      "jobId": "88859838192",
+      "jobUrl": "https://jobs.citi.com/job/haryana/avp-fund-accounting/287/88859838192",
+      "jobTitle": "AVP- Fund Accounting",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:00+05:30"
+    },
+    {
+      "filename": "89617013152-citi-20260628-152801.json",
+      "company": "Citi",
+      "jobId": "89617013152",
+      "jobUrl": "https://jobs.citi.com/job/chennai/gen-ai-engineer-intermediate-analyst-4-7years/287/89617013152",
+      "jobTitle": "Gen AI Engineer Intermediate Analyst(4-7Years)",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:01+05:30"
+    },
+    {
+      "filename": "90272079472-citi-20260628-152814.json",
+      "company": "Citi",
+      "jobId": "90272079472",
+      "jobUrl": "https://jobs.citi.com/job/chennai/ops-sup-analyst-2/287/90272079472",
+      "jobTitle": "Ops Sup Analyst 2",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:14+05:30"
+    },
+    {
+      "filename": "88116409776-citi-20260628-152816.json",
+      "company": "Citi",
+      "jobId": "88116409776",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/wholesale-credit-underwriting-asset-backed-lending-assistant-vice-president/287/88116409776",
+      "jobTitle": "Wholesale Credit Underwriting – Asset Backed Lending – Assistant Vice President",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:16+05:30"
+    },
+    {
+      "filename": "90305965312-citi-20260628-152817.json",
+      "company": "Citi",
+      "jobId": "90305965312",
+      "jobUrl": "https://jobs.citi.com/job/mumbai/us-regulatory-report-fr-y-14-lead-analyst-vice-president/287/90305965312",
+      "jobTitle": "US regulatory report FR Y-14 Lead Analyst- Vice President",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:17+05:30"
+    },
+    {
+      "filename": "R-280362-mastercard-20260628-152822.json",
+      "company": "Mastercard",
+      "jobId": "R-280362",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280362/Director-Product-Management-Technical",
+      "jobTitle": "Director, Product Management-Technical",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:22+05:30"
+    },
+    {
+      "filename": "R-280433-mastercard-20260628-152826.json",
+      "company": "Mastercard",
+      "jobId": "R-280433",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280433/Manager-Strategy-Pricing-Interchange",
+      "jobTitle": "Manager, Strategy Pricing & Interchange",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:26+05:30"
+    },
+    {
+      "filename": "R-280385-mastercard-20260628-152827.json",
+      "company": "Mastercard",
+      "jobId": "R-280385",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280385/Director-Product-Management-Data-Products",
+      "jobTitle": "Director, Product Management - Data Products",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:28:27+05:30"
+    },
+    {
+      "filename": "R-280563-mastercard-20260628-152832.json",
+      "company": "Mastercard",
+      "jobId": "R-280563",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280563/Platform-Engineer-I-DevOps",
+      "jobTitle": "Platform Engineer I (DevOps)",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:28:32+05:30"
+    },
+    {
+      "filename": "R-279351-mastercard-20260628-152834.json",
+      "company": "Mastercard",
+      "jobId": "R-279351",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-279351/Senior-Site-Reliability-Engineer",
+      "jobTitle": "Senior Site Reliability Engineer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:34+05:30"
+    },
+    {
+      "filename": "R-280132-mastercard-20260628-152841.json",
+      "company": "Mastercard",
+      "jobId": "R-280132",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280132/Manager-Product-Management",
+      "jobTitle": "Manager, Product Management",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:28:41+05:30"
+    },
+    {
+      "filename": "R-280704-mastercard-20260628-152841.json",
+      "company": "Mastercard",
+      "jobId": "R-280704",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280704/Sr-Web-Developer-Full-Stack",
+      "jobTitle": "Sr. Web Developer (Full Stack)",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:41+05:30"
+    },
+    {
+      "filename": "R-274016-mastercard-20260628-152842.json",
+      "company": "Mastercard",
+      "jobId": "R-274016",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-274016/Lead-Platform-Engineering",
+      "jobTitle": "Lead, Platform Engineering",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:28:42+05:30"
+    },
+    {
+      "filename": "744000132427340-nagarro-20260628-152843.json",
+      "company": "Nagarro",
+      "jobId": "744000132427340",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132427340",
+      "jobTitle": "SpecialistPrincipal Engineer",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:43+05:30"
+    },
+    {
+      "filename": "744000132074989-nagarro-20260628-152844.json",
+      "company": "Nagarro",
+      "jobId": "744000132074989",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132074989",
+      "jobTitle": "SeniorSenior Staff Engineer (AI Developer InfraSec Automation)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:44+05:30"
+    },
+    {
+      "filename": "744000130420909-nagarro-20260628-152844.json",
+      "company": "Nagarro",
+      "jobId": "744000130420909",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130420909",
+      "jobTitle": "SeniorStaff Engineer, System Analyst (Core banking-Integration)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:44+05:30"
+    },
+    {
+      "filename": "744000130628449-nagarro-20260628-152844.json",
+      "company": "Nagarro",
+      "jobId": "744000130628449",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628449",
+      "jobTitle": "SeniorAssociate Staff Engineer, Workday HCM Functional Consultant",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:44+05:30"
+    },
+    {
+      "filename": "744000132075239-nagarro-20260628-152845.json",
+      "company": "Nagarro",
+      "jobId": "744000132075239",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132075239",
+      "jobTitle": "SeniorSenior Staff Engineer (AI Developer SOC Automation)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:45+05:30"
+    },
+    {
+      "filename": "744000131823839-nagarro-20260628-152845.json",
+      "company": "Nagarro",
+      "jobId": "744000131823839",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131823839",
+      "jobTitle": "SpecialistAssociate Principal Engineer, 5G, RRC,QXDM",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:45+05:30"
+    },
+    {
+      "filename": "744000114793717-nagarro-20260628-152846.json",
+      "company": "Nagarro",
+      "jobId": "744000114793717",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000114793717",
+      "jobTitle": "SeniorSenior Staff Engineer, Python & LLM",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:46+05:30"
+    },
+    {
+      "filename": "744000130411610-nagarro-20260628-152846.json",
+      "company": "Nagarro",
+      "jobId": "744000130411610",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130411610",
+      "jobTitle": "SpecialistAssociate Principal Engineer",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:46+05:30"
+    },
+    {
+      "filename": "744000131857356-nagarro-20260628-152846.json",
+      "company": "Nagarro",
+      "jobId": "744000131857356",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131857356",
+      "jobTitle": "SeniorStaff Engineer, 5G, ,C++, Linux",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:46+05:30"
+    },
+    {
+      "filename": "744000131123969-nagarro-20260628-152847.json",
+      "company": "Nagarro",
+      "jobId": "744000131123969",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131123969",
+      "jobTitle": "SeniorStaff Engineer, Industrial Automation",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:47+05:30"
+    },
+    {
+      "filename": "744000130150175-nagarro-20260628-152847.json",
+      "company": "Nagarro",
+      "jobId": "744000130150175",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130150175",
+      "jobTitle": "SeniorStaff Consultant, Business Analyst (Banking and Financial Service)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:47+05:30"
+    },
+    {
+      "filename": "744000130151059-nagarro-20260628-152848.json",
+      "company": "Nagarro",
+      "jobId": "744000130151059",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130151059",
+      "jobTitle": "SeniorStaff Consultant, Business Analyst (CASA/TD)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:48+05:30"
+    },
+    {
+      "filename": "744000130402526-nagarro-20260628-152848.json",
+      "company": "Nagarro",
+      "jobId": "744000130402526",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130402526",
+      "jobTitle": "SpecialistAssociate Principal Engineer, Delivery (Core banking)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:48+05:30"
+    },
+    {
+      "filename": "744000116060067-nagarro-20260628-152848.json",
+      "company": "Nagarro",
+      "jobId": "744000116060067",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000116060067",
+      "jobTitle": "DirectorAssociate Director (Program Delivery, CPG Domain, Digital Transformation)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:48+05:30"
+    },
+    {
+      "filename": "744000079920804-nagarro-20260628-152849.json",
+      "company": "Nagarro",
+      "jobId": "744000079920804",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079920804",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:49+05:30"
+    },
+    {
+      "filename": "744000127874358-nagarro-20260628-152849.json",
+      "company": "Nagarro",
+      "jobId": "744000127874358",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000127874358",
+      "jobTitle": "SeniorAssociate Staff Consultant (Sales & Marketing)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:49+05:30"
+    },
+    {
+      "filename": "R-279419-mastercard-20260628-152849.json",
+      "company": "Mastercard",
+      "jobId": "R-279419",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-279419/Software-Engineer-II",
+      "jobTitle": "Software Engineer II",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:28:49+05:30"
+    },
+    {
+      "filename": "744000079918791-nagarro-20260628-152850.json",
+      "company": "Nagarro",
+      "jobId": "744000079918791",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079918791",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:50+05:30"
+    },
+    {
+      "filename": "744000132356449-nagarro-20260628-152850.json",
+      "company": "Nagarro",
+      "jobId": "744000132356449",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132356449",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP Spend management",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:50+05:30"
+    },
+    {
+      "filename": "744000079920226-nagarro-20260628-152850.json",
+      "company": "Nagarro",
+      "jobId": "744000079920226",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000079920226",
+      "jobTitle": "SpecialistPrincipal Consultant, Support Presales",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:50+05:30"
+    },
+    {
+      "filename": "744000118568477-nagarro-20260628-152850.json",
+      "company": "Nagarro",
+      "jobId": "744000118568477",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000118568477",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP-Supply-Chain-Logistics",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:50+05:30"
+    },
+    {
+      "filename": "744000132358215-nagarro-20260628-152850.json",
+      "company": "Nagarro",
+      "jobId": "744000132358215",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132358215",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP Industry Solutions",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:50+05:30"
+    },
+    {
+      "filename": "744000126809589-nagarro-20260628-152851.json",
+      "company": "Nagarro",
+      "jobId": "744000126809589",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000126809589",
+      "jobTitle": "SeniorStaff Engineer , Salesforce Health Cloud",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:51+05:30"
+    },
+    {
+      "filename": "744000131397309-nagarro-20260628-152851.json",
+      "company": "Nagarro",
+      "jobId": "744000131397309",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131397309",
+      "jobTitle": "SeniorSenior Staff Engineer, Salesforce Health Cloud",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:51+05:30"
+    },
+    {
+      "filename": "744000116582737-nagarro-20260628-152851.json",
+      "company": "Nagarro",
+      "jobId": "744000116582737",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000116582737",
+      "jobTitle": "SpecialistAssociate Principal Engineer, CRM Salesforce CPQ (Technical Architect)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:51+05:30"
+    },
+    {
+      "filename": "744000131392824-nagarro-20260628-152851.json",
+      "company": "Nagarro",
+      "jobId": "744000131392824",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131392824",
+      "jobTitle": "SpecialistAssociate Principal Engineer,  Salesforce Health cloud",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:51+05:30"
+    },
+    {
+      "filename": "744000131390284-nagarro-20260628-152852.json",
+      "company": "Nagarro",
+      "jobId": "744000131390284",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131390284",
+      "jobTitle": "SeniorSenior Staff Engineer, Dotnet Fullstack (Angular)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:52+05:30"
+    },
+    {
+      "filename": "744000123634645-nagarro-20260628-152852.json",
+      "company": "Nagarro",
+      "jobId": "744000123634645",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000123634645",
+      "jobTitle": "SeniorStaff Engineer, ServiceNow (HAM,ITAM,ITSM,ServiceNow)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:52+05:30"
+    },
+    {
+      "filename": "744000128687807-nagarro-20260628-152852.json",
+      "company": "Nagarro",
+      "jobId": "744000128687807",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000128687807",
+      "jobTitle": "SpecialistPrincipal Engineer, FASTAPP (Mendix)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:52+05:30"
+    },
+    {
+      "filename": "R-272873-mastercard-20260628-152852.json",
+      "company": "Mastercard",
+      "jobId": "R-272873",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-272873/Lead-Software-Engineer",
+      "jobTitle": "Lead Software Engineer",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:28:52+05:30"
+    },
+    {
+      "filename": "744000131389909-nagarro-20260628-152852.json",
+      "company": "Nagarro",
+      "jobId": "744000131389909",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131389909",
+      "jobTitle": "SeniorStaff Engineer, Dotnet Fullstack (Angular)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:52+05:30"
+    },
+    {
+      "filename": "744000132559784-nagarro-20260628-152853.json",
+      "company": "Nagarro",
+      "jobId": "744000132559784",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132559784",
+      "jobTitle": "SeniorStaff Engineer",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:53+05:30"
+    },
+    {
+      "filename": "744000128687339-nagarro-20260628-152853.json",
+      "company": "Nagarro",
+      "jobId": "744000128687339",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000128687339",
+      "jobTitle": "SpecialistPrincipal Engineer (Mendix + java)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:53+05:30"
+    },
+    {
+      "filename": "744000132561409-nagarro-20260628-152853.json",
+      "company": "Nagarro",
+      "jobId": "744000132561409",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132561409",
+      "jobTitle": "SeniorStaff Engineer, Java, Docker, Kafka",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:53+05:30"
+    },
+    {
+      "filename": "744000131389840-nagarro-20260628-152853.json",
+      "company": "Nagarro",
+      "jobId": "744000131389840",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131389840",
+      "jobTitle": "SeniorStaff Engineer, Dotnet Fullstack (Angular)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:53+05:30"
+    },
+    {
+      "filename": "744000131388944-nagarro-20260628-152853.json",
+      "company": "Nagarro",
+      "jobId": "744000131388944",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131388944",
+      "jobTitle": "SeniorSenior Staff Engineer, Dotnet Fullstack (Angular)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:53+05:30"
+    },
+    {
+      "filename": "744000131587329-nagarro-20260628-152854.json",
+      "company": "Nagarro",
+      "jobId": "744000131587329",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000131587329",
+      "jobTitle": "SeniorAssociate Staff Consultant, US IT recruiter",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:53+05:30"
+    },
+    {
+      "filename": "744000132554729-nagarro-20260628-152854.json",
+      "company": "Nagarro",
+      "jobId": "744000132554729",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132554729",
+      "jobTitle": "SeniorStaff Engineer, ArgoCD",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:54+05:30"
+    },
+    {
+      "filename": "744000129230865-nagarro-20260628-152854.json",
+      "company": "Nagarro",
+      "jobId": "744000129230865",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000129230865",
+      "jobTitle": "SpecialistAssociate Principal Engineer (AEM)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:54+05:30"
+    },
+    {
+      "filename": "744000132331379-nagarro-20260628-152854.json",
+      "company": "Nagarro",
+      "jobId": "744000132331379",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132331379",
+      "jobTitle": "SeniorStaff Engineer, Midi Audio",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:54+05:30"
+    },
+    {
+      "filename": "744000130628649-nagarro-20260628-152854.json",
+      "company": "Nagarro",
+      "jobId": "744000130628649",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628649",
+      "jobTitle": "SeniorAssociate Staff Engineer, ERP Workday (Technical Consultant)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:54+05:30"
+    },
+    {
+      "filename": "744000129477719-nagarro-20260628-152855.json",
+      "company": "Nagarro",
+      "jobId": "744000129477719",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000129477719",
+      "jobTitle": "SeniorSenior Staff Engineer, AI,LLM",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:55+05:30"
+    },
+    {
+      "filename": "744000130628779-nagarro-20260628-152855.json",
+      "company": "Nagarro",
+      "jobId": "744000130628779",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130628779",
+      "jobTitle": "SeniorStaff Engineer, ERP Workday (Functional Consultant)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:55+05:30"
+    },
+    {
+      "filename": "744000130412157-nagarro-20260628-152856.json",
+      "company": "Nagarro",
+      "jobId": "744000130412157",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130412157",
+      "jobTitle": "SpecialistAssociate Principal Engineer, Solution Architect (Core banking)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:56+05:30"
+    },
+    {
+      "filename": "744000132467116-nagarro-20260628-152856.json",
+      "company": "Nagarro",
+      "jobId": "744000132467116",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132467116",
+      "jobTitle": "SeniorSenior Staff Consultant, SAP ABAP SolMan",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:56+05:30"
+    },
+    {
+      "filename": "744000130631319-nagarro-20260628-152856.json",
+      "company": "Nagarro",
+      "jobId": "744000130631319",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000130631319",
+      "jobTitle": "SeniorSenior Staff Engineer, ERP Dynamics Functional (Finance)",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:56+05:30"
+    },
+    {
+      "filename": "744000132989430-nagarro-20260628-152857.json",
+      "company": "Nagarro",
+      "jobId": "744000132989430",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132989430",
+      "jobTitle": "SeniorSenior Staff Engineer,IBM Integration Specialist",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:57+05:30"
+    },
+    {
+      "filename": "744000132993155-nagarro-20260628-152857.json",
+      "company": "Nagarro",
+      "jobId": "744000132993155",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132993155",
+      "jobTitle": "SeniorAssociate Staff Engineer, SAP SD, SAP TM",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:57+05:30"
+    },
+    {
+      "filename": "744000132989489-nagarro-20260628-152858.json",
+      "company": "Nagarro",
+      "jobId": "744000132989489",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132989489",
+      "jobTitle": "SeniorSenior Staff Engineer, Java, React",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T15:28:58+05:30"
+    },
+    {
+      "filename": "R-280640-mastercard-20260628-152900.json",
+      "company": "Mastercard",
+      "jobId": "R-280640",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280640/Manager-Business-Development-Support",
+      "jobTitle": "Manager – Business Development Support",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:29:00+05:30"
+    },
+    {
+      "filename": "R-280176-mastercard-20260628-152902.json",
+      "company": "Mastercard",
+      "jobId": "R-280176",
+      "jobUrl": "https://careers.mastercard.com/us/en/job/R-280176/Senior-Software-Engineer-Java-Full-stack",
+      "jobTitle": "Senior Software Engineer (Java Full stack)",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:29:02+05:30"
+    },
+    {
+      "filename": "66267564752-citi-20260628-152912.json",
+      "company": "Citi",
+      "jobId": "66267564752",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/assistant-vice-president-custody-operations-asset-servicing-hybrid/287/66267564752",
+      "jobTitle": "Assistant Vice President - Custody Operations - Asset Servicing (Hybrid)",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:29:12+05:30"
+    },
+    {
+      "filename": "76992206832-citi-20260628-152916.json",
+      "company": "Citi",
+      "jobId": "76992206832",
+      "jobUrl": "https://jobs.citi.com/job/hong-kong/associate-banker-hong-kong-team/287/76992206832",
+      "jobTitle": "Associate Banker - Hong Kong Team",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:29:15+05:30"
+    },
+    {
+      "filename": "59474001296-citi-20260628-152917.json",
+      "company": "Citi",
+      "jobId": "59474001296",
+      "jobUrl": "https://jobs.citi.com/job/san-pedro-garza-garcia-jesus-maria/banamex-asesor-de-ventas-tarjetas-de-credito/287/59474001296",
+      "jobTitle": "Banamex Asesor de Ventas Tarjetas de Crédito",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:29:17+05:30"
+    },
+    {
+      "filename": "75497785040-citi-20260628-152928.json",
+      "company": "Citi",
+      "jobId": "75497785040",
+      "jobUrl": "https://jobs.citi.com/job/new-york/citi-wealth-wealth-relationship-manager-rego-park/287/75497785040",
+      "jobTitle": "Citi Wealth - Wealth Relationship Manager - Rego Park",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:29:28+05:30"
+    },
+    {
+      "filename": "79230562768-citi-20260628-152931.json",
+      "company": "Citi",
+      "jobId": "79230562768",
+      "jobUrl": "https://jobs.citi.com/job/new-york/citi-wealth-wealth-relationship-manager-utopia-branch/287/79230562768",
+      "jobTitle": "Citi Wealth - Wealth Relationship Manager - Utopia Branch",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:29:31+05:30"
+    },
+    {
+      "filename": "52974437888-citi-20260628-152932.json",
+      "company": "Citi",
+      "jobId": "52974437888",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/corporate-banking-associate-avp/287/52974437888",
+      "jobTitle": "Corporate Banking Associate - AVP",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:29:32+05:30"
+    },
+    {
+      "filename": "52133499248-citi-20260628-152944.json",
+      "company": "Citi",
+      "jobId": "52133499248",
+      "jobUrl": "https://jobs.citi.com/job/kowloon/credit-and-portfolio-risk-management-avp-transformation-hong-kong/287/52133499248",
+      "jobTitle": "Credit & Portfolio Risk Management - AVP - Transformation - Hong Kong",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:29:44+05:30"
+    },
+    {
+      "filename": "75790507824-citi-20260628-152946.json",
+      "company": "Citi",
+      "jobId": "75790507824",
+      "jobUrl": "https://jobs.citi.com/job/new-york/equity-derivatives-sales-north-america-director/287/75790507824",
+      "jobTitle": "Equity Derivatives Sales North America, Director",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:29:46+05:30"
+    },
+    {
+      "filename": "79790833792-citi-20260628-152947.json",
+      "company": "Citi",
+      "jobId": "79790833792",
+      "jobUrl": "https://jobs.citi.com/job/singapore/private-banker-senior-private-banker-india-team-citi-private-bank/287/79790833792",
+      "jobTitle": "Private Banker / Senior Private Banker (India Team) - Citi Private Bank",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:29:47+05:30"
+    },
+    {
+      "filename": "78290086320-citi-20260628-152959.json",
+      "company": "Citi",
+      "jobId": "78290086320",
+      "jobUrl": "https://jobs.citi.com/job/kowloon/insurance-specialist/287/78290086320",
+      "jobTitle": "Insurance Specialist",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:29:59+05:30"
+    },
+    {
+      "filename": "80427460464-citi-20260628-153002.json",
+      "company": "Citi",
+      "jobId": "80427460464",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/mys-ctsm-custody-operations-asset-servicing-senior-supervisor/287/80427460464",
+      "jobTitle": "MYS CTSM - Custody Operations Asset Servicing Senior Supervisor",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:30:02+05:30"
+    },
+    {
+      "filename": "80427460656-citi-20260628-153002.json",
+      "company": "Citi",
+      "jobId": "80427460656",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/mys-ctsm-kl-asset-servicing-representative-hybrid/287/80427460656",
+      "jobTitle": "MYS CTSM KL Asset Servicing Representative ( Hybrid)",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:30:02+05:30"
+    },
+    {
+      "filename": "80427469312-citi-20260628-153013.json",
+      "company": "Citi",
+      "jobId": "80427469312",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/officer-transfer-agency-analyst/287/80427469312",
+      "jobTitle": "Officer, Transfer Agency Analyst",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:30:13+05:30"
+    },
+    {
+      "filename": "80427469344-citi-20260628-153017.json",
+      "company": "Citi",
+      "jobId": "80427469344",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/officer-transfer-agency-senior-analyst-hybrid/287/80427469344",
+      "jobTitle": "Officer, Transfer Agency Senior Analyst - Hybrid",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:30:17+05:30"
+    },
+    {
+      "filename": "79174901392-citi-20260628-153018.json",
+      "company": "Citi",
+      "jobId": "79174901392",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/securities-and-derivatives-analyst-1-hybrid/287/79174901392",
+      "jobTitle": "Securities & Derivatives Analyst 1 - Hybrid",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:30:18+05:30"
+    },
+    {
+      "filename": "77364522816-citi-20260628-153028.json",
+      "company": "Citi",
+      "jobId": "77364522816",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/senior-officer-securities-services-sanctions-operations-sso-hybrid/287/77364522816",
+      "jobTitle": "Senior Officer , Securities Services Sanctions Operations (SSO) – Hybrid",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:30:28+05:30"
+    },
+    {
+      "filename": "81532885776-citi-20260628-153032.json",
+      "company": "Citi",
+      "jobId": "81532885776",
+      "jobUrl": "https://jobs.citi.com/job/kuala-lumpur/graduan-career-fair-custody-asset-servicing-analyst-senior-analyst/287/81532885776",
+      "jobTitle": "Graduan Career Fair - Custody Asset Servicing Analyst / Senior Analyst",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:30:32+05:30"
+    },
+    {
+      "filename": "72465907728-citi-20260628-153032.json",
+      "company": "Citi",
+      "jobId": "72465907728",
+      "jobUrl": "https://jobs.citi.com/job/new-york/investment-banking-associate-senior-associate-mergers-and-acquisitions-m-and-a/287/72465907728",
+      "jobTitle": "Investment Banking Associate/ Senior Associate, Mergers and Acquisitions (\"M&A\")",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:30:32+05:30"
+    },
+    {
+      "filename": "00069393752-cognizant-20260628-153711.json",
+      "company": "Cognizant",
+      "jobId": "00069393752",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393752/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:37:11+05:30"
+    },
+    {
+      "filename": "00068741704-cognizant-20260628-153711.json",
+      "company": "Cognizant",
+      "jobId": "00068741704",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068741704/sr-software-engineer-b2/",
+      "jobTitle": "Sr. Software Engineer B2",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:37:11+05:30"
+    },
+    {
+      "filename": "00069381322-cognizant-20260628-153711.json",
+      "company": "Cognizant",
+      "jobId": "00069381322",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069381322/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:37:11+05:30"
+    },
+    {
+      "filename": "92014-hcltech-20260628-153719.json",
+      "company": "HCLTech",
+      "jobId": "92014",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Member/92014-en_US",
+      "jobTitle": "Presales - Team Member",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:37:19+05:30"
+    },
+    {
+      "filename": "99679-hcltech-20260628-153719.json",
+      "company": "HCLTech",
+      "jobId": "99679",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Lead/99679-en_US",
+      "jobTitle": "Presales - Team Lead",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:37:19+05:30"
+    },
+    {
+      "filename": "00069393752-cognizant-20260628-153813.json",
+      "company": "Cognizant",
+      "jobId": "00069393752",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393752/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:38:13+05:30"
+    },
+    {
+      "filename": "00069381322-cognizant-20260628-153813.json",
+      "company": "Cognizant",
+      "jobId": "00069381322",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069381322/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:38:13+05:30"
+    },
+    {
+      "filename": "00068741704-cognizant-20260628-153814.json",
+      "company": "Cognizant",
+      "jobId": "00068741704",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068741704/sr-software-engineer-b2/",
+      "jobTitle": "Sr. Software Engineer B2",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:38:14+05:30"
+    },
+    {
+      "filename": "99679-hcltech-20260628-153818.json",
+      "company": "HCLTech",
+      "jobId": "99679",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Lead/99679-en_US",
+      "jobTitle": "Presales - Team Lead",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:38:18+05:30"
+    },
+    {
+      "filename": "92014-hcltech-20260628-153818.json",
+      "company": "HCLTech",
+      "jobId": "92014",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Member/92014-en_US",
+      "jobTitle": "Presales - Team Member",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:38:18+05:30"
+    },
+    {
+      "filename": "00069393752-cognizant-20260628-154816.json",
+      "company": "Cognizant",
+      "jobId": "00069393752",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393752/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:48:16+05:30"
+    },
+    {
+      "filename": "00069381322-cognizant-20260628-154821.json",
+      "company": "Cognizant",
+      "jobId": "00069381322",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069381322/principal-infra-developer/",
+      "jobTitle": "Principal Infra Developer",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:48:21+05:30"
+    },
+    {
+      "filename": "00068741704-cognizant-20260628-154824.json",
+      "company": "Cognizant",
+      "jobId": "00068741704",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068741704/sr-software-engineer-b2/",
+      "jobTitle": "Sr. Software Engineer B2",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T15:48:24+05:30"
+    },
+    {
+      "filename": "99679-hcltech-20260628-154835.json",
+      "company": "HCLTech",
+      "jobId": "99679",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Lead/99679-en_US",
+      "jobTitle": "Presales - Team Lead",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:48:35+05:30"
+    },
+    {
+      "filename": "92014-hcltech-20260628-154843.json",
+      "company": "HCLTech",
+      "jobId": "92014",
+      "jobUrl": "https://careers.hcltech.com/job/Presales-Team-Member/92014-en_US",
+      "jobTitle": "Presales - Team Member",
+      "extractionMethod": "generic_dom",
+      "scrapedAt": "2026-06-28T15:48:42+05:30"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "updatedAt": "2026-06-28T14:28:54+05:30",
+  "totalScraped": 8,
+  "entries": {
+    "cognizant:00069393752": {
+      "company": "Cognizant",
+      "jobId": "00069393752",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393752/principal-infra-developer/",
+      "filename": "00069393752-cognizant-20260628-142809.json",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:09+05:30"
+    },
+    "cognizant:00069381322": {
+      "company": "Cognizant",
+      "jobId": "00069381322",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069381322/principal-infra-developer/",
+      "filename": "00069381322-cognizant-20260628-142814.json",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:14+05:30"
+    },
+    "cognizant:00068741704": {
+      "company": "Cognizant",
+      "jobId": "00068741704",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068741704/sr-software-engineer-b2/",
+      "filename": "00068741704-cognizant-20260628-142818.json",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:18+05:30"
+    },
+    "nagarro:744000132427340": {
+      "company": "Nagarro",
+      "jobId": "744000132427340",
+      "jobUrl": "https://jobs.smartrecruiters.com/Nagarro1/744000132427340",
+      "filename": "744000132427340-nagarro-20260628-142825.json",
+      "extractionMethod": "smartrecruiters_api",
+      "scrapedAt": "2026-06-28T14:28:25+05:30"
+    },
+    "capgemini:4554878101_GREENHSE": {
+      "company": "Capgemini",
+      "jobId": "4554878101_GREENHSE",
+      "jobUrl": "https://job-boards.eu.greenhouse.io/capgeminideutschlandgmbh/jobs/4554878101",
+      "filename": "4554878101_GREENHSE-capgemini-20260628-142826.json",
+      "extractionMethod": "greenhouse_api",
+      "scrapedAt": "2026-06-28T14:28:26+05:30"
+    },
+    "infosys:INFSYS-EXTERNAL-247296": {
+      "company": "Infosys",
+      "jobId": "INFSYS-EXTERNAL-247296",
+      "jobUrl": "https://career.infosys.com/jobdesc?jobReferenceCode=INFSYS-EXTERNAL-247296&rc=0&jobType=normal",
+      "filename": "INFSYS-EXTERNAL-247296-infosys-20260628-142836.json",
+      "extractionMethod": "company_config",
+      "scrapedAt": "2026-06-28T14:28:36+05:30"
+    },
+    "cognizant:00069393751": {
+      "company": "Cognizant",
+      "jobId": "00069393751",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00069393751/principal-infra-developer/",
+      "filename": "00069393751-cognizant-20260628-142849.json",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:49+05:30"
+    },
+    "cognizant:00068588681": {
+      "company": "Cognizant",
+      "jobId": "00068588681",
+      "jobUrl": "https://careers.cognizant.com/india-en/jobs/00068588681/ibm-maximo-developer/",
+      "filename": "00068588681-cognizant-20260628-142854.json",
+      "extractionMethod": "json_ld",
+      "scrapedAt": "2026-06-28T14:28:54+05:30"
+    }
+  }
+}

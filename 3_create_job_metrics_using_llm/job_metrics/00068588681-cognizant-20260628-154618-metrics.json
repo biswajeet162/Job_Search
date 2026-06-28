@@ -1,0 +1,31 @@
+{
+  "jobId": "00068588681",
+  "company": "Cognizant",
+  "sourceDetailFile": "00068588681-cognizant-20260628-142854.json",
+  "extractedAt": "2026-06-28T15:46:18+05:30",
+  "extractionMethod": "llm",
+  "promptVersion": "1.0",
+  "llm": {
+    "provider": "ollama",
+    "model": "llama3.1:8b"
+  },
+  "metrics": {
+    "jobTitle": "IBM Maximo Developer",
+    "description": "Join our team as a Product Consultant specializing in IBM Maximo Asset Management where you will leverage your expertise in Maximo Automation Script SQL and Java to deliver impactful solutions for the Utilities domain. This hybrid role offers the opportunity to work on innovative projects while contributing to the companys mission of driving operational excellence. Collaborate with cross-functional teams to analyze business requirements and translate them into technical solutions within IBM Maximo Asset Management. Design, develop and implement Maximo Automation Scripts to optimize workflows and enhance system functionality. Utilize SQL to extract manipulate and analyze data for reporting and decision-making purposes. Develop and maintain Java-based integrations to ensure seamless communication between Maximo and other enterprise systems. Provide technical expertise and troubleshooting support to resolve complex issues related to Maximo Asset Management. Conduct system testing and validation to ensure solutions meet business needs and comply with industry standards. Work closely with stakeholders in the Utilities domain to understand operational challenges and propose tailored solutions. Create and maintain technical documentation including system designs, user guides and process workflows. Monitor system performance and implement enhancements to improve efficiency and reliability. Stay updated on industry trends and emerging technologies to continuously improve Maximo solutions. Ensure compliance with company policies and regulatory requirements in all technical implementations. Collaborate with team members in a hybrid work model to deliver high-quality solutions within project timelines. Contribute to the companys purpose by driving innovation and improving asset management processes in the Utilities sector.",
+    "yearsOfExperience": {
+      "min": 10,
+      "max": 14,
+      "raw": "minimum 10 years, 10 to 14 years"
+    },
+    "location": "Hyderabad, Telangana, India",
+    "skills": [
+      "IBM Maximo Asset Management",
+      "Maximo Automation Script",
+      "SQL",
+      "Java",
+      "Oracle SQL Certification",
+      "Java SE Programmer Certification",
+      "AWS"
+    ]
+  }
+}

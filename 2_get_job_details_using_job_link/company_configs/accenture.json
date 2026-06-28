@@ -1,0 +1,8 @@
+{
+  "companyName": "Accenture",
+  "extraWaitMs": 3000,
+  "fields": {
+    "title": ["h1", ".job-title", "main h1"],
+    "description": ["main", "article", "[class*='description']"]
+  }
+}

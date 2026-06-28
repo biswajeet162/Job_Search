@@ -1,0 +1,34 @@
+{
+  "jobId": "00068741704",
+  "company": "Cognizant",
+  "sourceDetailFile": "00068741704-cognizant-20260628-154824.json",
+  "extractedAt": "2026-06-28T15:49:14+05:30",
+  "extractionMethod": "llm",
+  "promptVersion": "1.0",
+  "llm": {
+    "provider": "ollama",
+    "model": "llama3.1:8b"
+  },
+  "metrics": {
+    "jobTitle": "Sr. Software Engineer B2",
+    "description": "We are seeking a highly skilled Sr. Software Engineer with 8 to 11 years of experience to join our dynamic team. The ideal candidate will have expertise in Java 17 Kafka Core Java SQL Spring Boot Microservices and the Spring Framework. This hybrid role offers the opportunity to work on cutting-edge projects leveraging advanced technologies to deliver impactful solutions in a collaborative environment.\n\nResponsibilities\nDevelop and maintain high-quality software solutions using Java 17 Spring Boot and Microservices to meet business requirements.Design and implement scalable and efficient microservices-based architectures to support enterprise-level applications.Collaborate with cross-functional teams to gather and analyze requirements ensuring alignment with business goals.Utilize Kafka for building robust messaging and streaming solutions ensuring seamless data flow across systems.Write optimized SQL queries to interact with databases ensuring data integrity and performance.Conduct code reviews to maintain coding standards and ensure the delivery of high-quality software.Troubleshoot and resolve complex technical issues ensuring minimal downtime and optimal system performance.Stay updated with the latest advancements in Java and related technologies to incorporate best practices into development processes.Provide technical guidance and mentorship to junior team members fostering a culture of continuous learning.Participate in Agile ceremonies including sprint planning daily stand-ups and retrospectives to ensure timely delivery of projects.Create and maintain comprehensive technical documentation to support ongoing development and maintenance efforts.Perform thorough testing including unit testing and integration testing to ensure software reliability and functionality.Collaborate with DevOps teams to streamline deployment processes and enhance system scalability. Qualifications Demonstrate strong expertise in Java 17 Core Java and the Spring Framework to develop robust applications.Possess hands-on experience with Kafka for building messaging and streaming solutions.Showcase proficiency in SQL for database interactions and performance optimization.Have a solid understanding of Spring Boot and Microservices architecture for scalable application development.Exhibit excellent problem-solving skills and the ability to troubleshoot complex technical issues.Display strong communication skills to effectively collaborate with team members and stakeholders.Bring a proactive attitude towards learning and adopting new technologies to enhance project outcomes.Hold a bachelors degree in computer science engineering or a related field.Experience in Agile methodologies and tools is a nice-to-have skill.Familiarity with DevOps practices and CI/CD pipelines is an added advantage.Knowledge of cloud platforms and containerization technologies is desirable.Ability to work effectively in a hybrid work model balancing remote and in-office collaboration.Demonstrate a commitment to delivering high-quality software solutions that align with organizational goals.\n\nCertifications Required\nOracle Certified Professional Java SE 17 Developer Apache Kafka Certification Spring Professional Certification",
+    "yearsOfExperience": {
+      "min": 8,
+      "max": 11,
+      "raw": "8 to 11 years"
+    },
+    "location": "PUNE, Maharashtra, India",
+    "skills": [
+      "Java 17",
+      "Kafka",
+      "Core Java",
+      "SQL",
+      "Spring Boot",
+      "Microservices",
+      "Spring Framework",
+      "Oracle Certified Professional Java SE 17 Developer",
+      "Apache Kafka Certification",
+      "Spring Professional Certification"
+    ]
+  }
+}

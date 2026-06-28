@@ -1,0 +1,9 @@
+{
+  "companyName": "Infosys",
+  "waitForSelector": ".jobTitle",
+  "extraWaitMs": 2000,
+  "fields": {
+    "title": [".jobTitle", "h1"],
+    "description": [".jobDescription", ".job-description"]
+  }
+}

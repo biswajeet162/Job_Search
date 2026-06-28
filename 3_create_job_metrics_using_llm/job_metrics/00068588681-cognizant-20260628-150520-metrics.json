@@ -1,0 +1,28 @@
+{
+  "jobId": "00068588681",
+  "company": "Cognizant",
+  "sourceDetailFile": "00068588681-cognizant-20260628-142854.json",
+  "extractedAt": "2026-06-28T15:05:20+05:30",
+  "extractionMethod": "regex_fallback",
+  "promptVersion": "1.0",
+  "llm": {
+    "provider": "ollama",
+    "model": "llama3.1"
+  },
+  "metrics": {
+    "jobTitle": "IBM Maximo Developer",
+    "description": "Job Summary\n\nJoin our team as a Product Consultant specializing in IBM Maximo Asset Management where you will leverage your expertise in Maximo Automation Script SQL and Java to deliver impactful solutions for the Utilities domain. This hybrid role offers the opportunity to work on innovative projects while contributing to the companys mission of driving operational excellence.\n\n \n\nResponsibilities\n\nCollaborate with cross-functional teams to analyze business requirements and translate them into technical solutions within IBM Maximo Asset Management.Design develop and implement Maximo Automation Scripts to optimize workflows and enhance system functionality.Utilize SQL to extract manipulate and analyze data for reporting and decision-making purposes.Develop and maintain Java-based integrations to ensure seamless communication between Maximo and other enterprise systems.Provide technical expertise and troubleshooting support to resolve complex issues related to Maximo Asset Management.Conduct system testing and validation to ensure solutions meet business needs and comply with industry standards.Work closely with stakeholders in the Utilities domain to understand operational challenges and propose tailored solutions.Create and maintain technical documentation including system designs user guides and process workflows.Monitor system performance and implement enhancements to improve efficiency and reliability.Stay updated on industry trends and emerging technologies to continuously improve Maximo solutions.Ensure compliance with company policies and regulatory requirements in all technical implementations.Collaborate with team members in a hybrid work model to deliver high-quality solutions within project timelines.Contribute to the companys purpose by driving innovation and improving asset management processes in the Utilities sector.\n \n\nQualifications\n\n Possess strong expertise in IBM Maximo Asset Management with hands-on experience in Maximo Automation Script SQL and Java.Demonstrate a deep understanding of the Utilities domain and its operational challenges.Have excellent problem-solving skills to address complex technical issues effectively.Exhibit strong communication skills to collaborate with stakeholders and team members.Show proficiency in creating technical documentation and user guides for system implementations.Display a commitment to staying updated on industry trends and emerging technologies.Bring a minimum of 10 years of relevant experience with a maximum of 14 years to the role.Demonstrate the ability to work effectively in a hybrid work model and deliver results within project timelines.Showcase a proactive approach to identifying opportunities for system enhancements and process improvements.Possess a strong focus on delivering solutions that align with company goals and benefit society.Exhibit attention to detail and a commitment to ensuring compliance with regulatory requirements.Have a proven track record of successful technical implementations in the Utilities domain.Display a passion for driving operational excellence and innovation in asset management processes.\n \n\nCertifications Required\n\nIBM Certified Deployment Professional - Maximo Asset Management V7.6 Oracle SQL Certification Java SE Programmer Certification",
+    "yearsOfExperience": {
+      "min": null,
+      "max": null,
+      "raw": ""
+    },
+    "location": "Hyderabad, Telangana, India",
+    "skills": [
+      "Java",
+      "Maximo",
+      "Oracle",
+      "SQL"
+    ]
+  }
+}

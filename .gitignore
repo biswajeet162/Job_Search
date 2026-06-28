@@ -1,0 +1,11 @@
+pipeline_data/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Scraper outputs (already gitignored in subprojects)
+1_scrape_job_careers_pages/output/
+1_scrape_job_careers_pages/confidential/
+2_get_job_details_using_job_link/job_details/
+*.db-journal

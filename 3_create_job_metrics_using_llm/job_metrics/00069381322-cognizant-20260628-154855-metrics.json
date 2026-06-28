@@ -1,0 +1,37 @@
+{
+  "jobId": "00069381322",
+  "company": "Cognizant",
+  "sourceDetailFile": "00069381322-cognizant-20260628-154821.json",
+  "extractedAt": "2026-06-28T15:48:55+05:30",
+  "extractionMethod": "llm",
+  "promptVersion": "1.0",
+  "llm": {
+    "provider": "ollama",
+    "model": "llama3.1:8b"
+  },
+  "metrics": {
+    "jobTitle": "Principal Infra Developer",
+    "description": "The role involves leading critical technical escalations across Splunk platform environments ensuring timely and effective resolution of customer-impacting incidents. You will provide hands-on technical support to Senior Engineers Technical Leads and cross-functional support teams for highly complex infrastructure and cloud platform issues. Direct engagement with enterprise customers stakeholders and engineering teams is expected to drive incident resolution maintain customer confidence and provide technical guidance.\n\nYou will track and manage progress on escalations to maintain clear ownership accountability and resolution timelines. Conducting deep-dive Root Cause Analysis for high-severity incidents and developing corrective and preventive action plans is a key responsibility requiring strong analytical and decision-making skills. The role emphasizes escalation ownership and accountability cross-functional collaboration mentoring and technical coaching process improvement and operational excellence.\n\nIn enterprise and cloud platform operations responsibilities include managing data onboarding and ingestion pipelines indexing platforms dashboard and analytics performance and addressing performance bottlenecks and scalability issues. You will analyze diagnostic logs telemetry traces packet captures and performance metrics from enterprise and cloud environments. Validating product updates patches and feature enhancements while revising technical enablement and training agendas is part of the role. Driving operational improvements through automation process optimization and proactive monitoring initiatives is expected. You will also organize and facilitate technical enablement sessions knowledge-sharing workshops and escalation review meetings while maintaining technical runbooks standard operating procedures escalation handling guidelines and platform troubleshooting documentation. Collaboration with Product Engineering SRE DevOps and Operations teams is essential to improve platform stability and customer experience.\n\nExpertise in cloud and infrastructure platforms including AWS Azure Google Cloud Platform Splunk Enterprise and Linux system administration. Knowledge of scripting languages such as Python and Shell to automate tasks and enhance Splunk functionality. Strong skills in incident response and escalation management Root Cause Analysis methodologies Splunk search performance indexing federated search search heads and indexers. Experience with data onboarding and parsing challenges dashboards analytics field extractions and lookups. Proficiency in event correlation and monitoring alerts monitoring and observability tools Cisco enterprise platforms and cloud infrastructures.\n\nServe as a technical escalation point for major customer-impacting incidents. Demonstrate strong ownership accountability and customer advocacy. Influence strategic operational improvements and platform reliability initiatives. Drive collaboration across globally distributed engineering and support organizations. Promote a culture of technical excellence continuous learning and operational discipline.",
+    "yearsOfExperience": {
+      "min": null,
+      "max": null,
+      "raw": ""
+    },
+    "location": "Gandhi Nagar, Gujarat, India",
+    "skills": [
+      "AWS",
+      "Azure",
+      "Google Cloud Platform",
+      "Splunk Enterprise",
+      "Linux system administration",
+      "Python",
+      "Shell",
+      "incident response and escalation management",
+      "Root Cause Analysis",
+      "Splunk search performance indexing federated search search heads and indexers",
+      "data onboarding and parsing challenges dashboards analytics field extractions and lookups",
+      "event correlation and monitoring alerts monitoring and observability tools",
+      "Cisco enterprise platforms and cloud infrastructures"
+    ]
+  }
+}

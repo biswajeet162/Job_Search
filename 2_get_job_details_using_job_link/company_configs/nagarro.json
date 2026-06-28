@@ -1,0 +1,8 @@
+{
+  "companyName": "Nagarro",
+  "extraWaitMs": 3000,
+  "fields": {
+    "title": ["h1", "[data-test='job-title']", ".job-title"],
+    "description": ["main", "[class*='job-description']", "article"]
+  }
+}

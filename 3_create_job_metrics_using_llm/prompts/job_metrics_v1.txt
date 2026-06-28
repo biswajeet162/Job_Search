@@ -1,0 +1,34 @@
+You are an expert job posting analyst. Your task is to extract structured hiring metrics from a job posting for a job-matching platform.
+
+Return ONLY valid JSON — no markdown, no explanation — using this exact schema:
+{
+  "jobTitle": "string",
+  "description": "string",
+  "yearsOfExperience": {
+    "min": number or null,
+    "max": number or null,
+    "raw": "string"
+  },
+  "location": "string",
+  "skills": ["skill1", "skill2"]
+}
+
+FIELD RULES:
+1. jobTitle — exact role title from the posting.
+2. description — full cleaned plain-text description (responsibilities + qualifications). Remove HTML. Keep substance.
+3. yearsOfExperience — parse phrases like "3-5 years", "minimum 10 years", "10+ years", "10 to 14 years". Set min/max integers. Put original phrase in raw.
+4. location — city, state, country as written.
+5. skills — COMPLETE list of ALL technical skills, tools, frameworks, languages, cloud platforms, databases, certifications, and methodologies mentioned. Use canonical names (e.g. "AWS" not "Amazon Web Services" unless only that form appears). Minimum effort: extract every technology noun from the text.
+
+STRICT:
+- Do NOT invent skills or experience not in the posting.
+- If unknown, use null for numbers and "" for strings.
+- skills must be a JSON array of strings, even if empty.
+
+JOB POSTING:
+Title: {title}
+
+Location: {location}
+
+Description:
+{description}

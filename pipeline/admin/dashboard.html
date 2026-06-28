@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pipeline Admin</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; margin: 0; background: #0f1419; color: #e7e9ea; }
+    header { padding: 20px 24px; border-bottom: 1px solid #2f3336; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    h1 { margin: 0; color: #1d9bf0; font-size: 1.4rem; }
+    .total { font-size: 1.1rem; color: #8b98a5; }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-left: auto; }
+    button, .btn { background: #1d9bf0; color: #fff; border: none; padding: 8px 14px; border-radius: 8px; cursor: pointer; font-size: 0.85rem; }
+    button.secondary { background: #2f3336; }
+    button.danger { background: #f4212e; }
+    button:hover { opacity: 0.9; }
+    main { display: grid; grid-template-columns: 1fr 420px; gap: 0; min-height: calc(100vh - 70px); }
+    @media (max-width: 960px) { main { grid-template-columns: 1fr; } }
+    .panel { padding: 20px 24px; overflow: auto; }
+    .detail-panel { border-left: 1px solid #2f3336; background: #16181c; }
+    .detail-panel.empty { display: flex; align-items: center; justify-content: center; color: #8b98a5; }
+    h2 { margin: 0 0 12px; color: #8b98a5; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.85rem; }
+    th, td { border: 1px solid #2f3336; padding: 8px 10px; text-align: left; }
+    th { background: #16181c; position: sticky; top: 0; }
+    tr.job-row { cursor: pointer; }
+    tr.job-row:hover { background: #1a1f26; }
+    tr.job-row.selected { background: #1a2f3f; outline: 1px solid #1d9bf0; }
+    .status.done { color: #00ba7c; }
+    .status.pending { color: #ffd400; }
+    .status.processing { color: #1d9bf0; animation: pulse 1.2s infinite; }
+    .status.failed { color: #f4212e; }
+    @keyframes pulse { 50% { opacity: 0.6; } }
+    .stage { color: #7856ff; font-weight: 600; }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+    .chip { background: #2f3336; padding: 4px 10px; border-radius: 999px; font-size: 0.75rem; }
+    .chip.stage-count { background: #1a2f3f; color: #1d9bf0; }
+    pre { background: #0f1419; border: 1px solid #2f3336; padding: 12px; border-radius: 8px; overflow: auto; max-height: 200px; font-size: 0.72rem; white-space: pre-wrap; word-break: break-word; }
+    .meta dt { color: #8b98a5; font-size: 0.72rem; margin-top: 10px; }
+    .meta dd { margin: 2px 0 0; font-size: 0.85rem; }
+    .event { font-size: 0.75rem; padding: 6px 0; border-bottom: 1px solid #2f3336; }
+    .poll { font-size: 0.72rem; color: #8b98a5; margin-top: 8px; }
+    a { color: #1d9bf0; }
+    .ollama-badge { padding: 6px 12px; border-radius: 8px; font-size: 0.8rem; font-weight: 600; }
+    .ollama-badge.online { background: #0d2b1f; color: #00ba7c; border: 1px solid #00ba7c; }
+    .ollama-badge.offline { background: #2b0d0d; color: #f4212e; border: 1px solid #f4212e; }
+    .llm-banner { background: #1a2f3f; border: 1px solid #1d9bf0; padding: 10px 14px; border-radius: 8px; margin-bottom: 12px; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Job Pipeline Admin</h1>
+    <span class="total" id="totalLabel">— jobs</span>
+    <span class="ollama-badge offline" id="ollamaBadge">Ollama: checking…</span>
+    <div class="actions">
+      <button class="danger" onclick="runDemo()">Demo: 5 jobs (3 Cognizant + 2 HCL)</button>
+      <button class="secondary" onclick="retryFailed()">Retry failed</button>
+      <button class="secondary" onclick="refresh()">Refresh</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="panel">
+      <h2>Jobs by stage</h2>
+      <div class="chips" id="stageChips"></div>
+
+      <h2 style="margin-top:20px">All jobs — click a row for details</h2>
+      <table>
+        <thead>
+          <tr><th>Company</th><th>Job ID</th><th>Title</th><th>Stage</th><th>Status</th></tr>
+        </thead>
+        <tbody id="jobsBody"></tbody>
+      </table>
+      <p class="poll">Auto-refresh every 4s · LLM: llama3.1:8b · Projects 1→2→3</p>
+    </div>
+
+    <div class="panel detail-panel empty" id="detailPanel">
+      <p>Click a job row to see pipeline status, scraped details, and LLM metrics</p>
+    </div>
+  </main>
+
+  <script>
+    let selectedKey = null;
+    let pollTimer = null;
+
+    async function fetchJson(url, opts) {
+      const r = await fetch(url, opts);
+      return r.json();
+    }
+
+    async function refresh() {
+      const [stats, jobs, ollama] = await Promise.all([
+        fetchJson('/api/stats'),
+        fetchJson('/api/jobs?limit=200'),
+        fetchJson('/api/ollama/status'),
+      ]);
+      document.getElementById('totalLabel').textContent = stats.totalJobs + ' jobs tracked';
+
+      const badge = document.getElementById('ollamaBadge');
+      if (ollama.online) {
+        badge.className = 'ollama-badge online';
+        badge.textContent = 'Ollama: online · ' + ollama.configuredModel +
+          (ollama.modelAvailable ? '' : ' (model not pulled!)');
+      } else {
+        badge.className = 'ollama-badge offline';
+        badge.textContent = 'Ollama: offline — start Ollama app';
+      }
+
+      const chips = document.getElementById('stageChips');
+      chips.innerHTML = (stats.byStage || []).map(s =>
+        `<span class="chip stage-count">${s.current_stage} · ${s.stage_status}: ${s.count}</span>`
+      ).join('') || '<span class="chip">No jobs — click Demo button</span>';
+
+      const tbody = document.getElementById('jobsBody');
+      tbody.innerHTML = jobs.map(j => `
+        <tr class="job-row ${selectedKey === j.job_key ? 'selected' : ''}"
+            data-key="${esc(j.job_key)}">
+          <td>${esc(j.company)}</td>
+          <td><code>${esc(j.job_id)}</code></td>
+          <td>${esc((j.job_title || '').slice(0, 45))}</td>
+          <td><span class="stage">${esc(j.current_stage)}</span></td>
+          <td><span class="status ${esc(j.stage_status)}">${esc(j.stage_status)}</span></td>
+        </tr>
+      `).join('') || '<tr><td colspan="5">Empty — run pipeline/run_demo.py</td></tr>';
+
+      tbody.querySelectorAll('.job-row').forEach(row => {
+        row.addEventListener('click', () => selectJob(row.dataset.key));
+      });
+
+      if (selectedKey) loadDetail(selectedKey, false);
+    }
+
+    function esc(s) {
+      return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');
+    }
+
+    async function selectJob(key) {
+      selectedKey = key;
+      document.querySelectorAll('.job-row').forEach(r => {
+        r.classList.toggle('selected', r.dataset.key === key);
+      });
+      await loadDetail(key, true);
+    }
+
+    async function loadDetail(key, showPanel) {
+      const panel = document.getElementById('detailPanel');
+      panel.classList.remove('empty');
+      try {
+        const d = await fetchJson('/api/jobs/' + encodeURIComponent(key));
+        const j = d.job;
+        const m = (d.metricsJson || {}).metrics || {};
+        const det = (d.detailJson || {}).details || {};
+        const skills = m.skills || [];
+        const ext = (d.metricsJson || {}).extractionMethod || '';
+        const isLlmProcessing = j.current_stage === 'metrics' && j.stage_status === 'processing';
+        const llmBanner = isLlmProcessing
+          ? '<div class="llm-banner">Ollama is processing this job now (llama3.1:8b)… usually 30–90 seconds</div>'
+          : (ext === 'llm' ? '<div class="llm-banner" style="border-color:#00ba7c">Extracted via Ollama LLM</div>'
+            : ext === 'regex_fallback' ? '<div class="llm-banner" style="border-color:#ffd400">Used regex fallback (Ollama failed or skipped)</div>' : '');
+
+        panel.innerHTML = `
+          ${llmBanner}
+          <h2>${esc(j.company)} · ${esc(j.job_id)}</h2>
+          <p><span class="stage">${esc(j.current_stage)}</span>
+             <span class="status ${esc(j.stage_status)}">${esc(j.stage_status)}</span></p>
+
+          <dl class="meta">
+            <dt>Title</dt><dd>${esc(m.jobTitle || j.job_title || '—')}</dd>
+            <dt>Location</dt><dd>${esc(m.location || det.location || j.location || '—')}</dd>
+            <dt>Experience</dt><dd>${formatYoE(m.yearsOfExperience)}</dd>
+            <dt>Job URL</dt><dd><a href="${esc(j.job_url)}" target="_blank">Open posting</a></dd>
+            <dt>Detail file</dt><dd>${esc(j.detail_file || '—')}</dd>
+            <dt>Metrics file</dt><dd>${esc(j.metrics_file || '—')}</dd>
+            ${j.error_message ? `<dt>Error</dt><dd style="color:#f4212e">${esc(j.error_message)}</dd>` : ''}
+          </dl>
+
+          <h2>Skills (${skills.length})</h2>
+          <div class="chips">${skills.map(s => `<span class="chip">${esc(s)}</span>`).join('') || '<span class="chip">Pending LLM extraction</span>'}</div>
+
+          <h2>Description</h2>
+          <pre>${esc((m.description || det.description || '').slice(0, 2500))}</pre>
+
+          <h2>Pipeline events</h2>
+          ${(d.events || []).map(e => `
+            <div class="event">
+              <strong>${esc(e.stage)}</strong> · ${esc(e.status)}
+              <span style="color:#8b98a5"> — ${esc(e.created_at)}</span><br/>
+              ${esc(e.message || '')}
+            </div>
+          `).join('') || '<p>No events</p>'}
+        `;
+      } catch (e) {
+        panel.innerHTML = '<p style="color:#f4212e">Failed to load job detail</p>';
+      }
+    }
+
+    function formatYoE(y) {
+      if (!y) return '—';
+      if (y.min != null && y.max != null) return y.min + '–' + y.max + ' years' + (y.raw ? ' (' + y.raw + ')' : '');
+      if (y.raw) return y.raw;
+      return '—';
+    }
+
+    async function runDemo() {
+      if (!confirm('Clear queue and enqueue 3 Cognizant + 2 HCLTech jobs?')) return;
+      const r = await fetchJson('/api/demo/seed', { method: 'POST' });
+      alert('Demo seeded: ' + r.enqueued + ' jobs. Now run: python pipeline/run_workers.py --workers details metrics');
+      selectedKey = null;
+      refresh();
+    }
+
+    async function retryFailed() {
+      await fetchJson('/api/retry-failed', { method: 'POST' });
+      refresh();
+    }
+
+    refresh();
+    pollTimer = setInterval(refresh, 4000);
+  </script>
+</body>
+</html>

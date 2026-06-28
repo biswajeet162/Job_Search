@@ -1,0 +1,23 @@
+{
+  "jobId": "92014",
+  "company": "HCLTech",
+  "sourceDetailFile": "92014-hcltech-20260628-153818.json",
+  "extractedAt": "2026-06-28T15:44:05+05:30",
+  "extractionMethod": "regex_fallback",
+  "promptVersion": "1.0",
+  "llm": {
+    "provider": "ollama",
+    "model": "llama3.1:8b"
+  },
+  "metrics": {
+    "jobTitle": "Job Details | HCLTech",
+    "description": "",
+    "yearsOfExperience": {
+      "min": null,
+      "max": null,
+      "raw": ""
+    },
+    "location": "92014",
+    "skills": []
+  }
+}

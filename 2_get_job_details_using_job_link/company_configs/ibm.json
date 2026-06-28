@@ -1,0 +1,8 @@
+{
+  "companyName": "IBM",
+  "extraWaitMs": 8000,
+  "fields": {
+    "title": ["h1", "h2", ".job-title", ".position-title"],
+    "description": [".job-description", "[class*='description']", "main"]
+  }
+}
