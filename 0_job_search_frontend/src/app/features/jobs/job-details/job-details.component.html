@@ -1,0 +1,53 @@
+@if (loading) {
+  <app-loading-spinner message="Loading job details..." />
+} @else if (!job) {
+  <app-page-header title="Job Not Found" subtitle="This job may have expired or been removed." />
+  <a routerLink="/jobs/list" class="btn btn-secondary">Back to Jobs</a>
+} @else {
+  <app-page-header [title]="job.title" [subtitle]="job.company + ' · ' + job.location">
+    <app-match-badge [value]="job.matchPercentage" />
+  </app-page-header>
+
+  <section class="details-grid">
+    <article class="card">
+      <h2>Job Description</h2>
+      <p>{{ job.description }}</p>
+
+      <h3>Required Skills</h3>
+      <ul>
+        @for (skill of job.requiredSkills; track skill.skill) {
+          <li>{{ skill.skill }} — {{ skill.years }}+ years</li>
+        }
+      </ul>
+
+      <h3>Details</h3>
+      <dl>
+        <div><dt>Domain</dt><dd>{{ job.domain }}</dd></div>
+        <div><dt>Experience</dt><dd>{{ job.yearsOfExperience }}+ years</dd></div>
+        <div><dt>Location</dt><dd>{{ job.location }}</dd></div>
+        <div><dt>Posted</dt><dd>{{ job.timestamp | date: 'mediumDate' }}</dd></div>
+      </dl>
+
+      <div class="actions">
+        <a [href]="job.jobUrl" target="_blank" rel="noopener" class="btn btn-primary">Open Job URL</a>
+        <button type="button" class="btn btn-secondary" (click)="toggleSave()">
+          {{ job.saved ? 'Unsave' : 'Save Job' }}
+        </button>
+        @if (!job.applied) {
+          <button type="button" class="btn btn-ghost" (click)="apply()">Mark as Applied</button>
+        }
+      </div>
+    </article>
+
+    <aside class="card">
+      <h2>Match Breakdown</h2>
+      @for (item of breakdown; track item.label) {
+        <div class="breakdown-row">
+          <span>{{ item.label }}</span>
+          <div class="bar"><i [style.width.%]="item.value"></i></div>
+          <strong>{{ item.value }}%</strong>
+        </div>
+      }
+    </aside>
+  </section>
+}

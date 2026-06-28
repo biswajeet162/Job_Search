@@ -1,0 +1,138 @@
+[
+  {
+    "jobId": "job-001",
+    "title": "Senior Java Developer",
+    "company": "Google",
+    "description": "Build scalable backend services for cloud-native products. Work with Spring Boot, microservices, and distributed systems.",
+    "requiredSkills": [
+      { "skill": "Java", "years": 4 },
+      { "skill": "Spring Boot", "years": 3 },
+      { "skill": "Docker", "years": 2 }
+    ],
+    "yearsOfExperience": 4,
+    "domain": "FinTech",
+    "certifications": ["Oracle Java"],
+    "location": "Bangalore",
+    "jobUrl": "https://careers.google.com/jobs/001",
+    "timestamp": "2026-06-20T10:00:00Z"
+  },
+  {
+    "jobId": "job-002",
+    "title": "Full Stack Engineer",
+    "company": "Microsoft",
+    "description": "Develop enterprise banking applications using Java, Angular, and Azure cloud services.",
+    "requiredSkills": [
+      { "skill": "Java", "years": 3 },
+      { "skill": "Angular", "years": 2 },
+      { "skill": "Azure", "years": 1 }
+    ],
+    "yearsOfExperience": 3,
+    "domain": "Banking",
+    "certifications": ["AZ-204"],
+    "location": "Hyderabad",
+    "jobUrl": "https://careers.microsoft.com/jobs/002",
+    "timestamp": "2026-06-21T08:30:00Z"
+  },
+  {
+    "jobId": "job-003",
+    "title": "Backend Developer",
+    "company": "Amazon",
+    "description": "Design REST APIs and event-driven systems for healthcare data platforms.",
+    "requiredSkills": [
+      { "skill": "Java", "years": 4 },
+      { "skill": "Spring Boot", "years": 3 },
+      { "skill": "Kafka", "years": 2 }
+    ],
+    "yearsOfExperience": 4,
+    "domain": "Healthcare",
+    "certifications": [],
+    "location": "Remote",
+    "jobUrl": "https://amazon.jobs/003",
+    "timestamp": "2026-06-22T14:15:00Z"
+  },
+  {
+    "jobId": "job-004",
+    "title": "Cloud Native Developer",
+    "company": "Infosys",
+    "description": "Implement containerized microservices for insurance clients.",
+    "requiredSkills": [
+      { "skill": "Java", "years": 2 },
+      { "skill": "Docker", "years": 2 },
+      { "skill": "Kubernetes", "years": 1 }
+    ],
+    "yearsOfExperience": 2,
+    "domain": "Insurance",
+    "certifications": [],
+    "location": "Pune",
+    "jobUrl": "https://infosys.com/careers/004",
+    "timestamp": "2026-06-23T09:00:00Z"
+  },
+  {
+    "jobId": "job-005",
+    "title": "Java Architect",
+    "company": "Wipro",
+    "description": "Lead architecture for retail e-commerce platforms with high availability requirements.",
+    "requiredSkills": [
+      { "skill": "Java", "years": 6 },
+      { "skill": "Spring Boot", "years": 5 },
+      { "skill": "Microservices", "years": 4 }
+    ],
+    "yearsOfExperience": 6,
+    "domain": "E-Commerce",
+    "certifications": ["Oracle Java"],
+    "location": "Bangalore",
+    "jobUrl": "https://wipro.com/careers/005",
+    "timestamp": "2026-06-24T11:45:00Z"
+  },
+  {
+    "jobId": "job-006",
+    "title": "DevOps Engineer",
+    "company": "TCS",
+    "description": "Automate CI/CD pipelines and manage Kubernetes clusters for telecom clients.",
+    "requiredSkills": [
+      { "skill": "Docker", "years": 3 },
+      { "skill": "Kubernetes", "years": 2 },
+      { "skill": "Java", "years": 2 }
+    ],
+    "yearsOfExperience": 3,
+    "domain": "Telecom",
+    "certifications": [],
+    "location": "Chennai",
+    "jobUrl": "https://tcs.com/careers/006",
+    "timestamp": "2026-06-25T16:20:00Z"
+  },
+  {
+    "jobId": "job-007",
+    "title": "Healthcare Platform Engineer",
+    "company": "Accenture",
+    "description": "Build HIPAA-compliant services for patient management systems.",
+    "requiredSkills": [
+      { "skill": "Java", "years": 3 },
+      { "skill": "Spring Boot", "years": 2 },
+      { "skill": "SQL", "years": 2 }
+    ],
+    "yearsOfExperience": 3,
+    "domain": "Healthcare",
+    "certifications": [],
+    "location": "Remote",
+    "jobUrl": "https://accenture.com/careers/007",
+    "timestamp": "2026-06-26T07:50:00Z"
+  },
+  {
+    "jobId": "job-008",
+    "title": "Azure Backend Engineer",
+    "company": "Capgemini",
+    "description": "Deliver cloud migration projects for banking customers using Azure and Java.",
+    "requiredSkills": [
+      { "skill": "Java", "years": 4 },
+      { "skill": "Azure", "years": 2 },
+      { "skill": "Spring Boot", "years": 3 }
+    ],
+    "yearsOfExperience": 4,
+    "domain": "Banking",
+    "certifications": ["AZ-204"],
+    "location": "Bangalore",
+    "jobUrl": "https://capgemini.com/careers/008",
+    "timestamp": "2026-06-26T12:00:00Z"
+  }
+]

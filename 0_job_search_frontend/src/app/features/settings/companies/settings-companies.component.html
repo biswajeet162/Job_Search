@@ -1,0 +1,15 @@
+<app-page-header
+  title="Company Preferences"
+  subtitle="Preferred companies get a match boost; blocked companies are excluded from recommendations."
+/>
+
+@if (loading) {
+  <app-loading-spinner />
+} @else {
+  <form class="form-card" [formGroup]="form" (ngSubmit)="save()">
+    <label>Preferred Companies<input formControlName="preferredCompanies" placeholder="Google, Microsoft, Amazon" /></label>
+    <label>Blocked Companies<input formControlName="blockedCompanies" placeholder="Cognizant" /></label>
+    <button type="submit" class="btn btn-primary">Save Companies</button>
+    @if (saved) { <span class="saved">Saved successfully</span> }
+  </form>
+}

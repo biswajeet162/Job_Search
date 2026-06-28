@@ -1,0 +1,39 @@
+<app-page-header
+  title="Resume Preview"
+  subtitle="Combined view of all three candidate models — matching, profile, and settings."
+/>
+
+@if (loading) {
+  <app-loading-spinner message="Loading candidate preview..." />
+} @else if (candidate) {
+  <section class="preview">
+    <article class="preview-card">
+      <h2>{{ candidate.resumeProfile.name }}</h2>
+      <p>{{ candidate.resumeProfile.email }} · {{ candidate.resumeProfile.phone }}</p>
+      <p>{{ candidate.resumeProfile.companies[0]?.designation ?? '—' }}</p>
+    </article>
+
+    <div class="models-grid">
+      <article class="model-card">
+        <h3>Matching Model</h3>
+        <p><strong>Experience:</strong> {{ candidate.resumeMatching.totalExperience }} years</p>
+        <p><strong>Top Skills:</strong> {{ skillSummary(candidate) }}</p>
+        <p><strong>Domains:</strong> {{ candidate.resumeMatching.domains.join(', ') }}</p>
+      </article>
+
+      <article class="model-card">
+        <h3>Profile Model</h3>
+        <p><strong>Current:</strong> {{ candidate.resumeProfile.currentCompany }}</p>
+        <p><strong>Education:</strong> {{ candidate.resumeProfile.education[0]?.degree }}</p>
+        <p><strong>Projects:</strong> {{ candidate.resumeProfile.projects.length }}</p>
+      </article>
+
+      <article class="model-card">
+        <h3>User Settings</h3>
+        <p><strong>Location:</strong> {{ candidate.userSettings.currentLocation }}</p>
+        <p><strong>Expected CTC:</strong> {{ candidate.userSettings.expectedCTC | ctcFormat }}</p>
+        <p><strong>Open to Work:</strong> {{ candidate.userSettings.openToWork ? 'Yes' : 'No' }}</p>
+      </article>
+    </div>
+  </section>
+}

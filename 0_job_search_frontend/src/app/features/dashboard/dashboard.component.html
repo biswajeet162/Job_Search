@@ -1,0 +1,28 @@
+<app-page-header
+  title="Dashboard"
+  subtitle="Your AI-powered job recommendations based on parsed resume data — no manual search required."
+/>
+
+@if (loading) {
+  <app-loading-spinner message="Calculating job matches..." />
+} @else {
+  <section class="stats-grid">
+    <app-stat-card label="Matched Jobs" [value]="stats.totalMatches" hint="Based on your resume model" />
+    <app-stat-card label="Top Match" [value]="stats.topMatch + '%'" />
+    <app-stat-card label="Saved Jobs" [value]="stats.savedJobs" />
+    <app-stat-card label="Applied Jobs" [value]="stats.appliedJobs" />
+  </section>
+
+  <section class="panel">
+    <div class="panel__header">
+      <h2>Top Recommendations for {{ candidateName }}</h2>
+      <a routerLink="/jobs/recommended" class="btn btn-secondary">View All</a>
+    </div>
+
+    <div class="job-grid">
+      @for (job of recommendations; track job.jobId) {
+        <app-job-card [job]="job" (save)="onSave($event)" (apply)="onApply($event)" />
+      }
+    </div>
+  </section>
+}

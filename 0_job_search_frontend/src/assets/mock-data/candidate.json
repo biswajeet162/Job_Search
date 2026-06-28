@@ -1,0 +1,89 @@
+{
+  "resumeMatching": {
+    "candidateId": "candidate-001",
+    "skillExperience": [
+      { "skill": "Java", "years": 4.5 },
+      { "skill": "Spring Boot", "years": 4 },
+      { "skill": "Docker", "years": 2 },
+      { "skill": "Angular", "years": 2 },
+      { "skill": "Azure", "years": 1.5 }
+    ],
+    "totalExperience": 4.5,
+    "domains": ["Banking", "Healthcare"],
+    "certifications": ["AZ-204", "Oracle Java"],
+    "preferredLocations": ["Bangalore", "Remote"]
+  },
+  "resumeProfile": {
+    "candidateId": "candidate-001",
+    "name": "Biswajit Das",
+    "email": "biswajit.das@email.com",
+    "phone": "+91 9876543210",
+    "linkedin": "https://linkedin.com/in/biswajitdas",
+    "github": "https://github.com/biswajitdas",
+    "portfolio": "https://biswajitdas.dev",
+    "education": [
+      {
+        "level": "Master",
+        "degree": "M.Tech",
+        "specialization": "Software Engineering",
+        "institution": "XYZ University",
+        "startYear": 2022,
+        "endYear": 2024
+      },
+      {
+        "level": "Bachelor",
+        "degree": "B.Tech",
+        "specialization": "Computer Science",
+        "institution": "ABC College",
+        "startYear": 2018,
+        "endYear": 2022
+      },
+      {
+        "level": "Higher Secondary",
+        "degree": "12th",
+        "institution": "ABC School",
+        "startYear": 2016,
+        "endYear": 2018
+      },
+      {
+        "level": "Secondary",
+        "degree": "10th",
+        "institution": "XYZ School",
+        "startYear": 2014,
+        "endYear": 2016
+      }
+    ],
+    "projects": [
+      { "title": "Digital Banking Portal", "type": "Company" },
+      { "title": "Job Recommendation Portal", "type": "Personal" }
+    ],
+    "companies": [
+      {
+        "company": "Cognizant",
+        "designation": "Full Stack Developer",
+        "startDate": "2022-07",
+        "endDate": null,
+        "currentlyWorking": true
+      },
+      {
+        "company": "Infosys",
+        "designation": "Java Developer",
+        "startDate": "2020-01",
+        "endDate": "2022-06",
+        "currentlyWorking": false
+      }
+    ],
+    "currentCompany": "Cognizant"
+  },
+  "userSettings": {
+    "candidateId": "candidate-001",
+    "preferredCompanies": ["Google", "Microsoft", "Amazon"],
+    "blockedCompanies": ["Cognizant"],
+    "currentLocation": "Kolkata",
+    "preferredLocations": ["Bangalore", "Hyderabad", "Remote"],
+    "currentCTC": 1200000,
+    "expectedCTC": 1800000,
+    "noticePeriodDays": 90,
+    "openToWork": true
+  }
+}

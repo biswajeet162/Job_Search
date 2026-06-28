@@ -1,0 +1,42 @@
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand__logo">JI</span>
+      <div>
+        <strong>Job Intelligence</strong>
+        <small>Candidate Portal</small>
+      </div>
+    </div>
+
+    @if (candidate$ | async; as candidate) {
+      <div class="user-card">
+        <div class="avatar">{{ candidate.resumeProfile.name.charAt(0) }}</div>
+        <div>
+          <strong>{{ candidate.resumeProfile.name }}</strong>
+          <span>{{ candidate.resumeProfile.currentCompany }}</span>
+          @if (candidate.userSettings.openToWork) {
+            <em class="open-badge">Open to work</em>
+          }
+        </div>
+      </div>
+    }
+
+    <nav class="nav">
+      @for (group of navGroups; track group.title) {
+        <section>
+          <h4>{{ group.title }}</h4>
+          @for (item of group.items; track item.route) {
+            <a [routerLink]="item.route" routerLinkActive="active">
+              <span>{{ item.icon }}</span>
+              {{ item.label }}
+            </a>
+          }
+        </section>
+      }
+    </nav>
+  </aside>
+
+  <main class="content">
+    <router-outlet />
+  </main>
+</div>

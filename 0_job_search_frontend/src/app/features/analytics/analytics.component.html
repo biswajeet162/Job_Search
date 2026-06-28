@@ -1,0 +1,39 @@
+<app-page-header
+  title="Analytics"
+  subtitle="Insights derived from your structured resume models and job match scores."
+/>
+
+@if (loading) {
+  <app-loading-spinner message="Building analytics..." />
+} @else {
+  <section class="stats-grid">
+    <app-stat-card label="Average Match" [value]="avgMatch + '%'" />
+    <app-stat-card label="High Matches (75%+)" [value]="highMatches" />
+    <app-stat-card label="Skills Tracked" [value]="skillStats.length" />
+    <app-stat-card label="Domains in Jobs" [value]="domainMatches.length" />
+  </section>
+
+  <section class="analytics-grid">
+    <article class="card">
+      <h2>Skill Experience Distribution</h2>
+      @for (skill of skillStats; track skill.skill) {
+        <div class="bar-row">
+          <span>{{ skill.skill }}</span>
+          <div class="bar"><i [style.width.%]="(skill.years / 6) * 100"></i></div>
+          <strong>{{ skill.years }}y</strong>
+        </div>
+      }
+    </article>
+
+    <article class="card">
+      <h2>Jobs by Domain</h2>
+      @for (item of domainMatches; track item.domain) {
+        <div class="bar-row">
+          <span>{{ item.domain }}</span>
+          <div class="bar alt"><i [style.width.%]="(item.count / domainMatches.length) * 100"></i></div>
+          <strong>{{ item.count }}</strong>
+        </div>
+      }
+    </article>
+  </section>
+}

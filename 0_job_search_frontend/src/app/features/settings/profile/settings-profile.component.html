@@ -1,0 +1,16 @@
+<app-page-header title="Profile Settings" subtitle="Edit contact details from your resume profile model." />
+
+@if (loading) {
+  <app-loading-spinner />
+} @else {
+  <form class="form-card" [formGroup]="form" (ngSubmit)="save()">
+    <label>Name<input formControlName="name" /></label>
+    <label>Email<input formControlName="email" type="email" /></label>
+    <label>Phone<input formControlName="phone" /></label>
+    <label>LinkedIn<input formControlName="linkedin" /></label>
+    <label>GitHub<input formControlName="github" /></label>
+    <label>Portfolio<input formControlName="portfolio" /></label>
+    <button type="submit" class="btn btn-primary">Save Profile</button>
+    @if (saved) { <span class="saved">Saved successfully</span> }
+  </form>
+}

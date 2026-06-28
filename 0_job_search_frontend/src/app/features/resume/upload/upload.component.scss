@@ -1,0 +1,58 @@
+.upload-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.dropzone,
+.flow-card,
+.success-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.dropzone {
+  text-align: center;
+  border-style: dashed;
+}
+
+.dropzone__icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.file-name {
+  margin: 0.75rem 0;
+  color: var(--text-muted);
+}
+
+.flow-card ol {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.success-card {
+  margin-top: 1rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .upload-grid {
+    grid-template-columns: 1fr;
+  }
+}

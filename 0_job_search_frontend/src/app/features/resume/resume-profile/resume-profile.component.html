@@ -1,0 +1,57 @@
+<app-page-header
+  title="Resume Profile"
+  subtitle="Display and analytics data extracted from your resume — not used directly for matching."
+/>
+
+@if (loading) {
+  <app-loading-spinner message="Loading resume profile..." />
+} @else if (profile) {
+  <section class="profile-grid">
+    <article class="card">
+      <h2>Contact</h2>
+      <dl>
+        <div><dt>Name</dt><dd>{{ profile.name }}</dd></div>
+        <div><dt>Email</dt><dd>{{ profile.email }}</dd></div>
+        <div><dt>Phone</dt><dd>{{ profile.phone }}</dd></div>
+        <div><dt>LinkedIn</dt><dd><a [href]="profile.linkedin" target="_blank">{{ profile.linkedin }}</a></dd></div>
+        <div><dt>GitHub</dt><dd><a [href]="profile.github" target="_blank">{{ profile.github }}</a></dd></div>
+        <div><dt>Portfolio</dt><dd><a [href]="profile.portfolio" target="_blank">{{ profile.portfolio }}</a></dd></div>
+        <div><dt>Current Company</dt><dd>{{ profile.currentCompany }}</dd></div>
+      </dl>
+    </article>
+
+    <article class="card">
+      <h2>Education Timeline</h2>
+      @for (edu of profile.education; track edu.degree + edu.endYear) {
+        <div class="timeline-item">
+          <strong>{{ edu.degree }} · {{ edu.level }}</strong>
+          <span>{{ edu.institution }}</span>
+          <small>{{ edu.startYear }} – {{ edu.endYear }}</small>
+          @if (edu.specialization) {
+            <em>{{ edu.specialization }}</em>
+          }
+        </div>
+      }
+    </article>
+
+    <article class="card">
+      <h2>Company Timeline</h2>
+      @for (company of profile.companies; track company.company) {
+        <div class="timeline-item">
+          <strong>{{ company.designation }} at {{ company.company }}</strong>
+          <span>{{ company.startDate }} – {{ company.currentlyWorking ? 'Present' : company.endDate }}</span>
+        </div>
+      }
+    </article>
+
+    <article class="card">
+      <h2>Projects</h2>
+      @for (project of profile.projects; track project.title) {
+        <div class="timeline-item">
+          <strong>{{ project.title }}</strong>
+          <span class="tag">{{ project.type }}</span>
+        </div>
+      }
+    </article>
+  </section>
+}

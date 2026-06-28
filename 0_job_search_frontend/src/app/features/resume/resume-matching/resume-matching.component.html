@@ -1,0 +1,55 @@
+<app-page-header
+  title="Resume Matching Model"
+  subtitle="Structured data used by the matching engine — skills with years, domains, certifications, and locations."
+/>
+
+@if (loading) {
+  <app-loading-spinner message="Loading matching model..." />
+} @else if (matching) {
+  <section class="matching-grid">
+    <article class="card highlight">
+      <h2>Total Experience</h2>
+      <p class="big">{{ matching.totalExperience }} years</p>
+    </article>
+
+    <article class="card">
+      <h2>Skill Experience</h2>
+      <div class="skill-list">
+        @for (skill of matching.skillExperience; track skill.skill) {
+          <div class="skill-row">
+            <span>{{ skill.skill }}</span>
+            <div class="bar"><i [style.width.%]="skillBarWidth(skill.years)"></i></div>
+            <strong>{{ skill.years }}y</strong>
+          </div>
+        }
+      </div>
+    </article>
+
+    <article class="card">
+      <h2>Domains</h2>
+      <div class="chips">
+        @for (domain of matching.domains; track domain) {
+          <span>{{ domain }}</span>
+        }
+      </div>
+    </article>
+
+    <article class="card">
+      <h2>Certifications</h2>
+      <div class="chips">
+        @for (cert of matching.certifications; track cert) {
+          <span>{{ cert }}</span>
+        }
+      </div>
+    </article>
+
+    <article class="card">
+      <h2>Preferred Locations</h2>
+      <div class="chips">
+        @for (location of matching.preferredLocations; track location) {
+          <span>{{ location }}</span>
+        }
+      </div>
+    </article>
+  </section>
+}

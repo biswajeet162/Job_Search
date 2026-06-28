@@ -1,0 +1,60 @@
+<app-page-header
+  title="Upload Resume"
+  subtitle="Upload once — the system parses your resume into structured models. Raw text is never stored."
+/>
+
+<section class="upload-grid">
+  <article
+    class="dropzone"
+    (drop)="onDrop($event)"
+    (dragover)="onDragOver($event)"
+  >
+    <div class="dropzone__icon">📄</div>
+    <h2>Drop your resume here</h2>
+    <p>PDF or DOCX supported (mock parser returns structured profile data)</p>
+    <label class="btn btn-primary">
+      Choose File
+      <input type="file" accept=".pdf,.doc,.docx" hidden (change)="onFileSelected($event)" />
+    </label>
+    @if (selectedFile) {
+      <p class="file-name">Selected: <strong>{{ selectedFile.name }}</strong></p>
+    }
+    <button type="button" class="btn btn-secondary" [disabled]="!selectedFile || parsing" (click)="upload()">
+      Parse Resume
+    </button>
+  </article>
+
+  <aside class="flow-card">
+    <h3>Processing Flow</h3>
+    <ol>
+      <li>Upload Resume</li>
+      <li>Resume Parser</li>
+      <li>AI Resume Analyzer</li>
+      <li>Generate Resume Models</li>
+      <li>Compare Against All Jobs</li>
+      <li>Show Recommended Jobs</li>
+    </ol>
+  </aside>
+</section>
+
+@if (parsing) {
+  <app-loading-spinner message="Parsing resume and generating matching profile..." />
+}
+
+@if (error) {
+  <p class="error">{{ error }}</p>
+}
+
+@if (result?.success) {
+  <section class="success-card">
+    <h3>✅ {{ result!.message }}</h3>
+    <p>
+      Generated models: Resume Matching, Resume Profile, and User Settings baseline.
+    </p>
+    <div class="actions">
+      <a routerLink="/resume/profile" class="btn btn-primary">View Profile</a>
+      <a routerLink="/resume/matching" class="btn btn-secondary">View Matching Model</a>
+      <a routerLink="/jobs/recommended" class="btn btn-ghost">See Recommendations</a>
+    </div>
+  </section>
+}
